@@ -4,7 +4,7 @@
   import documents from '../components/documents';
 	import backTech from '/static/background-tech.png';
 </script>
-<div class="bg-blue-100 p-10 tech-back" style="background-image:url({backTech})" >
+<div class="bg-blue-100 p-10 tech-back" style="background-image:url({backTech})" id="articulo">
 	<article class="container">
 		<img class="w-full" src={logo} alt="Corazones y mentes"/>
 		<div>

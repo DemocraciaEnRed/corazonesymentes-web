@@ -1,7 +1,7 @@
 <script>
   import exclamation from '/static/excl_globo.png';
 </script>
-<div class="bg-black p-10">
+<div class="bg-black p-10" id="toda-la-data">
 	<article class="container mx-auto ">
 		<div class="flex items-center justify-items-center">
 			<img width="100" src={exclamation} alt="importante" />

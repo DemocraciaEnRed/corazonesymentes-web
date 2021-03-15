@@ -1,7 +1,7 @@
 <script>
   import logoCircular from '/static/logo-circular.png';
 </script>
-<div class="container p-10">
+<div class="container p-10" id="home">
 	<article class="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex">
 		<img width="300" src={logoCircular} alt="Conoce a tu mente para que tu mente no te domine">
 		<div>

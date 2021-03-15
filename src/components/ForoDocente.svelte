@@ -2,7 +2,7 @@
   import dialogIcon from '/static/dialog.png';
 </script>
 
-<div class="bg-black p-10">
+<div class="bg-black p-10" id="foro-docente">
   <article class="container mx-auto">
     <div class="flex items-center justify-center">
       <div class="mr-5">

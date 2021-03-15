@@ -3,7 +3,7 @@
   import kits from './kits'
   
 </script>
-<div class="p-10">
+<div class="p-10" id="kit-de-herramientas">
   <article class="container text-center">
     <h1 class="uppercase text-4xl text-purple-400 mb-3">
       <span class="text-black">Kit</span>

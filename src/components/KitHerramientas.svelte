@@ -4,7 +4,7 @@
   
 </script>
 <div class="p-10" id="kit-de-herramientas">
-  <article class="container text-center">
+  <article class="container mx-auto text-center">
     <h1 class="uppercase text-4xl text-purple-400 mb-3">
       <span class="text-black">Kit</span>
       <span class="text-blue-200">De</span>

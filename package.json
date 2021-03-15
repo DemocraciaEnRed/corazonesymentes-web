@@ -8,8 +8,7 @@
     "build": "npm run build:tailwind && sapper build --legacy",
     "dev": "sapper dev",
     "export": "sapper export",
-    "start": "node __sapper__/build",
-    "deploy": "sapper export --legacy &&  gh-pages -d __sapper__/export"
+    "start": "node __sapper__/build"
   },
   "engines": {
     "node": ">=11"

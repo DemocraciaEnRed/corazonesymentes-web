@@ -11,7 +11,7 @@
   }
 </style>
 <div class="bg-gray-200 p-10">
-  <div class="container">
+  <div class="container mx-auto">
     <div class="flex justify-between align-center">
       <img class="logo" src={logoCircle} alt="corazones y mentes logo" />
       <div class="flex flex-col justify-center">

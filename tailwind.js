@@ -6,12 +6,14 @@ module.exports = {
     serif: ['Merriweather', 'serif'],
   },
   theme: {
-    extend: {
-      colors:{
-        apink: "rgb(137, 141, 202)",
-        ablue: "rgb(172, 215, 231)"
-      }
-    },
+    container: {
+      screens: {
+         sm: "100%",
+         md: "100%",
+         lg: "800px",
+         xl: "1200px"
+      },
+    }
   },
   variants: {
     extend: {},

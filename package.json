@@ -10,6 +10,7 @@
     "export": "sapper export",
     "start": "node __sapper__/build"
   },
+  "engines" : { "node" : ">=11" },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.1.3",
     "compression": "^1.7.1",

@@ -15,7 +15,7 @@
     <p class="text-bold mt-10 uppercase">Te compartimos este recursero con un poco de todo para habitar internet de forma segura, responsable y empática.</p>
     <div class="grid grid-cols-1 md:grid-cols-2">
       {#each kits as item}
-        <Kit description={item.description} type={item.type} />
+        <Kit {...item} />
       {/each}
     </div>
   </article>

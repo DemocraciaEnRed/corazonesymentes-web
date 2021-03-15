@@ -4,7 +4,7 @@
 	import Articulo from '../components/Articulo.svelte'
 	import ForoDocente from '../components/ForoDocente.svelte'
 	import KitHerramientas from '../components/KitHerramientas.svelte'
-
+	import Footer from '../components/Footer.svelte';
 
 </script>
 <svelte:head>
@@ -15,3 +15,4 @@
 <Articulo/>
 <ForoDocente/>
 <KitHerramientas/>
+<Footer/>

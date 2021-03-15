@@ -24,3 +24,4 @@ const kits = [
     url: "google.com"
   }
 ]
+export default kits;

@@ -1,6 +1,16 @@
+<script context="module">
+  import axios from 'axios'
+	export async function preload() {
+		const res = await axios.get(`/api/kits.json`);
+		const kits = await res.data;
+		
+    return { kits };
+	}
+</script>
+
 <script>
   import Kit from './Kit.svelte'
-  import kits from './kits'
+  export let kits;
   
 </script>
 <div class="p-10" id="kit-de-herramientas">

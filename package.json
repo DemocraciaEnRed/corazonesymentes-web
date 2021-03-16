@@ -20,6 +20,7 @@
     "sirv": "^1.0.0"
   },
   "devDependencies": {
+    "axios": "^0.21.1",
     "file-loader": "^6.0.0",
     "postcss-cli": "^8.3.1",
     "sapper": "^0.28.0",

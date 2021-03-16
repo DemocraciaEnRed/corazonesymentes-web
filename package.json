@@ -7,8 +7,9 @@
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "build": "npm run build:tailwind && sapper build --legacy",
     "dev": "sapper dev",
-    "export": "sapper export",
-    "start": "node __sapper__/build"
+    "export": "sapper export --basepath corazonesymentes --legacy",
+    "start": "node __sapper__/build",
+    "deploy": "npm run export && node ./scripts/gh-pages.js"
   },
   "engines": {
     "node": ">=11"
@@ -22,6 +23,7 @@
   "devDependencies": {
     "axios": "^0.21.1",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.1.0",
     "postcss-cli": "^8.3.1",
     "sapper": "^0.28.0",
     "svelte": "^3.17.3",

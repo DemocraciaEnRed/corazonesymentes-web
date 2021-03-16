@@ -17,12 +17,14 @@
       dialogar y debatir sobre el uso de internet, las redes sociales
        y la convivencia digital entre les jovenes y en las aulas
     </p>
-    <p>
-      <span class="bg-white text-blue-300 mt-10 p-1">
-        ingresá y formá parte de esta comunidad.
-      </span>
+    
+    <div class="typeform-widget mt-10" data-url="https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    <p class="text-center p-3">
+      <a href="http://google.com" target="_blank"
+      class="bg-white uppercase mt-5 text-xl p-3 "> 
+      Descargá actividades para trabajar en clase
+    </a>
     </p>
-    <p class="text-blue-300 mt-5"> ¿Queres formar parte de este Foro ?</p>
-    <button class="bg-white uppercase mt-5 text-xs p-1 ring-2 ring-blue-300"> dejanos tu contacto </button>
+    
   </article>
 </div>

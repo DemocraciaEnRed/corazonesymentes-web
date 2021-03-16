@@ -28,7 +28,7 @@
 	
 			<blockquote class="tiktok-embed" 
 				cite="https://www.tiktok.com/@galu.cocina/video/6910947615735663878"
-				data-video-id="6910947615735663878" style="max-width: 605px;min-width: 325px;" > 
+				data-video-id="6910947615735663878" > 
 				<section> 
 				</section>
 			</blockquote>

@@ -3,6 +3,8 @@
   import videoIcon from '/static/icons/video-icon.png';
   import podcastIcon from '/static/icons/podcast-icon.png';
   import download from '/static/icons/download.png';
+  import plataform from '/static/icons/app.png';
+  import game from '/static/icons/puzzle.png';
 
   export let description
   export let type;
@@ -15,14 +17,25 @@
   }
   let icon
   switch(type){
-    case "articulo":
+    case "GUÍA":
+    case "ARTÍCULO":
       icon = articleIcon;
     break; 
-    case "podcast":
+    case "PODCAST":
       icon = podcastIcon
     break;
-    case "video":
+    case "VIDEO":
+    case "PELICULA":
       icon = videoIcon
+    break;
+    case "PLATAFORMA":
+      icon= plataform
+    break;
+    case "JUEGO":
+      icon = game
+    break; 
+    default:
+      icon= articleIcon
     break;
   }
 </script>

@@ -1,17 +1,14 @@
-<script context="module">
-  import axios from 'axios'
-	export async function preload() {
-		const res = await axios.get(`/api/kits.json`);
-		const kits = await res.data;
-		
-    return { kits };
-	}
-</script>
-
 <script>
-  import Kit from './Kit.svelte'
-  export let kits;
-  
+  import axios from 'axios';
+  import Kit from './Kit.svelte';
+  let kits = [];
+
+  axios.get(`/api/kits.json`).then((res)=>{
+    //MAGIC CONSOLE LOG
+    console.log("OK");
+    kits = res.data;
+  });
+
 </script>
 <div class="p-10" id="kit-de-herramientas">
   <article class="container mx-auto text-center">

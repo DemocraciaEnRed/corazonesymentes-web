@@ -1,0 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
+.document-icon{
+  width: 30px;
+  height: 30px;  
+}
+.tech-back{
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: 100%;
+}

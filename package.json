@@ -7,11 +7,7 @@
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "build": "npm run build:tailwind && sapper build",
     "dev": "sapper dev",
-<<<<<<< HEAD
-    "export": "sapper export --legacy",
-=======
     "export": "sapper export --basepath corazonesymentes",
->>>>>>> c11a59ceba130dee028e06800d712b70ec423afd
     "start": "node __sapper__/build",
     "deploy": "sapper export &&  gh-pages -d __sapper__/export"
   },

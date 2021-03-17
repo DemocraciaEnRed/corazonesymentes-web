@@ -1,6 +1,5 @@
 <script>
 	export let segment;
-	import logo from '/static/logo-horizontal.png'
 	let opened = false;
 	let toogle = () =>{
 		opened = !opened;
@@ -39,7 +38,7 @@
       </div>
       <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex-shrink-0 flex items-center">
-          <img class="block h-8 w-auto" src={logo} alt="Corazones y mentes">
+          <img class="block h-8 w-auto" src="logo-horizontal.png" alt="Corazones y mentes">
         </div>
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">

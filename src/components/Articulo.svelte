@@ -1,12 +1,10 @@
 <script>
-  import logo from '/static/logo-horizontal.png';
-  import Document from '../components/DocumentDownload.svelte';
+  import Document from './DocumentDownload.svelte';
   import documents from '../components/documents';
-	import backTech from '/static/background-tech.png';
 </script>
-<div class="bg-blue-100 p-10 tech-back" style="background-image:url({backTech})" id="articulo">
+<div class="bg-blue-100 p-10 tech-back" style="background-image:url(background-tech.png)" id="articulo">
 	<article class="container mx-auto">
-		<img class="w-full" src={logo} alt="Corazones y mentes"/>
+		<img class="w-full" src="logo-horizontal.png" alt="Corazones y mentes"/>
 		<div>
 			<h3 class="text-3xl mt-10 uppercase">
 				<span class="text-white bg-purple-400 tracking-tighter">

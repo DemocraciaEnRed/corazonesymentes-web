@@ -1,6 +1,3 @@
-<script>
-  import dialogIcon from '/static/dialog.png';
-</script>
 
 <div class="bg-black p-10" id="foro-docente">
   <article class="container mx-auto">
@@ -10,7 +7,7 @@
           <span class="text-blue-300">FORO</span> DOCENTE
         </h1>
       </div>
-      <img src={dialogIcon} alt="icono de dialogo"/>
+      <img src="dialog.png" alt="icono de dialogo"/>
     </div>
     <p class="text-white">
       Un espacio para intercambiar ideas, sugerir bibliografía,

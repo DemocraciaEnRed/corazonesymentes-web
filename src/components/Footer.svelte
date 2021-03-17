@@ -1,7 +1,3 @@
-<script>
-  import logoCircle from '/static/logo-circular.png';
-  import developers from '/static/developers2.png';
-</script>
 <style>
   .logo{
     width: 150px;
@@ -13,10 +9,10 @@
 <div class="bg-gray-200 p-10">
   <div class="container mx-auto">
     <div class="flex justify-between align-center">
-      <img class="logo" src={logoCircle} alt="corazones y mentes logo" />
+      <img class="logo" src="logo-circular.png" alt="corazones y mentes logo" />
       <div class="flex flex-col justify-center">
         <small class="text-xs">Desarrollado por:</small>
-        <img class="developers" src={developers} alt="democracya en red, plataforma democratica fundacion fhc centro edelstein" />
+        <img class="developers" src="developers2.png" alt="democracya en red, plataforma democratica fundacion fhc centro edelstein" />
       </div>
       <ul class="uppercase text-bold">
         <li><a href="#home">Home</a></li>

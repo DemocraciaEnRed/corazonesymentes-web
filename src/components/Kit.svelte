@@ -1,11 +1,4 @@
 <script>
-  import articleIcon from '/static/icons/article-icon.png';
-  import videoIcon from '/static/icons/video-icon.png';
-  import podcastIcon from '/static/icons/podcast-icon.png';
-  import download from '/static/icons/download.png';
-  import plataform from '/static/icons/app.png';
-  import game from '/static/icons/puzzle.png';
-
   export let description
   export let type;
   export let title;
@@ -16,34 +9,37 @@
     opened = !opened;
   }
   let icon
+  
   switch(type){
     case "GUÍA":
     case "ARTÍCULO":
-      icon = articleIcon;
+      icon = "icons/article-icon.png";
     break; 
     case "PODCAST":
-      icon = podcastIcon
+      icon = "icons/podcast-icon.png"
     break;
     case "VIDEO":
     case "PELICULA":
-      icon = videoIcon
+      icon = "icons/video-icon.png"
     break;
     case "PLATAFORMA":
-      icon= plataform
+      icon= "icons/app.png"
     break;
     case "JUEGO":
-      icon = game
+      icon = "icons/puzzle.png"
     break; 
     default:
-      icon= articleIcon
+      icon = "icons/article-icon.png"
     break;
   }
 </script>
+
 <style>
   .document-icon{
     margin-right: 15px;
   }
 </style>
+
 <div class="flex flex-col border-b border-black mt-5 mb-5 m-2">
   <div class="flex">
     <img src={icon} class="document-icon" alt={type} />
@@ -58,7 +54,7 @@
       {description}
     </p>
     <a class="download p-2" href={url}>
-      <img class="float-right" src={download} alt="descarga">
+      <img class="float-right" src="icons/download.png" alt="descarga">
     </a>
   {/if}
 </div>

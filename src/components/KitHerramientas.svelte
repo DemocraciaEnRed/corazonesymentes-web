@@ -6,7 +6,6 @@
   axios.get(url).then((res)=>{
     kits = formatSpreadsheet(res.data.feed.entry);
   });
-
   const formatSpreadsheet = (data) =>{
     const input = data.map((obj=>{
         return {

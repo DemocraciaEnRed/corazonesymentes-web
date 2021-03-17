@@ -2,13 +2,22 @@
   import axios from 'axios';
   import Kit from './Kit.svelte';
   let kits = [];
-
-  axios.get(`/api/kits.json`).then((res)=>{
-    //MAGIC CONSOLE LOG
-    console.log("OK");
-    kits = res.data;
+  const url = "https://spreadsheets.google.com/feeds/list/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/1/public/values?alt=json";
+  axios.get(url).then((res)=>{
+    kits = formatSpreadsheet(res.data.feed.entry);
   });
 
+  const formatSpreadsheet = (data) =>{
+    const input = data.map((obj=>{
+        return {
+          title: obj.title.$t,
+          description: obj["gsx$descripción"].$t,
+          url: obj.gsx$linkarchivo.$t,
+          type: obj.gsx$aclaraciones.$t,
+        }
+      }))
+      return input;
+  }
 </script>
 <div class="p-10" id="kit-de-herramientas">
   <article class="container mx-auto text-center">

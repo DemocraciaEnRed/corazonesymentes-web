@@ -5,11 +5,11 @@
   "scripts": {
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
-    "build": "npm run build:tailwind && sapper build --legacy",
+    "build": "npm run build:tailwind && sapper build",
     "dev": "sapper dev",
-    "export": "sapper export --basepath corazonesymentes --legacy",
+    "export": "sapper export --legacy",
     "start": "node __sapper__/build",
-    "deploy": "npm run export && node ./scripts/gh-pages.js"
+    "deploy": "sapper export &&  gh-pages -d __sapper__/export"
   },
   "engines": {
     "node": ">=11"

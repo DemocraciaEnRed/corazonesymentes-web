@@ -15,14 +15,3 @@ export  function get (req, res) {
   }
 }
 
-const formatSpreadsheet = (data) =>{
-  const input = data.map((obj=>{
-    return {
-      title: obj.title.$t,
-      description: obj["gsx$descripción"].$t,
-      url: obj.gsx$linkarchivo.$t,
-      type: obj.gsx$aclaraciones.$t,
-    }
-  }))
-  return input;
-}

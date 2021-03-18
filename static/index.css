@@ -142,7 +142,8 @@ Forms
 2. Remove the margin in Firefox and Safari.
 */
 
-button {
+button,
+input {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -336,6 +337,11 @@ img {
   border-style: solid;
 }
 
+input::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
 button {
   cursor: pointer;
 }
@@ -366,7 +372,8 @@ a {
  * normalize.css.
  */
 
-button {
+button,
+input {
   padding: 0;
   line-height: inherit;
   color: inherit;

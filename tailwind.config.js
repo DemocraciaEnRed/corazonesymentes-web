@@ -17,6 +17,7 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      amfibia: ['Amfibia']
     },
     container: {
       screens: {

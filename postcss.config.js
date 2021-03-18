@@ -6,7 +6,7 @@ const presetEnv = require('postcss-preset-env')({
     'nesting-rules': true,
   },
 });
-
+tailwind.config = "./tailwind.config.js"
 const plugins =
   process.env.NODE_ENV === 'production'
     ? [postcssImport, tailwind, presetEnv, cssnano]

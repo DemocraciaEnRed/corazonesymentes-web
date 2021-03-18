@@ -9,7 +9,7 @@ const presetEnv = require('postcss-preset-env')({
 
 const plugins =
   process.env.NODE_ENV === 'production'
-    ? [postcssImport, tailwind, presetEnv, cssnano]
-    : [postcssImport, tailwind, presetEnv];
+    ? [postcssImport, tailwind("./tailwind.js"), presetEnv, cssnano]
+    : [postcssImport, tailwind("./tailwind.js"), presetEnv];
 
 module.exports = { plugins };

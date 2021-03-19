@@ -4,7 +4,7 @@ ghpages.publish(
     '__sapper__/export/',
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/username/corazonesymentes-web.git',
+        repo: 'https://github.com/DemocraciaEnRed/corazonesymentes-web.git',
         user: {
             name: 'Mijail Cohen',
             email: 'mija@democracy.os'

@@ -37,6 +37,11 @@
 <style>
   .document-icon{
     margin-right: 15px;
+    width: 80px;
+    height: auto;
+  }
+  .download img{
+    width: 20px;
   }
 </style>
 

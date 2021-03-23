@@ -10,7 +10,7 @@
 					 data</h1>
 				<h2 class="text-blue-300 uppercase text-xl"> <span class="text-blue-100 ">+ info</span>
 					 para activar una convivencia digital positiva </h2>
-				<p class="text-blue-100">Subi un video y mencionanos en @corazonesymentes </p>
+				<p class="text-blue-100">Subí un video y mencionanos en @corazonesymentes </p>
 			</div>
 		</div>
 	

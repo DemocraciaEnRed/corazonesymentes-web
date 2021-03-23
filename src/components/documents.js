@@ -4,35 +4,31 @@ let documents = [
     url: "google.com"
   },
   {
-    title: "Sesgo de confirmacion",
+    title: "Sesgo de confirmación: cuestionemos nuestras opiniones.",
     url: "google.com"
   },
   {
-    title: "Disonancia cognitiva",
+    title: "Disonancia cognitiva: nuestro grupo no siempre tiene razón.",
     url: "google.com"
   },
   {
-    title: "Sesgo de atribucion",
+    title: "Sesgo de atribución: seamos conscientes de nuestros prejuicios.",
     url: "google.com"
   },
   {
-    title: "Sesgo de atribucion",
+    title: "La nueva normalidad es la diversidad",
     url: "google.com"
   },
   {
-    title: "Privacidad y poder elegir",
+    title: "La privacidad como valor",
     url: "google.com"
   },
   {
-    title: "Sesgo de atribucion",
+    title: "Polarización: No todo es una lucha entre el bien y el mal.",
     url: "google.com"
   },
   {
-    title: "Sesgo de atribucion",
-    url: "google.com"
-  },
-  {
-    title: "Privacidad y poder elegir",
+    title: "Información y desinformación en redes: No todo lo que se viraliza es verdadero.",
     url: "google.com"
   },
 ];

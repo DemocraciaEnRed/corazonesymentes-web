@@ -3,9 +3,10 @@
 		<img width="300" src="logo-circular.png" alt="Conoce a tu mente para que tu mente no te domine">
 		<div>
 			<h2 class="font-sans text-2xl bg-blue-300 rounded-sm  p-1 uppercase">
-				¿Que hay mas alla del ruido y nuestras diferencias?</h2>
+				¿Qué hay más allá del ruido y nuestras diferencias?
+			</h2>
 			<p class="font-semibold mt-6 uppercase">
-				<span class="text-xs">#</span>internetesnuestro y se nos esta llendo de las manos... 
+				<span class="text-xs">#</span>internetesnuestro y se nos esta yendo de las manos... 
 				vamos a construir un espacio virtual seguro en el que seamos libres y autonomos para compartir
 				ideas y lo que nos pasa.
 			</p>

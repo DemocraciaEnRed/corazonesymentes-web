@@ -18,7 +18,14 @@
       return input;
   }
 </script>
-<div class="p-10" id="kit-de-herramientas">
+<style>
+  #kit-de-herramientas{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+<div class="p-10" id="kit-de-herramientas" style="background-image:url(ideas2.png)">
   <article class="container mx-auto text-center">
     <h1 class="uppercase text-4xl text-purple-400 mb-3">
       <span class="text-black">Kit</span>

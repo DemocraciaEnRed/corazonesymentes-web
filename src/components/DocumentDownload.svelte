@@ -6,7 +6,12 @@
     window.open(url, '_blank');
   }
 </script>
-
+<style>
+  .document-icon {
+    width: 48px;
+    height: 48px
+  }
+</style>
 <div class="flex mt-5 mb-5" on:click={openDocument}>
   <img src="/icons/icon-document.png" class="document-icon" alt="documento" />
   <div class="flex flex-col border-b border-black pb-3">

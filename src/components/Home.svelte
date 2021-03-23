@@ -13,7 +13,9 @@
 				vamos a construir un espacio virtual seguro en el que seamos libres y autonomos para compartir
 				ideas y lo que nos pasa.
 			</p>
+			<img class="float-right" src="check.png" alt="Ok!">
 			<button class="fushia-bg border-2 border-black mt-5 font-semibold p-1"> ¡Sumate! </button>
+			
 		</div>
 	</article>	
 </div>

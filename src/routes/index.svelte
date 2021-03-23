@@ -9,6 +9,8 @@
 </script>
 <svelte:head>
 	<title>Corazones Y Mentes</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </svelte:head>
 <Home/>
 <TodaLaData/>

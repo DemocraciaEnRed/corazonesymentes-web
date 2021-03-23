@@ -2,7 +2,7 @@
   import Document from './DocumentDownload.svelte';
   import documents from '../components/documents';
 </script>
-<div class="bg-blue-100 p-10 tech-back" style="background-image:url(background-tech.png)" id="articulo">
+<div class="bg-blue-100 p-10 tech-back px-10" style="background-image:url(background-tech.png)" id="articulo">
 	<article class="container mx-auto">
 		<img class="w-full" src="logo-horizontal.png" alt="Corazones y mentes"/>
 		<div>

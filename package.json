@@ -2,6 +2,7 @@
   "name": "corazonesymentes",
   "description": "CYM by DER",
   "version": "0.0.1",
+  "repository": "https://github.com/DemocraciaEnRed/corazonesymentes-web",
   "scripts": {
     "watch:css": "postcss src/styles/tailwind.pcss -o static/global.css -w",
     "watch:dev": "sapper dev",
@@ -11,7 +12,7 @@
     "build:sapper": "sapper build",
     "build:export": "sapper export --legacy",
     "export": "run-s build:css build:export",
-    "deploy": "npm run build:export && node ./scripts/gh-pages.js",
+    "deploy": "npm run build:export && gh-pages -d __sapper__/export",
     "start": "node __sapper__/build",
     "serve": "npx serve __sapper__/export",
     "static": "yarn export && yarn serve",

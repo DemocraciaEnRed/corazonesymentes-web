@@ -2,19 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-  name: 'Amfibia';
-  src: url('/fonts/amfibia.otf');
-}
-@font-face{
-  name: 'Circular';
-  src: url('/fonts/circular.otf');
-}
-
 html{
   scroll-behavior: smooth;
 }
-
+body{
+  font-family: 'Staatliches', Helvetica, Arial, sans-serif
+}
 .document-icon{
   width: 30px;
   height: 30px;  
@@ -26,3 +19,6 @@ html{
   background-size: 100%;
 }
 
+.container{
+  max-width: 800px!important
+}

@@ -14,17 +14,12 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-      amfibia: ['Amfibia']
-    },
     container: {
       screens: {
-         sm: "100%",
-         md: "100%",
-         lg: "800px",
-         xl: "1200px"
+        sm: "100%",
+        md: "100%",
+        lg: "800px",
+        xl: "1200px"
       },
     },
     extend: {},

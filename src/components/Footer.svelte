@@ -5,9 +5,12 @@
   .developers{
     width: 160px;
   }
+  .fot{
+    max-width: 800px;
+  }
 </style>
-<div class="bg-gray-200 p-10">
-  <div class="container mx-auto">
+<footer class="bg-gray-200 p-10">
+  <div class="container mx-auto fot">
     <div class="flex justify-between align-center">
       <img class="logo" src="logo-circular.png" alt="corazones y mentes logo" />
       <div class="flex flex-col justify-center">
@@ -24,4 +27,4 @@
     </div>
     <p class="text-center text-xs text-bold">Corazones y Mentes 2021. Todos los derechos reservados</p>
   </div>
-</div>
+</footer>

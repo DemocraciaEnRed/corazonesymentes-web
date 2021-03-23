@@ -28,5 +28,7 @@
       </ul>
     </div>
   </div>
-  <p class="text-center text-xs text-bold">Corazones y Mentes 2021. Todos los derechos reservados</p>
+  <p class="text-center text-xs text-bold">Todos los materiales originales están bajo una licencia de 
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">Creative Commons Reconocimiento 4.0 Internacional.</a>
+  </p>
 </footer>

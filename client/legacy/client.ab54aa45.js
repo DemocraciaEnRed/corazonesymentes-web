@@ -3313,7 +3313,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.262f5c3a.js'), __inject_styles(["client-53f58bb9.css","index-a9b3853c.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.9ed3ff03.js'), __inject_styles(["client-53f58bb9.css","index-a9b3853c.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

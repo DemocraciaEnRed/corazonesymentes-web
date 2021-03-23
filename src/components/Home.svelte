@@ -2,7 +2,10 @@
 	<article class="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex">
 		<img width="300" src="logo-circular.png" alt="Conoce a tu mente para que tu mente no te domine">
 		<div>
-			<h2 class="font-sans text-2xl bg-blue-300 rounded-sm  p-1 uppercase">
+			<h2 class=" text-2xl celeste-bg rounded-sm  p-1 uppercase">
+				¿Cómo nos vinculamos digitalmente de manera constructiva y empática?
+			</h2>
+			<h2 class=" text-2xl celeste-bg rounded-sm mt-5  p-1 uppercase">
 				¿Qué hay más allá del ruido y nuestras diferencias?
 			</h2>
 			<p class="font-semibold mt-6 uppercase">
@@ -10,7 +13,7 @@
 				vamos a construir un espacio virtual seguro en el que seamos libres y autonomos para compartir
 				ideas y lo que nos pasa.
 			</p>
-			<button class="bg-blue-400 border-2 border-black mt-5 font-semibold p-1"> ¡Sumate! </button>
+			<button class="fushia-bg border-2 border-black mt-5 font-semibold p-1"> ¡Sumate! </button>
 		</div>
 	</article>	
 </div>

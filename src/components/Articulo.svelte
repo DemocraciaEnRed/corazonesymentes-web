@@ -2,12 +2,12 @@
   import Document from './DocumentDownload.svelte';
   import documents from '../components/documents';
 </script>
-<div class="bg-blue-100 p-10 tech-back px-10" style="background-image:url(background-tech.png)" id="articulo">
+<div class="p-10 tech-back px-10 celeste-bg" style="background-image:url(background-tech.png)" id="articulo">
 	<article class="container mx-auto">
 		<img class="w-full" src="logo-horizontal.png" alt="Corazones y mentes"/>
 		<div>
 			<h3 class="text-3xl mt-10 uppercase">
-				<span class="text-white bg-purple-400 tracking-tighter">
+				<span class="text-white fushia-bg tracking-tighter">
 					<span class="text-black">#</span>internet<span class="text-black">es</span>nuestro</span>
 			</h3>
 			<p class="mt-5 text-xl">
@@ -18,6 +18,12 @@
 				</span>
 			</p>
 		</div>
+		<a href="/" class="flex mt-10">
+			<img src="cerebri.png" alt="icono de cerebro"/>
+			<strong>
+				Descargá el artículo <br> completo acá
+			</strong>
+		</a>
 		<div class="grid grid-cols-1 md:grid-cols-3 mt-10">
 			{#each documents as item, index}
 				<Document title={item.title} url={item.url} chapter={index+1}/>

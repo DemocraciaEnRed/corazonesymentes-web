@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.3918ff91.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.cd5bb3d0.js';
 
 function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -869,7 +869,7 @@ function get_each_context$1(ctx, list, i) {
   child_ctx[0] = list[i];
   child_ctx[2] = i;
   return child_ctx;
-} // (28:3) {#each documents as item, index}
+} // (31:3) {#each documents as item, index}
 
 
 function create_each_block$1(ctx) {
@@ -918,46 +918,49 @@ function create_each_block$1(ctx) {
     block: block,
     id: create_each_block$1.name,
     type: "each",
-    source: "(28:3) {#each documents as item, index}",
+    source: "(31:3) {#each documents as item, index}",
     ctx: ctx
   });
   return block;
 }
 
 function create_fragment$5(ctx) {
-  var div2;
+  var div4;
   var article;
+  var div1;
   var img0;
   var img0_src_value;
   var t0;
   var div0;
+  var t1;
+  var div2;
   var h3;
   var span2;
   var span0;
-  var t1;
   var t2;
-  var span1;
   var t3;
+  var span1;
   var t4;
   var t5;
+  var t6;
   var p;
   var span3;
-  var t6;
-  var br0;
   var t7;
-  var br1;
+  var br0;
   var t8;
+  var br1;
   var t9;
+  var t10;
   var a;
   var img1;
   var img1_src_value;
-  var t10;
-  var strong;
   var t11;
-  var br2;
+  var strong;
   var t12;
+  var br2;
   var t13;
-  var div1;
+  var t14;
+  var div3;
   var current;
   var each_value = documents;
   validate_each_argument(each_value);
@@ -975,37 +978,40 @@ function create_fragment$5(ctx) {
 
   var block = {
     c: function create() {
-      div2 = element("div");
+      div4 = element("div");
       article = element("article");
+      div1 = element("div");
       img0 = element("img");
       t0 = space();
       div0 = element("div");
+      t1 = space();
+      div2 = element("div");
       h3 = element("h3");
       span2 = element("span");
       span0 = element("span");
-      t1 = text("#");
-      t2 = text("internet");
+      t2 = text("#");
+      t3 = text("internet");
       span1 = element("span");
-      t3 = text("es");
-      t4 = text("nuestro");
-      t5 = space();
+      t4 = text("es");
+      t5 = text("nuestro");
+      t6 = space();
       p = element("p");
       span3 = element("span");
-      t6 = text("Creamos esta guía para que podamos contribuir ");
+      t7 = text("Creamos esta guía para que podamos contribuir ");
       br0 = element("br");
-      t7 = text("\n\t\t\t\t\ta una nueva convivencia digital positiva y empática.");
+      t8 = text("\n\t\t\t\t\ta una nueva convivencia digital positiva y empática.");
       br1 = element("br");
-      t8 = text("\n\t\t\t\t\t¡No usamos internet, estamos en él!");
-      t9 = space();
+      t9 = text("\n\t\t\t\t\t¡No usamos internet, estamos en él!");
+      t10 = space();
       a = element("a");
       img1 = element("img");
-      t10 = space();
+      t11 = space();
       strong = element("strong");
-      t11 = text("Descargá el artículo ");
+      t12 = text("Descargá el artículo ");
       br2 = element("br");
-      t12 = text(" completo acá");
-      t13 = space();
-      div1 = element("div");
+      t13 = text(" completo acá");
+      t14 = space();
+      div3 = element("div");
 
       for (var _i = 0; _i < each_blocks.length; _i += 1) {
         each_blocks[_i].c();
@@ -1014,25 +1020,32 @@ function create_fragment$5(ctx) {
       this.h();
     },
     l: function claim(nodes) {
-      div2 = claim_element(nodes, "DIV", {
+      div4 = claim_element(nodes, "DIV", {
         class: true,
         style: true,
         id: true
       });
-      var div2_nodes = children(div2);
-      article = claim_element(div2_nodes, "ARTICLE", {
+      var div4_nodes = children(div4);
+      article = claim_element(div4_nodes, "ARTICLE", {
         class: true
       });
       var article_nodes = children(article);
-      img0 = claim_element(article_nodes, "IMG", {
-        class: true,
+      div1 = claim_element(article_nodes, "DIV", {
+        class: true
+      });
+      var div1_nodes = children(div1);
+      img0 = claim_element(div1_nodes, "IMG", {
         src: true,
         alt: true
       });
-      t0 = claim_space(article_nodes);
-      div0 = claim_element(article_nodes, "DIV", {});
-      var div0_nodes = children(div0);
-      h3 = claim_element(div0_nodes, "H3", {
+      t0 = claim_space(div1_nodes);
+      div0 = claim_element(div1_nodes, "DIV", {});
+      children(div0).forEach(detach_dev);
+      div1_nodes.forEach(detach_dev);
+      t1 = claim_space(article_nodes);
+      div2 = claim_element(article_nodes, "DIV", {});
+      var div2_nodes = children(div2);
+      h3 = claim_element(div2_nodes, "H3", {
         class: true
       });
       var h3_nodes = children(h3);
@@ -1044,20 +1057,20 @@ function create_fragment$5(ctx) {
         class: true
       });
       var span0_nodes = children(span0);
-      t1 = claim_text(span0_nodes, "#");
+      t2 = claim_text(span0_nodes, "#");
       span0_nodes.forEach(detach_dev);
-      t2 = claim_text(span2_nodes, "internet");
+      t3 = claim_text(span2_nodes, "internet");
       span1 = claim_element(span2_nodes, "SPAN", {
         class: true
       });
       var span1_nodes = children(span1);
-      t3 = claim_text(span1_nodes, "es");
+      t4 = claim_text(span1_nodes, "es");
       span1_nodes.forEach(detach_dev);
-      t4 = claim_text(span2_nodes, "nuestro");
+      t5 = claim_text(span2_nodes, "nuestro");
       span2_nodes.forEach(detach_dev);
       h3_nodes.forEach(detach_dev);
-      t5 = claim_space(div0_nodes);
-      p = claim_element(div0_nodes, "P", {
+      t6 = claim_space(div2_nodes);
+      p = claim_element(div2_nodes, "P", {
         class: true
       });
       var p_nodes = children(p);
@@ -1065,15 +1078,15 @@ function create_fragment$5(ctx) {
         class: true
       });
       var span3_nodes = children(span3);
-      t6 = claim_text(span3_nodes, "Creamos esta guía para que podamos contribuir ");
+      t7 = claim_text(span3_nodes, "Creamos esta guía para que podamos contribuir ");
       br0 = claim_element(span3_nodes, "BR", {});
-      t7 = claim_text(span3_nodes, "\n\t\t\t\t\ta una nueva convivencia digital positiva y empática.");
+      t8 = claim_text(span3_nodes, "\n\t\t\t\t\ta una nueva convivencia digital positiva y empática.");
       br1 = claim_element(span3_nodes, "BR", {});
-      t8 = claim_text(span3_nodes, "\n\t\t\t\t\t¡No usamos internet, estamos en él!");
+      t9 = claim_text(span3_nodes, "\n\t\t\t\t\t¡No usamos internet, estamos en él!");
       span3_nodes.forEach(detach_dev);
       p_nodes.forEach(detach_dev);
-      div0_nodes.forEach(detach_dev);
-      t9 = claim_space(article_nodes);
+      div2_nodes.forEach(detach_dev);
+      t10 = claim_space(article_nodes);
       a = claim_element(article_nodes, "A", {
         href: true,
         class: true
@@ -1083,101 +1096,106 @@ function create_fragment$5(ctx) {
         src: true,
         alt: true
       });
-      t10 = claim_space(a_nodes);
+      t11 = claim_space(a_nodes);
       strong = claim_element(a_nodes, "STRONG", {});
       var strong_nodes = children(strong);
-      t11 = claim_text(strong_nodes, "Descargá el artículo ");
+      t12 = claim_text(strong_nodes, "Descargá el artículo ");
       br2 = claim_element(strong_nodes, "BR", {});
-      t12 = claim_text(strong_nodes, " completo acá");
+      t13 = claim_text(strong_nodes, " completo acá");
       strong_nodes.forEach(detach_dev);
       a_nodes.forEach(detach_dev);
-      t13 = claim_space(article_nodes);
-      div1 = claim_element(article_nodes, "DIV", {
+      t14 = claim_space(article_nodes);
+      div3 = claim_element(article_nodes, "DIV", {
         class: true
       });
-      var div1_nodes = children(div1);
+      var div3_nodes = children(div3);
 
       for (var _i2 = 0; _i2 < each_blocks.length; _i2 += 1) {
-        each_blocks[_i2].l(div1_nodes);
+        each_blocks[_i2].l(div3_nodes);
       }
 
-      div1_nodes.forEach(detach_dev);
+      div3_nodes.forEach(detach_dev);
       article_nodes.forEach(detach_dev);
-      div2_nodes.forEach(detach_dev);
+      div4_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img0, "class", "w-full");
       if (img0.src !== (img0_src_value = "logo-horizontal.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Corazones y mentes");
-      add_location(img0, file$5, 6, 2, 271);
+      add_location(img0, file$5, 7, 3, 304);
+      add_location(div0, file$5, 8, 3, 366);
+      attr_dev(div1, "class", "grid grid-col-2");
+      add_location(div1, file$5, 6, 2, 271);
       attr_dev(span0, "class", "text-black");
-      add_location(span0, file$5, 10, 5, 455);
+      add_location(span0, file$5, 13, 5, 498);
       attr_dev(span1, "class", "text-black");
-      add_location(span1, file$5, 10, 46, 496);
+      add_location(span1, file$5, 13, 46, 539);
       attr_dev(span2, "class", "text-white fushia-bg tracking-tighter");
-      add_location(span2, file$5, 9, 4, 397);
+      add_location(span2, file$5, 12, 4, 440);
       attr_dev(h3, "class", "text-3xl mt-10 uppercase");
-      add_location(h3, file$5, 8, 3, 355);
-      add_location(br0, file$5, 14, 51, 661);
-      add_location(br1, file$5, 15, 57, 723);
+      add_location(h3, file$5, 11, 3, 398);
+      add_location(br0, file$5, 17, 51, 704);
+      add_location(br1, file$5, 18, 57, 766);
       attr_dev(span3, "class", "bg-white");
-      add_location(span3, file$5, 13, 4, 586);
+      add_location(span3, file$5, 16, 4, 629);
       attr_dev(p, "class", "mt-5 text-xl");
-      add_location(p, file$5, 12, 3, 557);
-      add_location(div0, file$5, 7, 2, 346);
+      add_location(p, file$5, 15, 3, 600);
+      add_location(div2, file$5, 10, 2, 389);
       if (img1.src !== (img1_src_value = "cerebri.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "icono de cerebro");
-      add_location(img1, file$5, 21, 3, 835);
-      add_location(br2, file$5, 23, 25, 920);
-      add_location(strong, file$5, 22, 3, 886);
+      add_location(img1, file$5, 24, 3, 878);
+      add_location(br2, file$5, 26, 25, 963);
+      add_location(strong, file$5, 25, 3, 929);
       attr_dev(a, "href", "/");
       attr_dev(a, "class", "flex mt-10");
-      add_location(a, file$5, 20, 2, 800);
-      attr_dev(div1, "class", "grid grid-cols-1 md:grid-cols-3 mt-10");
-      add_location(div1, file$5, 26, 2, 960);
+      add_location(a, file$5, 23, 2, 843);
+      attr_dev(div3, "class", "grid grid-cols-1 md:grid-cols-3 mt-10");
+      add_location(div3, file$5, 29, 2, 1003);
       attr_dev(article, "class", "container mx-auto");
       add_location(article, file$5, 5, 1, 233);
-      attr_dev(div2, "class", "p-10 tech-back px-10 celeste-bg");
-      set_style(div2, "background-image", "url(background-tech.png)");
-      attr_dev(div2, "id", "articulo");
-      add_location(div2, file$5, 4, 0, 122);
+      attr_dev(div4, "class", "p-10 tech-back px-10 celeste-bg");
+      set_style(div4, "background-image", "url(background-tech.png)");
+      attr_dev(div4, "id", "articulo");
+      add_location(div4, file$5, 4, 0, 122);
     },
     m: function mount(target, anchor) {
-      insert_dev(target, div2, anchor);
-      append_dev(div2, article);
-      append_dev(article, img0);
-      append_dev(article, t0);
-      append_dev(article, div0);
-      append_dev(div0, h3);
+      insert_dev(target, div4, anchor);
+      append_dev(div4, article);
+      append_dev(article, div1);
+      append_dev(div1, img0);
+      append_dev(div1, t0);
+      append_dev(div1, div0);
+      append_dev(article, t1);
+      append_dev(article, div2);
+      append_dev(div2, h3);
       append_dev(h3, span2);
       append_dev(span2, span0);
-      append_dev(span0, t1);
-      append_dev(span2, t2);
+      append_dev(span0, t2);
+      append_dev(span2, t3);
       append_dev(span2, span1);
-      append_dev(span1, t3);
-      append_dev(span2, t4);
-      append_dev(div0, t5);
-      append_dev(div0, p);
+      append_dev(span1, t4);
+      append_dev(span2, t5);
+      append_dev(div2, t6);
+      append_dev(div2, p);
       append_dev(p, span3);
-      append_dev(span3, t6);
-      append_dev(span3, br0);
       append_dev(span3, t7);
-      append_dev(span3, br1);
+      append_dev(span3, br0);
       append_dev(span3, t8);
-      append_dev(article, t9);
+      append_dev(span3, br1);
+      append_dev(span3, t9);
+      append_dev(article, t10);
       append_dev(article, a);
       append_dev(a, img1);
-      append_dev(a, t10);
+      append_dev(a, t11);
       append_dev(a, strong);
-      append_dev(strong, t11);
-      append_dev(strong, br2);
       append_dev(strong, t12);
-      append_dev(article, t13);
-      append_dev(article, div1);
+      append_dev(strong, br2);
+      append_dev(strong, t13);
+      append_dev(article, t14);
+      append_dev(article, div3);
 
       for (var _i3 = 0; _i3 < each_blocks.length; _i3 += 1) {
-        each_blocks[_i3].m(div1, null);
+        each_blocks[_i3].m(div3, null);
       }
 
       current = true;
@@ -1208,7 +1226,7 @@ function create_fragment$5(ctx) {
 
             transition_in(each_blocks[_i4], 1);
 
-            each_blocks[_i4].m(div1, null);
+            each_blocks[_i4].m(div3, null);
           }
         }
 
@@ -1240,7 +1258,7 @@ function create_fragment$5(ctx) {
       current = false;
     },
     d: function destroy(detaching) {
-      if (detaching) detach_dev(div2);
+      if (detaching) detach_dev(div4);
       destroy_each(each_blocks, detaching);
     }
   };
@@ -1318,12 +1336,16 @@ function create_fragment$4(ctx) {
   var t3;
   var p0;
   var t4;
+  var br0;
   var t5;
-  var div2;
+  var br1;
   var t6;
+  var t7;
+  var div2;
+  var t8;
   var p1;
   var a;
-  var t7;
+  var t9;
   var block = {
     c: function create() {
       div3 = element("div");
@@ -1338,13 +1360,17 @@ function create_fragment$4(ctx) {
       img = element("img");
       t3 = space();
       p0 = element("p");
-      t4 = text("Un espacio para intercambiar ideas, sugerir bibliografía,\n      dialogar y debatir sobre el uso de internet, las redes sociales\n       y la convivencia digital entre les jovenes y en las aulas");
-      t5 = space();
+      t4 = text("Un espacio para intercambiar ideas, sugerir bibliografía,");
+      br0 = element("br");
+      t5 = text("\n      dialogar y debatir sobre el uso de internet, las redes sociales");
+      br1 = element("br");
+      t6 = text("\n       y la convivencia digital entre les jovenes y en las aulas");
+      t7 = space();
       div2 = element("div");
-      t6 = space();
+      t8 = space();
       p1 = element("p");
       a = element("a");
-      t7 = text("Descargá actividades para trabajar en clase");
+      t9 = text("Descargá actividades para trabajar en clase");
       this.h();
     },
     l: function claim(nodes) {
@@ -1389,16 +1415,20 @@ function create_fragment$4(ctx) {
         class: true
       });
       var p0_nodes = children(p0);
-      t4 = claim_text(p0_nodes, "Un espacio para intercambiar ideas, sugerir bibliografía,\n      dialogar y debatir sobre el uso de internet, las redes sociales\n       y la convivencia digital entre les jovenes y en las aulas");
+      t4 = claim_text(p0_nodes, "Un espacio para intercambiar ideas, sugerir bibliografía,");
+      br0 = claim_element(p0_nodes, "BR", {});
+      t5 = claim_text(p0_nodes, "\n      dialogar y debatir sobre el uso de internet, las redes sociales");
+      br1 = claim_element(p0_nodes, "BR", {});
+      t6 = claim_text(p0_nodes, "\n       y la convivencia digital entre les jovenes y en las aulas");
       p0_nodes.forEach(detach_dev);
-      t5 = claim_space(article_nodes);
+      t7 = claim_space(article_nodes);
       div2 = claim_element(article_nodes, "DIV", {
         class: true,
         "data-url": true,
         style: true
       });
       children(div2).forEach(detach_dev);
-      t6 = claim_space(article_nodes);
+      t8 = claim_space(article_nodes);
       p1 = claim_element(article_nodes, "P", {
         class: true
       });
@@ -1409,7 +1439,7 @@ function create_fragment$4(ctx) {
         class: true
       });
       var a_nodes = children(a);
-      t7 = claim_text(a_nodes, "Descargá actividades para trabajar en clase");
+      t9 = claim_text(a_nodes, "Descargá actividades para trabajar en clase");
       a_nodes.forEach(detach_dev);
       p1_nodes.forEach(detach_dev);
       article_nodes.forEach(detach_dev);
@@ -1418,29 +1448,31 @@ function create_fragment$4(ctx) {
     },
     h: function hydrate() {
       attr_dev(span, "class", "text-blue-300");
-      add_location(span, file$4, 14, 10, 626);
-      attr_dev(h1, "class", "uppercase bg-white text-black text-4xl p-2 text-bold");
-      add_location(h1, file$4, 13, 8, 550);
+      add_location(span, file$4, 14, 10, 625);
+      attr_dev(h1, "class", "uppercase bg-white text-black text-5xl p-2 text-bold");
+      add_location(h1, file$4, 13, 8, 549);
       attr_dev(div0, "class", "mr-5");
-      add_location(div0, file$4, 12, 6, 523);
+      add_location(div0, file$4, 12, 6, 522);
       if (img.src !== (img_src_value = "dialog.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "icono de dialogo");
-      add_location(img, file$4, 17, 6, 707);
-      attr_dev(div1, "class", "flex items-center justify-center");
+      add_location(img, file$4, 17, 6, 706);
+      attr_dev(div1, "class", "flex items-center justify-start");
       add_location(div1, file$4, 11, 4, 470);
-      attr_dev(p0, "class", "text-white");
-      add_location(p0, file$4, 19, 4, 769);
+      add_location(br0, file$4, 20, 63, 868);
+      add_location(br1, file$4, 21, 69, 942);
+      attr_dev(p0, "class", "text-white mt-10 text-xl");
+      add_location(p0, file$4, 19, 4, 768);
       attr_dev(div2, "class", "typeform-widget mt-10");
       attr_dev(div2, "data-url", "https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet");
       set_style(div2, "width", "100%");
       set_style(div2, "height", "500px");
-      add_location(div2, file$4, 25, 4, 1009);
+      add_location(div2, file$4, 25, 4, 1030);
       attr_dev(a, "href", "http://google.com");
       attr_dev(a, "target", "_blank");
       attr_dev(a, "class", "bg-white uppercase mt-5 text-xl p-3 ");
-      add_location(a, file$4, 28, 6, 1210);
+      add_location(a, file$4, 28, 6, 1231);
       attr_dev(p1, "class", "text-center p-3");
-      add_location(p1, file$4, 27, 4, 1176);
+      add_location(p1, file$4, 27, 4, 1197);
       attr_dev(article, "class", "container mx-auto");
       add_location(article, file$4, 10, 2, 430);
       attr_dev(div3, "class", "bg-black p-10");
@@ -1461,12 +1493,16 @@ function create_fragment$4(ctx) {
       append_dev(article, t3);
       append_dev(article, p0);
       append_dev(p0, t4);
-      append_dev(article, t5);
+      append_dev(p0, br0);
+      append_dev(p0, t5);
+      append_dev(p0, br1);
+      append_dev(p0, t6);
+      append_dev(article, t7);
       append_dev(article, div2);
-      append_dev(article, t6);
+      append_dev(article, t8);
       append_dev(article, p1);
       append_dev(p1, a);
-      append_dev(a, t7);
+      append_dev(a, t9);
     },
     p: noop,
     i: noop,

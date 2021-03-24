@@ -4,7 +4,10 @@
 </script>
 <div class="p-10 tech-back px-10 celeste-bg" style="background-image:url(background-tech.png)" id="articulo">
 	<article class="container mx-auto">
-		<img class="w-full" src="logo-horizontal.png" alt="Corazones y mentes"/>
+		<div class="grid grid-col-2">
+			<img  src="logo-horizontal.png" alt="Corazones y mentes"/>
+			<div></div>
+		</div>
 		<div>
 			<h3 class="text-3xl mt-10 uppercase">
 				<span class="text-white fushia-bg tracking-tighter">

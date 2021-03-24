@@ -9,17 +9,17 @@ import { onMount } from "svelte";
 
 <div class="bg-black p-10" id="foro-docente">
   <article class="container mx-auto">
-    <div class="flex items-center justify-center">
+    <div class="flex items-center justify-start">
       <div class="mr-5">
-        <h1 class="uppercase bg-white text-black text-4xl p-2 text-bold">
+        <h1 class="uppercase bg-white text-black text-5xl p-2 text-bold">
           <span class="text-blue-300">FORO</span> DOCENTE
         </h1>
       </div>
       <img src="dialog.png" alt="icono de dialogo"/>
     </div>
-    <p class="text-white">
-      Un espacio para intercambiar ideas, sugerir bibliografía,
-      dialogar y debatir sobre el uso de internet, las redes sociales
+    <p class="text-white mt-10 text-xl">
+      Un espacio para intercambiar ideas, sugerir bibliografía,<br>
+      dialogar y debatir sobre el uso de internet, las redes sociales<br>
        y la convivencia digital entre les jovenes y en las aulas
     </p>
     

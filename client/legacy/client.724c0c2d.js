@@ -2020,7 +2020,7 @@ function create_fragment$3(ctx) {
       add_location(button, file$2, 21, 8, 602);
       attr_dev(div0, "class", "absolute inset-y-0 left-0 flex items-center sm:hidden");
       add_location(div0, file$2, 19, 6, 491);
-      attr_dev(img, "class", "block h-8 w-auto");
+      attr_dev(img, "class", "block h-8 w-auto ml-10");
       if (img.src !== (img_src_value = "logo-horizontal.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "Corazones y mentes");
       add_location(img, file$2, 39, 10, 1844);
@@ -2030,31 +2030,31 @@ function create_fragment$3(ctx) {
       attr_dev(a0, "class", "" + (
       /*getActive*/
       ctx[2](undefined) + "  px-3 py-2 text-sm font-medium"));
-      add_location(a0, file$2, 44, 12, 2164);
+      add_location(a0, file$2, 44, 12, 2170);
       attr_dev(a1, "href", "#toda-la-data");
       attr_dev(a1, "class", "" + (
       /*getActive*/
       ctx[2]("toda-la-data") + " px-3 py-2 text-sm font-medium"));
-      add_location(a1, file$2, 45, 12, 2263);
+      add_location(a1, file$2, 45, 12, 2269);
       attr_dev(a2, "href", "#articulo");
       attr_dev(a2, "class", "" + (
       /*getActive*/
       ctx[2]("articulo") + "  px-3 py-2 text-sm font-medium"));
-      add_location(a2, file$2, 46, 12, 2381);
+      add_location(a2, file$2, 46, 12, 2387);
       attr_dev(a3, "href", "#foro-docente");
       attr_dev(a3, "class", "" + (
       /*getActive*/
       ctx[2]("foro-docente") + "  px-3 py-2 text-sm font-medium"));
-      add_location(a3, file$2, 47, 12, 2489);
+      add_location(a3, file$2, 47, 12, 2495);
       attr_dev(a4, "href", "#kit-de-herramientas");
       attr_dev(a4, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " px-3 py-2 text-sm font-medium"));
-      add_location(a4, file$2, 48, 12, 2609);
+      add_location(a4, file$2, 48, 12, 2615);
       attr_dev(div2, "class", "flex space-x-4 items-end");
-      add_location(div2, file$2, 42, 10, 1997);
+      add_location(div2, file$2, 42, 10, 2003);
       attr_dev(div3, "class", "hidden sm:block sm:ml-6");
-      add_location(div3, file$2, 41, 8, 1949);
+      add_location(div3, file$2, 41, 8, 1955);
       attr_dev(div4, "class", "flex-1 flex items-center justify-between sm:items-stretch sm:justify-start");
       add_location(div4, file$2, 37, 6, 1691);
       attr_dev(div5, "class", "relative flex items-center justify-between h-16");
@@ -2065,34 +2065,34 @@ function create_fragment$3(ctx) {
       attr_dev(a5, "class", "" + (
       /*getActive*/
       ctx[2](undefined) + " block px-3 py-2 text-base font-medium"));
-      add_location(a5, file$2, 58, 6, 2981);
+      add_location(a5, file$2, 58, 6, 2987);
       attr_dev(a6, "href", "#toda-la-data");
       attr_dev(a6, "class", "" + (
       /*getActive*/
       ctx[2]("toda-la-data") + " block px-3 py-2 text-base font-medium"));
-      add_location(a6, file$2, 59, 6, 3081);
+      add_location(a6, file$2, 59, 6, 3087);
       attr_dev(a7, "href", "#articulo");
       attr_dev(a7, "class", "" + (
       /*getActive*/
       ctx[2]("articulo") + " block px-3 py-2 text-base font-medium"));
-      add_location(a7, file$2, 60, 6, 3201);
+      add_location(a7, file$2, 60, 6, 3207);
       attr_dev(a8, "href", "#foro-docente");
       attr_dev(a8, "class", "" + (
       /*getActive*/
       ctx[2]("foro-docente") + " block px-3 py-2 text-base font-medium"));
-      add_location(a8, file$2, 61, 6, 3310);
+      add_location(a8, file$2, 61, 6, 3316);
       attr_dev(a9, "href", "#kit-de-herramientas");
       attr_dev(a9, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " block px-3 py-2 text-base font-medium"));
-      add_location(a9, file$2, 62, 6, 3431);
+      add_location(a9, file$2, 62, 6, 3437);
       attr_dev(div7, "class", "px-2 pt-2 pb-3 space-y-1");
-      add_location(div7, file$2, 57, 4, 2936);
+      add_location(div7, file$2, 57, 4, 2942);
       attr_dev(div8, "class", div8_class_value = "sm:hidden " + (
       /*opened*/
       ctx[0] ? "block" : "hidden"));
       attr_dev(div8, "id", "mobile-menu");
-      add_location(div8, file$2, 56, 2, 2860);
+      add_location(div8, file$2, 56, 2, 2866);
       attr_dev(nav, "class", "bg-white shadow");
       add_location(nav, file$2, 16, 0, 334);
     },
@@ -3317,7 +3317,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.66a030fa.js'), __inject_styles(["client-53f58bb9.css","index-f569557c.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.9c65043e.js'), __inject_styles(["client-53f58bb9.css","index-f569557c.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

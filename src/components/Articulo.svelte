@@ -22,7 +22,7 @@
 			</p>
 		</div>
 		<a href="https://drive.google.com/file/d/1FRdvmHLI4mhLfJ0KHlRQzjJGpajCbD0U/view?usp=sharing"
-		 	class="flex mt-10" target="_blank">
+		 	class="flex mt-10 hover:underline" target="_blank">
 			<img src="cerebri.png" alt="icono de cerebro"/>
 			<strong class="ml-5">
 				Descargá el artículo <br> completo acá

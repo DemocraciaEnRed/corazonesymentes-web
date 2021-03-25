@@ -21,7 +21,7 @@
       </div>
       <ul class="uppercase text-bold">
         <li><a href="#home">Home</a></li>
-        <li><a href="#todaladata">#todaladata</a></li>
+        <li><a href="#toda-la-data">#todaladata</a></li>
         <li><a href="#articulo">Artículo</a></li>
         <li><a href="#foro-docente">foro docente</a></li>
         <li><a href="#kit-de-herramientas">kit de herramientas</a></li>

@@ -47,7 +47,7 @@
 
 <div class="flex flex-col border-b border-black mt-5 mb-5 m-2">
   <div class="flex">
-    <img src={icon} class="document-icon" alt={type} />
+    <img src={icon} class="document-icon hidden md:block" alt={type} />
     <div class="flex-grow text-left flex flex-col pb-1">
       <h5 class="text-xs uppercase font-bold">{type}</h5>
       <h3 class="uppercase font-bold text-md">{title}</h3>

@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.cf9c7498.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.53a99d37.js';
 
 function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -1146,16 +1146,16 @@ function create_fragment$5(ctx) {
       add_location(div2, file$5, 10, 2, 389);
       if (img1.src !== (img1_src_value = "cerebri.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "icono de cerebro");
-      add_location(img1, file$5, 25, 3, 1003);
-      add_location(br2, file$5, 27, 25, 1101);
+      add_location(img1, file$5, 25, 3, 1019);
+      add_location(br2, file$5, 27, 25, 1117);
       attr_dev(strong, "class", "ml-5");
-      add_location(strong, file$5, 26, 3, 1054);
+      add_location(strong, file$5, 26, 3, 1070);
       attr_dev(a, "href", "https://drive.google.com/file/d/1FRdvmHLI4mhLfJ0KHlRQzjJGpajCbD0U/view?usp=sharing");
-      attr_dev(a, "class", "flex mt-10");
+      attr_dev(a, "class", "flex mt-10 hover:underline");
       attr_dev(a, "target", "_blank");
       add_location(a, file$5, 23, 2, 867);
       attr_dev(div3, "class", "grid grid-cols-1 md:grid-cols-3 mt-10");
-      add_location(div3, file$5, 30, 2, 1141);
+      add_location(div3, file$5, 30, 2, 1157);
       attr_dev(article, "class", "container mx-auto");
       add_location(article, file$5, 5, 1, 233);
       attr_dev(div4, "class", "p-10 tech-back px-10 celeste-bg");
@@ -3040,16 +3040,16 @@ function create_if_block(ctx) {
     },
     h: function hydrate() {
       attr_dev(p, "class", "ml-10 text-left");
-      add_location(p, file$3, 57, 4, 1214);
-      attr_dev(img, "class", "float-right svelte-r0btzy");
+      add_location(p, file$3, 57, 4, 1230);
+      attr_dev(img, "class", "float-right svelte-9vwsy3");
       if (img.src !== (img_src_value = "icons/download.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "descarga");
-      add_location(img, file$3, 61, 6, 1317);
-      attr_dev(a, "class", "download p-2 svelte-r0btzy");
+      add_location(img, file$3, 61, 6, 1333);
+      attr_dev(a, "class", "download p-2 svelte-9vwsy3");
       attr_dev(a, "href",
       /*url*/
       ctx[3]);
-      add_location(a, file$3, 60, 4, 1275);
+      add_location(a, file$3, 60, 4, 1291);
     },
     m: function mount(target, anchor) {
       insert_dev(target, p, anchor);
@@ -3190,19 +3190,19 @@ function create_fragment$3(ctx) {
       if (img.src !== (img_src_value =
       /*icon*/
       ctx[5])) attr_dev(img, "src", img_src_value);
-      attr_dev(img, "class", "document-icon svelte-r0btzy");
+      attr_dev(img, "class", "document-icon hidden md:block svelte-9vwsy3");
       attr_dev(img, "alt",
       /*type*/
       ctx[1]);
       add_location(img, file$3, 49, 4, 847);
       attr_dev(h5, "class", "text-xs uppercase font-bold");
-      add_location(h5, file$3, 51, 6, 962);
+      add_location(h5, file$3, 51, 6, 978);
       attr_dev(h3, "class", "uppercase font-bold text-md");
-      add_location(h3, file$3, 52, 6, 1020);
+      add_location(h3, file$3, 52, 6, 1036);
       attr_dev(div0, "class", "flex-grow text-left flex flex-col pb-1");
-      add_location(div0, file$3, 50, 4, 903);
+      add_location(div0, file$3, 50, 4, 919);
       attr_dev(span, "class", "text-right text-xl cursor-pointer p-1");
-      add_location(span, file$3, 54, 4, 1088);
+      add_location(span, file$3, 54, 4, 1104);
       attr_dev(div1, "class", "flex");
       add_location(div1, file$3, 48, 2, 824);
       attr_dev(div2, "class", "flex flex-col border-b border-black mt-5 mb-5 m-2");
@@ -4071,42 +4071,42 @@ function create_fragment$1(ctx) {
       attr_dev(img0, "class", "logo svelte-17k7ix7");
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "corazones y mentes logo");
-      add_location(img0, file$1, 15, 6, 236);
+      add_location(img0, file$1, 15, 6, 270);
       attr_dev(small, "class", "text-xs");
-      add_location(small, file$1, 18, 10, 384);
+      add_location(small, file$1, 18, 10, 419);
       attr_dev(img1, "class", "developers svelte-17k7ix7");
       if (img1.src !== (img1_src_value = "developers2.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "democracya en red, plataforma democratica fundacion fhc centro edelstein");
-      add_location(img1, file$1, 19, 10, 443);
-      attr_dev(div0, "class", "flex flex-col justify-center");
-      add_location(div0, file$1, 17, 8, 331);
-      add_location(div1, file$1, 16, 6, 317);
+      add_location(img1, file$1, 19, 10, 478);
+      attr_dev(div0, "class", "flex flex-col justify-center ");
+      add_location(div0, file$1, 17, 8, 365);
+      add_location(div1, file$1, 16, 6, 351);
       attr_dev(a0, "href", "#home");
-      add_location(a0, file$1, 23, 12, 650);
-      add_location(li0, file$1, 23, 8, 646);
-      attr_dev(a1, "href", "#todaladata");
-      add_location(a1, file$1, 24, 12, 692);
-      add_location(li1, file$1, 24, 8, 688);
+      add_location(a0, file$1, 23, 12, 685);
+      add_location(li0, file$1, 23, 8, 681);
+      attr_dev(a1, "href", "#toda-la-data");
+      add_location(a1, file$1, 24, 12, 727);
+      add_location(li1, file$1, 24, 8, 723);
       attr_dev(a2, "href", "#articulo");
-      add_location(a2, file$1, 25, 12, 747);
-      add_location(li2, file$1, 25, 8, 743);
+      add_location(a2, file$1, 25, 12, 784);
+      add_location(li2, file$1, 25, 8, 780);
       attr_dev(a3, "href", "#foro-docente");
-      add_location(a3, file$1, 26, 12, 797);
-      add_location(li3, file$1, 26, 8, 793);
+      add_location(a3, file$1, 26, 12, 834);
+      add_location(li3, file$1, 26, 8, 830);
       attr_dev(a4, "href", "#kit-de-herramientas");
-      add_location(a4, file$1, 27, 12, 855);
-      add_location(li4, file$1, 27, 8, 851);
+      add_location(a4, file$1, 27, 12, 892);
+      add_location(li4, file$1, 27, 8, 888);
       attr_dev(ul, "class", "uppercase text-bold");
-      add_location(ul, file$1, 22, 6, 605);
-      attr_dev(div2, "class", "grid md:grid-cols-3 grid-cols-1 gap-4");
-      add_location(div2, file$1, 14, 4, 178);
-      attr_dev(div3, "class", "container mx-auto fot svelte-17k7ix7");
+      add_location(ul, file$1, 22, 6, 640);
+      attr_dev(div2, "class", "grid md:grid-cols-3 grid-cols-1 gap-4 ");
+      add_location(div2, file$1, 14, 4, 211);
+      attr_dev(div3, "class", "container mx-auto fot justify-center align-center flex svelte-17k7ix7");
       add_location(div3, file$1, 13, 2, 138);
       attr_dev(a5, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
       attr_dev(a5, "target", "_blank");
-      add_location(a5, file$1, 32, 4, 1054);
+      add_location(a5, file$1, 32, 4, 1091);
       attr_dev(p, "class", "text-center text-xs text-bold");
-      add_location(p, file$1, 31, 2, 949);
+      add_location(p, file$1, 31, 2, 986);
       attr_dev(footer, "class", "bg-gray-200 p-10");
       add_location(footer, file$1, 12, 0, 102);
     },
@@ -4210,6 +4210,8 @@ var file = "src/routes/index.svelte";
 function create_fragment(ctx) {
   var link0;
   var link1;
+  var script;
+  var script_src_value;
   var t0;
   var home;
   var t1;
@@ -4245,6 +4247,7 @@ function create_fragment(ctx) {
     c: function create() {
       link0 = element("link");
       link1 = element("link");
+      script = element("script");
       t0 = space();
       create_component(home.$$.fragment);
       t1 = space();
@@ -4260,7 +4263,7 @@ function create_fragment(ctx) {
       this.h();
     },
     l: function claim(nodes) {
-      var head_nodes = query_selector_all("[data-svelte=\"svelte-1tt8xni\"]", document.head);
+      var head_nodes = query_selector_all("[data-svelte=\"svelte-1oxs1s6\"]", document.head);
       link0 = claim_element(head_nodes, "LINK", {
         rel: true,
         href: true
@@ -4269,6 +4272,12 @@ function create_fragment(ctx) {
         href: true,
         rel: true
       });
+      script = claim_element(head_nodes, "SCRIPT", {
+        async: true,
+        src: true
+      });
+      var script_nodes = children(script);
+      script_nodes.forEach(detach_dev);
       head_nodes.forEach(detach_dev);
       t0 = claim_space(nodes);
       claim_component(home.$$.fragment, nodes);
@@ -4288,14 +4297,18 @@ function create_fragment(ctx) {
       document.title = "Corazones Y Mentes";
       attr_dev(link0, "rel", "preconnect");
       attr_dev(link0, "href", "https://fonts.gstatic.com");
-      add_location(link0, file, 11, 1, 421);
+      add_location(link0, file, 19, 1, 679);
       attr_dev(link1, "href", "https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
       attr_dev(link1, "rel", "stylesheet");
-      add_location(link1, file, 12, 1, 479);
+      add_location(link1, file, 20, 1, 737);
+      script.async = true;
+      if (script.src !== (script_src_value = "https://www.googletagmanager.com/gtag/js?id=G-LJWHDC5L57")) attr_dev(script, "src", script_src_value);
+      add_location(script, file, 21, 1, 835);
     },
     m: function mount(target, anchor) {
       append_dev(document.head, link0);
       append_dev(document.head, link1);
+      append_dev(document.head, script);
       insert_dev(target, t0, anchor);
       mount_component(home, target, anchor);
       insert_dev(target, t1, anchor);
@@ -4333,6 +4346,7 @@ function create_fragment(ctx) {
     d: function destroy(detaching) {
       detach_dev(link0);
       detach_dev(link1);
+      detach_dev(script);
       if (detaching) detach_dev(t0);
       destroy_component(home, detaching);
       if (detaching) detach_dev(t1);
@@ -4362,6 +4376,17 @@ function instance($$self, $$props, $$invalidate) {
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
   validate_slots("Routes", slots, []);
+  onMount(function () {
+    //Global site tag (gtag.js) - Google Analytics 
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+    gtag("config", "G-LJWHDC5L57");
+  });
   var writable_props = [];
   Object.keys($$props).forEach(function (key) {
     if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<Routes> was created with unknown prop '".concat(key, "'"));
@@ -4374,7 +4399,8 @@ function instance($$self, $$props, $$invalidate) {
       Articulo: Articulo,
       ForoDocente: ForoDocente,
       KitHerramientas: KitHerramientas,
-      Footer: Footer
+      Footer: Footer,
+      onMount: onMount
     };
   };
 

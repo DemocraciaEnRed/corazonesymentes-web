@@ -23,6 +23,9 @@ module.exports = {
       },
     },
     extend: {},
+    fontFamily: {
+      'sans': ['Circular', 'Helvetica', 'Arial', 'sans-serif'],
+    }
   },
   variants: {
     extend: {},

@@ -26,7 +26,7 @@ import { onMount } from "svelte";
     <div class="typeform-widget mt-10" data-url="https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> 
     
     <p class="text-center p-3">
-      <a href="http://google.com" target="_blank"
+      <a href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing" target="_blank"
       class="bg-white uppercase mt-5 text-xl p-3 "> 
       Descargá actividades para trabajar en clase
     </a>

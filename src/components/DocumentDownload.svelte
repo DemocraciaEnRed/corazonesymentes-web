@@ -12,7 +12,7 @@
     height: 48px
   }
 </style>
-<div class="flex mt-5 mb-5" on:click={openDocument}>
+<div class="flex mt-5 mb-5 cursor-pointer hover:underline" on:click={openDocument}>
   <img src="/icons/icon-document.png" class="document-icon" alt="documento" />
   <div class="flex flex-col border-b border-black pb-3">
     <h5 class="text-xs uppercase font-bold">capitulo {chapter}</h5>

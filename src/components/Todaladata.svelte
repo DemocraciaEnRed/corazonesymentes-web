@@ -17,15 +17,15 @@
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-1">
 			<blockquote 
 				class="tiktok-embed"
-				cite="https://www.tiktok.com/@sofia05link/video/6935022195202706694"
-				data-video-id="6935022195202706694"> 
+				cite="https://www.tiktok.com/@corazonesymentes/video/6943423751316983045"
+				data-video-id="6943423751316983045"> 
 					<section></section>
 			</blockquote>
 			<script async src="https://www.tiktok.com/embed.js"></script>
 	
 			<blockquote class="tiktok-embed" 
-				cite="https://www.tiktok.com/@galu.cocina/video/6910947615735663878"
-				data-video-id="6910947615735663878" > 
+				cite="https://www.tiktok.com/@corazonesymentes/video/6943419461844094213" 
+				data-video-id="6943419461844094213"> 
 				<section> 
 				</section>
 			</blockquote>
@@ -33,8 +33,8 @@
 			
 			<blockquote 
 				class="tiktok-embed"
-				cite="https://www.tiktok.com/@sofia05link/video/6935022195202706694"
-				data-video-id="6935022195202706694"> 
+				cite="https://www.tiktok.com/@corazonesymentes/video/6943253691826801925" 
+				data-video-id="6943253691826801925"> 
 					<section></section>
 			</blockquote>
 			<script async src="https://www.tiktok.com/embed.js"></script>

@@ -13,17 +13,18 @@
 				<span class="text-white fushia-bg tracking-tighter">
 					<span class="text-black">#</span>internet<span class="text-black">es</span>nuestro</span>
 			</h3>
-			<p class="mt-5 text-xl">
+			<p class="mt-5 text-xl font-sans">
 				<span class="bg-white">
-					Creamos esta guía para que podamos contribuir <br>
-					a una nueva convivencia digital positiva y empática.<br>
+					Creamos una serie de artículos para que podamos <br>
+					contribuir a una nueva convivencia digital positiva y empática. <br>
 					¡No usamos internet, estamos en él!
 				</span>
 			</p>
 		</div>
-		<a href="/" class="flex mt-10">
+		<a href="https://drive.google.com/file/d/1FRdvmHLI4mhLfJ0KHlRQzjJGpajCbD0U/view?usp=sharing"
+		 	class="flex mt-10" target="_blank">
 			<img src="cerebri.png" alt="icono de cerebro"/>
-			<strong>
+			<strong class="ml-5">
 				Descargá el artículo <br> completo acá
 			</strong>
 		</a>

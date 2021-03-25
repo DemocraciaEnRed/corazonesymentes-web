@@ -17,7 +17,7 @@ import { onMount } from "svelte";
       </div>
       <img src="dialog.png" alt="icono de dialogo"/>
     </div>
-    <p class="text-white mt-10 text-xl">
+    <p class="text-white mt-10 text-xl font-sans">
       Un espacio para intercambiar ideas, sugerir bibliografía,<br>
       dialogar y debatir sobre el uso de internet, las redes sociales<br>
        y la convivencia digital entre les jovenes y en las aulas

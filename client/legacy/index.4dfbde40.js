@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.724c0c2d.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.bee5bf64.js';
 
 function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -19,15 +19,17 @@ function create_fragment$8(ctx) {
   var t3;
   var t4;
   var p;
-  var span;
+  var span0;
   var t5;
   var t6;
   var t7;
   var img1;
   var img1_src_value;
   var t8;
-  var button;
+  var br;
   var t9;
+  var span1;
+  var t10;
   var block = {
     c: function create() {
       div1 = element("div");
@@ -42,14 +44,16 @@ function create_fragment$8(ctx) {
       t3 = text("¿Qué hay más allá del ruido y nuestras diferencias?");
       t4 = space();
       p = element("p");
-      span = element("span");
+      span0 = element("span");
       t5 = text("#");
       t6 = text("internetesnuestro y se nos esta yendo de las manos... \n\t\t\t\tvamos a construir un espacio virtual seguro en el que seamos libres y autonomos para compartir\n\t\t\t\tideas y lo que nos pasa.");
       t7 = space();
       img1 = element("img");
       t8 = space();
-      button = element("button");
-      t9 = text("¡Sumate!");
+      br = element("br");
+      t9 = space();
+      span1 = element("span");
+      t10 = text("¡Sumate!");
       this.h();
     },
     l: function claim(nodes) {
@@ -88,12 +92,12 @@ function create_fragment$8(ctx) {
         class: true
       });
       var p_nodes = children(p);
-      span = claim_element(p_nodes, "SPAN", {
+      span0 = claim_element(p_nodes, "SPAN", {
         class: true
       });
-      var span_nodes = children(span);
-      t5 = claim_text(span_nodes, "#");
-      span_nodes.forEach(detach_dev);
+      var span0_nodes = children(span0);
+      t5 = claim_text(span0_nodes, "#");
+      span0_nodes.forEach(detach_dev);
       t6 = claim_text(p_nodes, "internetesnuestro y se nos esta yendo de las manos... \n\t\t\t\tvamos a construir un espacio virtual seguro en el que seamos libres y autonomos para compartir\n\t\t\t\tideas y lo que nos pasa.");
       p_nodes.forEach(detach_dev);
       t7 = claim_space(div0_nodes);
@@ -103,12 +107,14 @@ function create_fragment$8(ctx) {
         alt: true
       });
       t8 = claim_space(div0_nodes);
-      button = claim_element(div0_nodes, "BUTTON", {
+      br = claim_element(div0_nodes, "BR", {});
+      t9 = claim_space(div0_nodes);
+      span1 = claim_element(div0_nodes, "SPAN", {
         class: true
       });
-      var button_nodes = children(button);
-      t9 = claim_text(button_nodes, "¡Sumate!");
-      button_nodes.forEach(detach_dev);
+      var span1_nodes = children(span1);
+      t10 = claim_text(span1_nodes, "¡Sumate!");
+      span1_nodes.forEach(detach_dev);
       div0_nodes.forEach(detach_dev);
       article_nodes.forEach(detach_dev);
       div1_nodes.forEach(detach_dev);
@@ -123,16 +129,17 @@ function create_fragment$8(ctx) {
       add_location(h20, file$8, 4, 3, 247);
       attr_dev(h21, "class", " text-2xl celeste-bg rounded-sm mt-5  p-1 uppercase");
       add_location(h21, file$8, 7, 3, 392);
-      attr_dev(span, "class", "text-xs");
-      add_location(span, file$8, 11, 4, 570);
+      attr_dev(span0, "class", "text-xs");
+      add_location(span0, file$8, 11, 4, 570);
       attr_dev(p, "class", "font-semibold mt-6 uppercase");
       add_location(p, file$8, 10, 3, 525);
       attr_dev(img1, "class", "float-right");
       if (img1.src !== (img1_src_value = "check.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ok!");
       add_location(img1, file$8, 15, 3, 794);
-      attr_dev(button, "class", "fushia-bg border-2 border-black mt-5 font-semibold p-1");
-      add_location(button, file$8, 16, 3, 849);
+      add_location(br, file$8, 16, 3, 849);
+      attr_dev(span1, "class", "fushia-bg border-2 border-black mt-10 font-semibold p-1");
+      add_location(span1, file$8, 17, 3, 857);
       add_location(div0, file$8, 3, 2, 238);
       attr_dev(article, "class", "grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex");
       add_location(article, file$8, 1, 1, 48);
@@ -153,14 +160,16 @@ function create_fragment$8(ctx) {
       append_dev(h21, t3);
       append_dev(div0, t4);
       append_dev(div0, p);
-      append_dev(p, span);
-      append_dev(span, t5);
+      append_dev(p, span0);
+      append_dev(span0, t5);
       append_dev(p, t6);
       append_dev(div0, t7);
       append_dev(div0, img1);
       append_dev(div0, t8);
-      append_dev(div0, button);
-      append_dev(button, t9);
+      append_dev(div0, br);
+      append_dev(div0, t9);
+      append_dev(div0, span1);
+      append_dev(span1, t10);
     },
     p: noop,
     i: noop,

@@ -15,7 +15,9 @@
 			</p>
 			<img class="float-right" src="check.png" alt="Ok!">
 			<br>
-			<span class="fushia-bg border-2 border-black mt-10 font-semibold p-1"> ¡Sumate! </span>
+			<a class="fushia-bg border-2 border-black mt-10 font-semibold p-1" 
+			href="/documents/Corazones-y-mentes.pdf" download
+			> DESCARGÁ EL LIBRO </a>
 			
 		</div>
 	</article>	

@@ -15,7 +15,7 @@
 			</h3>
 			<p class="mt-5 text-xl font-sans">
 				<span class="bg-white">
-					Creamos una serie de artículos para que podamos <br>
+					Creamos un libro para que podamos <br>
 					contribuir a una nueva convivencia digital positiva y empática. <br>
 					¡No usamos internet, estamos en él!
 				</span>
@@ -25,7 +25,7 @@
 		 	class="flex mt-10 hover:underline" >
 			<img src="cerebri.png" alt="icono de cerebro"/>
 			<strong class="ml-5">
-				Descargá el artículo <br> completo acá
+				Descargá el libro <br> completo acá
 			</strong>
 		</a>
 		<div class="grid grid-cols-1 md:grid-cols-3 mt-10">

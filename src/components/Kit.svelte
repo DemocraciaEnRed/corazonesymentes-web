@@ -55,7 +55,7 @@
     <span class="text-right text-xl cursor-pointer p-1" on:click={toggle}>{opened ? "-" : "+"}</span>
   </div>
   {#if opened}
-    <p class="ml-10 text-left">
+    <p class="ml-10 text-left font-sans">
       {description}
     </p>
     <a class="download p-2" href={url}>

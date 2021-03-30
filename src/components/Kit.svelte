@@ -49,7 +49,7 @@
   <div class="flex">
     <img src={icon} class="document-icon hidden md:block" alt={type} />
     <div class="flex-grow text-left flex flex-col pb-1">
-      <h5 class="text-xs uppercase font-bold">{type}</h5>
+      <h5 class="text-xs uppercase font-bold font-sans">{type}</h5>
       <h3 class="uppercase font-bold text-md">{title}</h3>
     </div>
     <span class="text-right text-xl cursor-pointer p-1" on:click={toggle}>{opened ? "-" : "+"}</span>

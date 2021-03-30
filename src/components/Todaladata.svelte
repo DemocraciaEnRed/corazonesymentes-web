@@ -3,14 +3,14 @@
 		<div class="flex items-center justify-items-center">
 			<img width="100" src="excl_globo.png" alt="importante" />
 			<div >
-				<h1 class="text-blue-300 text-3xl uppercase font-bold">
-					<span class="text-blue-100 text-sm ">#</span>
+				<h1 class="fushia-text text-3xl uppercase font-bold">
+					<span class="celeste-text text-sm ">#</span>
 					 Toda 
-					<span class="text-blue-100">la</span>
+					<span class="celeste-text">la</span>
 					 data</h1>
-				<h2 class="text-blue-300 uppercase text-xl"> <span class="text-blue-100 ">+ info</span>
+				<h2 class="fushia-text uppercase text-xl"> <span class="celeste-text">+ info</span>
 					 para activar una convivencia digital positiva </h2>
-				<p class="text-blue-100">Subí un video y mencionanos en @corazonesymentes </p>
+				<p class="celeste-text">Subí un video y mencionanos en @corazonesymentes </p>
 			</div>
 		</div>
 	

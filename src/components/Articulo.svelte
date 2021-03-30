@@ -2,7 +2,7 @@
   import Document from './DocumentDownload.svelte';
   import documents from '../components/documents';
 </script>
-<div class="p-10 tech-back px-10 celeste-bg" style="background-image:url(background-tech.png)" id="articulo">
+<div class="p-10 tech-back px-10 celeste-bg" style="background-image:url(background-tech.png)" id="libro">
 	<article class="container mx-auto">
 		<div class="grid grid-col-2">
 			<img  src="logo-horizontal.png" alt="Corazones y mentes"/>
@@ -21,8 +21,8 @@
 				</span>
 			</p>
 		</div>
-		<a href="https://drive.google.com/file/d/1FRdvmHLI4mhLfJ0KHlRQzjJGpajCbD0U/view?usp=sharing"
-		 	class="flex mt-10 hover:underline" target="_blank">
+		<a href="/documents/Corazones-y-mentes.pdf" download
+		 	class="flex mt-10 hover:underline" >
 			<img src="cerebri.png" alt="icono de cerebro"/>
 			<strong class="ml-5">
 				Descargá el artículo <br> completo acá

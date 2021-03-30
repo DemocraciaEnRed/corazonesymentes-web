@@ -45,7 +45,7 @@
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="#home" class="{getActive(undefined)}  px-3 py-2 text-sm font-medium">HOME</a>
             <a href="#toda-la-data" class="{getActive("toda-la-data")} px-3 py-2 text-sm font-medium">#TodaLaData</a>
-            <a href="#articulo" class="{getActive("articulo")}  px-3 py-2 text-sm font-medium">ARTICULO</a>
+            <a href="#libro" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">LIBRO</a>
             <a href="#foro-docente" class="{getActive("foro-docente")}  px-3 py-2 text-sm font-medium">Foro DOCENTE</a>
             <a href="#kit-de-herramientas" class="{getActive("kit-de-herramientas")} px-3 py-2 text-sm font-medium">Kit De Herramientas</a>
           </div>
@@ -59,7 +59,7 @@
     <div class="px-2 pt-2 pb-3 space-y-1">
       <a href="#home" class="{getActive(undefined)} block px-3 py-2 text-base font-medium">HOME</a>
       <a href="#toda-la-data" class="{getActive("toda-la-data")} block px-3 py-2 text-base font-medium">#TodaLaData</a>
-      <a href="#articulo" class="{getActive("articulo")} block px-3 py-2 text-base font-medium">ARTICULO</a>
+      <a href="#libro" class="{getActive("libro")} block px-3 py-2 text-base font-medium">LIBRO</a>
       <a href="#foro-docente" class="{getActive("foro-docente")} block px-3 py-2 text-base font-medium">Foro DOCENTE</a>
       <a href="#kit-de-herramientas" class="{getActive("kit-de-herramientas")} block px-3 py-2 text-base font-medium">Kit De Heramientas</a>
     </div>

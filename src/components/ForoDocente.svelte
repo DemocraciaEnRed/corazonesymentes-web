@@ -22,14 +22,14 @@ import { onMount } from "svelte";
       dialogar y debatir sobre el uso de internet, las redes sociales<br>
        y la convivencia digital entre les jovenes y en las aulas
     </p>
-    
-    <div class="typeform-widget mt-10" data-url="https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> 
-    <div class="text-center">
-      <a href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing" target="_blank"
-      class="bg-white uppercase mt-5 p-3 leading-6"> 
-      Descargá actividades para trabajar en clase
-    </a>
+    <div class="text-left mt-10">
+      <a 
+        href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing" 
+        target="_blank"
+        class="bg-white uppercase mt-5 p-3 leading-6"> 
+          Descargá actividades para trabajar en clase
+      </a>
     </div>
-    
+    <div class="typeform-widget mt-10" data-url="https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> 
   </article>
 </div>

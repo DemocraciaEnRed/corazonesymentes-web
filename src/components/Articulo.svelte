@@ -9,7 +9,7 @@
 			<div></div>
 		</div>
 		<div>
-			<h3 class="text-3xl mt-10 uppercase">
+			<h3 class="text-5xl mt-10 uppercase font-thin">
 				<span class="text-white fushia-bg tracking-tighter">
 					<span class="text-black">#</span>internet<span class="text-black">es</span>nuestro</span>
 			</h3>

@@ -15,7 +15,7 @@
 			</h3>
 			<p class="mt-5 text-xl font-sans">
 				<span class="bg-white">
-					Creamos un libro para que podamos <br>
+					Escribimos un libro para que podamos <br>
 					contribuir a una nueva convivencia digital positiva y empática. <br>
 					¡No usamos internet, estamos en él!
 				</span>

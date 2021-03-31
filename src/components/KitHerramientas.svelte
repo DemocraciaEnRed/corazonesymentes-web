@@ -25,7 +25,7 @@
     background-repeat: no-repeat;
   }
 </style>
-<div class="p-20" id="kit-de-herramientas" style="background-image:url(ideas2.png)">
+<div class="p-10 pt-20" id="kit-de-herramientas" style="background-image:url(ideas2.png)">
   <article class="container mx-auto text-center">
     <h1 class="uppercase text-6xl fushia-text mb-3">
       <span class="text-black">Kit</span>
@@ -33,13 +33,13 @@
        Herramientas
     </h1>
     <h2>
-      <span class="fushia-bg text-xl text-white p-2 uppercase text-bold">Articulos, podcast, reflexiones, videos y más.</span>
+      <span class="fushia-bg text-white p-2 uppercase text-bold">Articulos, podcast, reflexiones, videos y más.</span>
     </h2>
     <p class="text-bold text-lg mt-10 mb-10 uppercase font-sans">
       Te compartimos este recursero con un poco de todo para habitar <br>
       internet de forma segura, responsable y empática.
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 mt-10">
       {#each kits as item}
         <Kit {...item} />
       {/each}

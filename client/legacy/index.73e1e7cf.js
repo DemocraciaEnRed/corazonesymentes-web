@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.b7e34e8b.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.6a9ca8f2.js';
 
 function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -92,9 +92,7 @@ function create_fragment$8(ctx) {
         class: true
       });
       var p_nodes = children(p);
-      span = claim_element(p_nodes, "SPAN", {
-        class: true
-      });
+      span = claim_element(p_nodes, "SPAN", {});
       var span_nodes = children(span);
       t5 = claim_text(span_nodes, "#");
       span_nodes.forEach(detach_dev);
@@ -127,23 +125,22 @@ function create_fragment$8(ctx) {
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Conoce a tu mente para que tu mente no te domine");
       add_location(img0, file$8, 2, 2, 139);
-      attr_dev(h20, "class", " text-2xl celeste-bg rounded-sm  p-1 uppercase");
+      attr_dev(h20, "class", " text-3xl celeste-bg rounded-sm  p-1 uppercase");
       add_location(h20, file$8, 4, 3, 247);
-      attr_dev(h21, "class", " text-2xl celeste-bg rounded-sm mt-5  p-1 uppercase");
+      attr_dev(h21, "class", " text-3xl celeste-bg rounded-sm mt-5  p-1 uppercase");
       add_location(h21, file$8, 7, 3, 392);
-      attr_dev(span, "class", "text-xs");
-      add_location(span, file$8, 11, 4, 570);
-      attr_dev(p, "class", "font-semibold mt-6 uppercase");
+      add_location(span, file$8, 11, 4, 578);
+      attr_dev(p, "class", "font-semibold mt-6 uppercase text-xl");
       add_location(p, file$8, 10, 3, 525);
       attr_dev(img1, "class", "float-right");
       if (img1.src !== (img1_src_value = "check.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ok!");
-      add_location(img1, file$8, 15, 3, 794);
-      add_location(br, file$8, 16, 3, 849);
+      add_location(img1, file$8, 15, 3, 786);
+      add_location(br, file$8, 16, 3, 841);
       attr_dev(a, "class", "fushia-bg border-2 border-black mt-10 font-semibold p-1");
       attr_dev(a, "href", "/documents/Corazones-y-mentes.pdf");
       attr_dev(a, "download", "");
-      add_location(a, file$8, 17, 3, 857);
+      add_location(a, file$8, 17, 3, 849);
       add_location(div0, file$8, 3, 2, 238);
       attr_dev(article, "class", "grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex");
       add_location(article, file$8, 1, 1, 48);
@@ -1425,7 +1422,8 @@ function create_fragment$4(ctx) {
       t2 = claim_space(div1_nodes);
       img = claim_element(div1_nodes, "IMG", {
         src: true,
-        alt: true
+        alt: true,
+        class: true
       });
       div1_nodes.forEach(detach_dev);
       t3 = claim_space(article_nodes);
@@ -1466,36 +1464,37 @@ function create_fragment$4(ctx) {
     },
     h: function hydrate() {
       attr_dev(span, "class", "text-blue-300");
-      add_location(span, file$4, 14, 10, 625);
+      add_location(span, file$4, 19, 10, 714);
       attr_dev(h1, "class", "uppercase bg-white text-black text-5xl p-2 text-bold");
-      add_location(h1, file$4, 13, 8, 549);
+      add_location(h1, file$4, 18, 8, 638);
       attr_dev(div0, "class", "mr-5");
-      add_location(div0, file$4, 12, 6, 522);
+      add_location(div0, file$4, 17, 6, 611);
       if (img.src !== (img_src_value = "dialog.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "icono de dialogo");
-      add_location(img, file$4, 17, 6, 706);
+      attr_dev(img, "class", "svelte-auiyuh");
+      add_location(img, file$4, 22, 6, 795);
       attr_dev(div1, "class", "flex items-center justify-start");
-      add_location(div1, file$4, 11, 4, 470);
-      add_location(br0, file$4, 20, 63, 878);
-      add_location(br1, file$4, 21, 69, 952);
+      add_location(div1, file$4, 16, 4, 559);
+      add_location(br0, file$4, 25, 63, 967);
+      add_location(br1, file$4, 26, 69, 1041);
       attr_dev(p, "class", "text-white mt-10 text-xl font-sans");
-      add_location(p, file$4, 19, 4, 768);
+      add_location(p, file$4, 24, 4, 857);
       attr_dev(a, "href", "https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing");
       attr_dev(a, "target", "_blank");
       attr_dev(a, "class", "bg-white uppercase mt-5 p-3 leading-6");
-      add_location(a, file$4, 25, 6, 1071);
+      add_location(a, file$4, 30, 6, 1160);
       attr_dev(div2, "class", "text-left mt-10");
-      add_location(div2, file$4, 24, 4, 1035);
+      add_location(div2, file$4, 29, 4, 1124);
       attr_dev(div3, "class", "typeform-widget mt-10");
       attr_dev(div3, "data-url", "https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet");
       set_style(div3, "width", "100%");
       set_style(div3, "height", "500px");
-      add_location(div3, file$4, 32, 4, 1334);
+      add_location(div3, file$4, 37, 4, 1423);
       attr_dev(article, "class", "container mx-auto");
-      add_location(article, file$4, 10, 2, 430);
+      add_location(article, file$4, 15, 2, 519);
       attr_dev(div4, "class", "bg-black p-10");
       attr_dev(div4, "id", "foro-docente");
-      add_location(div4, file$4, 9, 0, 382);
+      add_location(div4, file$4, 14, 0, 471);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div4, anchor);
@@ -3052,17 +3051,17 @@ function create_if_block(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(p, "class", "ml-10 text-left");
-      add_location(p, file$3, 57, 4, 1240);
+      attr_dev(p, "class", "ml-10 text-left font-sans");
+      add_location(p, file$3, 57, 4, 1250);
       attr_dev(img, "class", "float-right svelte-9vwsy3");
       if (img.src !== (img_src_value = "icons/download.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "descarga");
-      add_location(img, file$3, 61, 6, 1343);
+      add_location(img, file$3, 61, 6, 1363);
       attr_dev(a, "class", "download p-2 svelte-9vwsy3");
       attr_dev(a, "href",
       /*url*/
       ctx[3]);
-      add_location(a, file$3, 60, 4, 1301);
+      add_location(a, file$3, 60, 4, 1321);
     },
     m: function mount(target, anchor) {
       insert_dev(target, p, anchor);
@@ -3207,18 +3206,18 @@ function create_fragment$3(ctx) {
       attr_dev(img, "alt",
       /*type*/
       ctx[1]);
-      add_location(img, file$3, 49, 4, 847);
+      add_location(img, file$3, 49, 4, 837);
       attr_dev(h5, "class", "text-xs uppercase font-bold font-sans");
-      add_location(h5, file$3, 51, 6, 978);
-      attr_dev(h3, "class", "uppercase font-bold text-md");
-      add_location(h3, file$3, 52, 6, 1046);
+      add_location(h5, file$3, 51, 6, 968);
+      attr_dev(h3, "class", "uppercase font-bold text-md text-2xl");
+      add_location(h3, file$3, 52, 6, 1036);
       attr_dev(div0, "class", "flex-grow text-left flex flex-col pb-1");
-      add_location(div0, file$3, 50, 4, 919);
-      attr_dev(span, "class", "text-right text-xl cursor-pointer p-1");
-      add_location(span, file$3, 54, 4, 1114);
+      add_location(div0, file$3, 50, 4, 909);
+      attr_dev(span, "class", "text-right text-2xl font-sans cursor-pointer p-1");
+      add_location(span, file$3, 54, 4, 1113);
       attr_dev(div1, "class", "flex");
-      add_location(div1, file$3, 48, 2, 824);
-      attr_dev(div2, "class", "flex flex-col border-b border-black mt-5 mb-5 m-2");
+      add_location(div1, file$3, 48, 2, 814);
+      attr_dev(div2, "class", "flex flex-col border-b border-black m-5");
       add_location(div2, file$3, 47, 0, 758);
     },
     m: function mount(target, anchor) {
@@ -3694,22 +3693,22 @@ function create_fragment$2(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "text-black");
-      add_location(span0, file$2, 29, 6, 934);
+      add_location(span0, file$2, 29, 6, 940);
       attr_dev(span1, "class", "celeste-text");
-      add_location(span1, file$2, 30, 6, 976);
+      add_location(span1, file$2, 30, 6, 982);
       attr_dev(h1, "class", "uppercase text-6xl fushia-text mb-3");
-      add_location(h1, file$2, 28, 4, 879);
-      attr_dev(span2, "class", "fushia-bg text-xl text-white p-2 uppercase text-bold");
-      add_location(span2, file$2, 34, 6, 1058);
-      add_location(h2, file$2, 33, 4, 1047);
-      add_location(br, file$2, 37, 69, 1314);
-      attr_dev(p, "class", "text-bold text-lg mt-10 mb-10 uppercase");
-      add_location(p, file$2, 36, 4, 1193);
-      attr_dev(div0, "class", "grid grid-cols-1 md:grid-cols-2");
-      add_location(div0, file$2, 40, 4, 1388);
+      add_location(h1, file$2, 28, 4, 885);
+      attr_dev(span2, "class", "fushia-bg text-white p-2 uppercase text-bold");
+      add_location(span2, file$2, 34, 6, 1064);
+      add_location(h2, file$2, 33, 4, 1053);
+      add_location(br, file$2, 37, 69, 1322);
+      attr_dev(p, "class", "text-bold text-lg mt-10 mb-10 uppercase font-sans");
+      add_location(p, file$2, 36, 4, 1191);
+      attr_dev(div0, "class", "grid grid-cols-1 md:grid-cols-2 mt-10");
+      add_location(div0, file$2, 40, 4, 1396);
       attr_dev(article, "class", "container mx-auto text-center");
-      add_location(article, file$2, 27, 2, 827);
-      attr_dev(div1, "class", "p-20 svelte-fzyaxp");
+      add_location(article, file$2, 27, 2, 833);
+      attr_dev(div1, "class", "p-10 pt-20 svelte-fzyaxp");
       attr_dev(div1, "id", "kit-de-herramientas");
       set_style(div1, "background-image", "url(ideas2.png)");
       add_location(div1, file$2, 26, 0, 740);
@@ -3995,7 +3994,9 @@ function create_fragment$1(ctx) {
         alt: true
       });
       t0 = claim_space(div2_nodes);
-      div1 = claim_element(div2_nodes, "DIV", {});
+      div1 = claim_element(div2_nodes, "DIV", {
+        class: true
+      });
       var div1_nodes = children(div1);
       div0 = claim_element(div1_nodes, "DIV", {
         class: true
@@ -4023,6 +4024,7 @@ function create_fragment$1(ctx) {
       li0 = claim_element(ul_nodes, "LI", {});
       var li0_nodes = children(li0);
       a0 = claim_element(li0_nodes, "A", {
+        class: true,
         href: true
       });
       var a0_nodes = children(a0);
@@ -4033,6 +4035,7 @@ function create_fragment$1(ctx) {
       li1 = claim_element(ul_nodes, "LI", {});
       var li1_nodes = children(li1);
       a1 = claim_element(li1_nodes, "A", {
+        class: true,
         href: true
       });
       var a1_nodes = children(a1);
@@ -4043,6 +4046,7 @@ function create_fragment$1(ctx) {
       li2 = claim_element(ul_nodes, "LI", {});
       var li2_nodes = children(li2);
       a2 = claim_element(li2_nodes, "A", {
+        class: true,
         href: true
       });
       var a2_nodes = children(a2);
@@ -4053,6 +4057,7 @@ function create_fragment$1(ctx) {
       li3 = claim_element(ul_nodes, "LI", {});
       var li3_nodes = children(li3);
       a3 = claim_element(li3_nodes, "A", {
+        class: true,
         href: true
       });
       var a3_nodes = children(a3);
@@ -4063,6 +4068,7 @@ function create_fragment$1(ctx) {
       li4 = claim_element(ul_nodes, "LI", {});
       var li4_nodes = children(li4);
       a4 = claim_element(li4_nodes, "A", {
+        class: true,
         href: true
       });
       var a4_nodes = children(a4);
@@ -4090,45 +4096,51 @@ function create_fragment$1(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img0, "class", "logo svelte-17k7ix7");
+      attr_dev(img0, "class", "logo mt-5 svelte-17k7ix7");
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "corazones y mentes logo");
       add_location(img0, file$1, 15, 6, 270);
       attr_dev(small, "class", "text-xs");
-      add_location(small, file$1, 18, 10, 419);
+      add_location(small, file$1, 18, 10, 437);
       attr_dev(img1, "class", "developers svelte-17k7ix7");
       if (img1.src !== (img1_src_value = "developers2.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "democracya en red, plataforma democratica fundacion fhc centro edelstein");
-      add_location(img1, file$1, 19, 10, 478);
+      add_location(img1, file$1, 19, 10, 496);
       attr_dev(div0, "class", "flex flex-col justify-center ");
-      add_location(div0, file$1, 17, 8, 365);
-      add_location(div1, file$1, 16, 6, 351);
+      add_location(div0, file$1, 17, 8, 383);
+      attr_dev(div1, "class", "mt-5");
+      add_location(div1, file$1, 16, 6, 356);
+      attr_dev(a0, "class", "hover:underline");
       attr_dev(a0, "href", "#home");
-      add_location(a0, file$1, 23, 12, 685);
-      add_location(li0, file$1, 23, 8, 681);
+      add_location(a0, file$1, 23, 12, 733);
+      add_location(li0, file$1, 23, 8, 729);
+      attr_dev(a1, "class", "hover:underline");
       attr_dev(a1, "href", "#toda-la-data");
-      add_location(a1, file$1, 24, 12, 727);
-      add_location(li1, file$1, 24, 8, 723);
+      add_location(a1, file$1, 24, 12, 799);
+      add_location(li1, file$1, 24, 8, 795);
+      attr_dev(a2, "class", "hover:underline");
       attr_dev(a2, "href", "#libro");
-      add_location(a2, file$1, 25, 12, 784);
-      add_location(li2, file$1, 25, 8, 780);
+      add_location(a2, file$1, 25, 12, 880);
+      add_location(li2, file$1, 25, 8, 876);
+      attr_dev(a3, "class", "hover:underline");
       attr_dev(a3, "href", "#foro-docente");
-      add_location(a3, file$1, 26, 12, 828);
-      add_location(li3, file$1, 26, 8, 824);
+      add_location(a3, file$1, 26, 12, 948);
+      add_location(li3, file$1, 26, 8, 944);
+      attr_dev(a4, "class", "hover:underline");
       attr_dev(a4, "href", "#kit-de-herramientas");
-      add_location(a4, file$1, 27, 12, 886);
-      add_location(li4, file$1, 27, 8, 882);
-      attr_dev(ul, "class", "uppercase text-bold");
-      add_location(ul, file$1, 22, 6, 640);
+      add_location(a4, file$1, 27, 12, 1030);
+      add_location(li4, file$1, 27, 8, 1026);
+      attr_dev(ul, "class", "uppercase text-bold mt-5 text-left sm:text-center");
+      add_location(ul, file$1, 22, 6, 658);
       attr_dev(div2, "class", "grid md:grid-cols-3 grid-cols-1 gap-4 ");
       add_location(div2, file$1, 14, 4, 211);
       attr_dev(div3, "class", "container mx-auto fot justify-center align-center flex svelte-17k7ix7");
       add_location(div3, file$1, 13, 2, 138);
       attr_dev(a5, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
       attr_dev(a5, "target", "_blank");
-      add_location(a5, file$1, 32, 4, 1085);
-      attr_dev(p, "class", "text-center text-xs text-bold");
-      add_location(p, file$1, 31, 2, 980);
+      add_location(a5, file$1, 32, 4, 1259);
+      attr_dev(p, "class", "text-center text-xs text-bold mt-10");
+      add_location(p, file$1, 31, 2, 1148);
       attr_dev(footer, "class", "bg-gray-200 p-10");
       add_location(footer, file$1, 12, 0, 102);
     },

@@ -45,14 +45,14 @@
   }
 </style>
 
-<div class="flex flex-col border-b border-black mt-5 mb-5 m-2">
+<div class="flex flex-col border-b border-black m-5">
   <div class="flex">
     <img src={icon} class="document-icon hidden md:block" alt={type} />
     <div class="flex-grow text-left flex flex-col pb-1">
       <h5 class="text-xs uppercase font-bold font-sans">{type}</h5>
-      <h3 class="uppercase font-bold text-md">{title}</h3>
+      <h3 class="uppercase font-bold text-md text-2xl">{title}</h3>
     </div>
-    <span class="text-right text-xl cursor-pointer p-1" on:click={toggle}>{opened ? "-" : "+"}</span>
+    <span class="text-right text-2xl font-sans cursor-pointer p-1" on:click={toggle}>{opened ? "-" : "+"}</span>
   </div>
   {#if opened}
     <p class="ml-10 text-left font-sans">

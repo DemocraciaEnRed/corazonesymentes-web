@@ -17,19 +17,29 @@
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-1 mt-10">
 			<blockquote 
 				class="tiktok-embed"
+				cite="https://www.tiktok.com/@corazonesymentes/video/6948105586672274694"
+				data-video-id="6948105586672274694" > 
+					<section></section>
+			</blockquote>
+
+			<blockquote 
+				class="tiktok-embed"
+			cite="https://www.tiktok.com/@corazonesymentes/video/6945179190819933446" data-video-id="6945179190819933446" >
+				<section></section>
+			</blockquote>
+			<blockquote 
+				class="tiktok-embed"
 				cite="https://www.tiktok.com/@corazonesymentes/video/6943423751316983045"
 				data-video-id="6943423751316983045"> 
 					<section></section>
 			</blockquote>
-			<script async src="https://www.tiktok.com/embed.js"></script>
-	
+			
 			<blockquote class="tiktok-embed" 
 				cite="https://www.tiktok.com/@corazonesymentes/video/6943419461844094213" 
 				data-video-id="6943419461844094213"> 
 				<section> 
 				</section>
 			</blockquote>
-			<script async src="https://www.tiktok.com/embed.js"></script>
 			
 			<blockquote 
 				class="tiktok-embed"

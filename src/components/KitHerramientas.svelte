@@ -33,9 +33,9 @@
        Herramientas
     </h1>
     <h2>
-      <span class="fushia-bg text-white p-2 uppercase text-bold">Articulos, podcast, reflexiones, videos y más.</span>
+      <span class="fushia-bg text-lg text-white p-2 uppercase text-bold">Articulos, podcast, reflexiones, videos y más.</span>
     </h2>
-    <p class="text-bold text-lg mt-10 mb-10 uppercase font-sans">
+    <p class="text-bold text-lg mt-5 mb-10 uppercase">
       Te compartimos este recursero con un poco de todo para habitar <br>
       internet de forma segura, responsable y empática.
     </p>

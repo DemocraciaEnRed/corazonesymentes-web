@@ -1,10 +1,10 @@
 <div class="bg-black p-10" id="toda-la-data">
 	<article class="container mx-auto ">
-		<div class="flex items-center justify-items-center mt-10">
+		<div class="flex items-start justify-items-center mt-10">
 			<img width="100" src="excl_globo.png" alt="importante" />
 			<div >
 				<h1 class="fushia-text text-6xl uppercase font-bold">
-					<span class="celeste-text text-3xl">#</span>
+					<span class="celeste-text">#</span>
 					 Toda 
 					<span class="celeste-text">la</span>
 					 data

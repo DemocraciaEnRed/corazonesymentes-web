@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.dfbf2575.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as _createClass, w as listen_dev, x as _slicedToArray, y as set_data_dev, z as validate_each_argument, A as create_component, B as claim_component, C as mount_component, D as transition_in, E as transition_out, F as destroy_component, G as set_style, H as group_outros, I as check_outros, J as destroy_each, K as onMount, L as _typeof, M as assign, N as get_spread_update, O as get_spread_object, P as query_selector_all } from './client.5dc71d07.js';
 
 function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -270,6 +270,21 @@ function create_fragment$7(ctx) {
   var blockquote4;
   var section4;
   var t15;
+  var blockquote5;
+  var section5;
+  var t16;
+  var blockquote6;
+  var section6;
+  var t17;
+  var blockquote7;
+  var section7;
+  var t18;
+  var blockquote8;
+  var section8;
+  var t19;
+  var blockquote9;
+  var section9;
+  var t20;
   var script;
   var script_src_value;
   var block = {
@@ -312,6 +327,21 @@ function create_fragment$7(ctx) {
       blockquote4 = element("blockquote");
       section4 = element("section");
       t15 = space();
+      blockquote5 = element("blockquote");
+      section5 = element("section");
+      t16 = space();
+      blockquote6 = element("blockquote");
+      section6 = element("section");
+      t17 = space();
+      blockquote7 = element("blockquote");
+      section7 = element("section");
+      t18 = space();
+      blockquote8 = element("blockquote");
+      section8 = element("section");
+      t19 = space();
+      blockquote9 = element("blockquote");
+      section9 = element("section");
+      t20 = space();
       script = element("script");
       this.h();
     },
@@ -420,8 +450,7 @@ function create_fragment$7(ctx) {
       });
       var blockquote3_nodes = children(blockquote3);
       section3 = claim_element(blockquote3_nodes, "SECTION", {});
-      var section3_nodes = children(section3);
-      section3_nodes.forEach(detach_dev);
+      children(section3).forEach(detach_dev);
       blockquote3_nodes.forEach(detach_dev);
       t14 = claim_space(div2_nodes);
       blockquote4 = claim_element(div2_nodes, "BLOCKQUOTE", {
@@ -434,6 +463,57 @@ function create_fragment$7(ctx) {
       children(section4).forEach(detach_dev);
       blockquote4_nodes.forEach(detach_dev);
       t15 = claim_space(div2_nodes);
+      blockquote5 = claim_element(div2_nodes, "BLOCKQUOTE", {
+        class: true,
+        cite: true,
+        "data-video-id": true
+      });
+      var blockquote5_nodes = children(blockquote5);
+      section5 = claim_element(blockquote5_nodes, "SECTION", {});
+      children(section5).forEach(detach_dev);
+      blockquote5_nodes.forEach(detach_dev);
+      t16 = claim_space(div2_nodes);
+      blockquote6 = claim_element(div2_nodes, "BLOCKQUOTE", {
+        class: true,
+        cite: true,
+        "data-video-id": true
+      });
+      var blockquote6_nodes = children(blockquote6);
+      section6 = claim_element(blockquote6_nodes, "SECTION", {});
+      children(section6).forEach(detach_dev);
+      blockquote6_nodes.forEach(detach_dev);
+      t17 = claim_space(div2_nodes);
+      blockquote7 = claim_element(div2_nodes, "BLOCKQUOTE", {
+        class: true,
+        cite: true,
+        "data-video-id": true
+      });
+      var blockquote7_nodes = children(blockquote7);
+      section7 = claim_element(blockquote7_nodes, "SECTION", {});
+      children(section7).forEach(detach_dev);
+      blockquote7_nodes.forEach(detach_dev);
+      t18 = claim_space(div2_nodes);
+      blockquote8 = claim_element(div2_nodes, "BLOCKQUOTE", {
+        class: true,
+        cite: true,
+        "data-video-id": true
+      });
+      var blockquote8_nodes = children(blockquote8);
+      section8 = claim_element(blockquote8_nodes, "SECTION", {});
+      var section8_nodes = children(section8);
+      section8_nodes.forEach(detach_dev);
+      blockquote8_nodes.forEach(detach_dev);
+      t19 = claim_space(div2_nodes);
+      blockquote9 = claim_element(div2_nodes, "BLOCKQUOTE", {
+        class: true,
+        cite: true,
+        "data-video-id": true
+      });
+      var blockquote9_nodes = children(blockquote9);
+      section9 = claim_element(blockquote9_nodes, "SECTION", {});
+      children(section9).forEach(detach_dev);
+      blockquote9_nodes.forEach(detach_dev);
+      t20 = claim_space(div2_nodes);
       script = claim_element(div2_nodes, "SCRIPT", {
         async: true,
         src: true
@@ -465,34 +545,59 @@ function create_fragment$7(ctx) {
       add_location(div0, file$7, 4, 3, 208);
       attr_dev(div1, "class", "flex items-start justify-items-center mt-10");
       add_location(div1, file$7, 2, 2, 86);
-      add_location(section0, file$7, 21, 5, 883);
+      add_location(section0, file$7, 21, 5, 882);
       attr_dev(blockquote0, "class", "tiktok-embed");
-      attr_dev(blockquote0, "cite", "https://www.tiktok.com/@corazonesymentes/video/6948105586672274694");
-      attr_dev(blockquote0, "data-video-id", "6948105586672274694");
+      attr_dev(blockquote0, "cite", "https://www.tiktok.com/@corazonesymentes/video/6958468814375881989");
+      attr_dev(blockquote0, "data-video-id", "6958468814375881989");
       add_location(blockquote0, file$7, 17, 3, 719);
-      add_location(section1, file$7, 27, 4, 1081);
+      add_location(section1, file$7, 27, 5, 1085);
       attr_dev(blockquote1, "class", "tiktok-embed");
-      attr_dev(blockquote1, "cite", "https://www.tiktok.com/@corazonesymentes/video/6945179190819933446");
-      attr_dev(blockquote1, "data-video-id", "6945179190819933446");
-      add_location(blockquote1, file$7, 24, 3, 924);
-      add_location(section2, file$7, 33, 5, 1284);
+      attr_dev(blockquote1, "cite", "https://www.tiktok.com/@corazonesymentes/video/6954373530138053893");
+      attr_dev(blockquote1, "data-video-id", "6954373530138053893");
+      add_location(blockquote1, file$7, 23, 3, 922);
+      add_location(section2, file$7, 33, 5, 1289);
       attr_dev(blockquote2, "class", "tiktok-embed");
-      attr_dev(blockquote2, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943423751316983045");
-      attr_dev(blockquote2, "data-video-id", "6943423751316983045");
-      add_location(blockquote2, file$7, 29, 3, 1121);
-      add_location(section3, file$7, 39, 4, 1487);
+      attr_dev(blockquote2, "cite", "https://www.tiktok.com/@corazonesymentes/video/6953286503363579142");
+      attr_dev(blockquote2, "data-video-id", "6953286503363579142");
+      add_location(blockquote2, file$7, 29, 3, 1125);
+      add_location(section3, file$7, 39, 5, 1493);
       attr_dev(blockquote3, "class", "tiktok-embed");
-      attr_dev(blockquote3, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943419461844094213");
-      attr_dev(blockquote3, "data-video-id", "6943419461844094213");
-      add_location(blockquote3, file$7, 36, 3, 1328);
-      add_location(section4, file$7, 47, 5, 1701);
+      attr_dev(blockquote3, "cite", "https://www.tiktok.com/@corazonesymentes/video/6951784224907152645");
+      attr_dev(blockquote3, "data-video-id", "6951784224907152645");
+      add_location(blockquote3, file$7, 35, 3, 1329);
+      add_location(section4, file$7, 45, 5, 1697);
       attr_dev(blockquote4, "class", "tiktok-embed");
-      attr_dev(blockquote4, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943253691826801925");
-      attr_dev(blockquote4, "data-video-id", "6943253691826801925");
-      add_location(blockquote4, file$7, 43, 3, 1537);
+      attr_dev(blockquote4, "cite", "https://www.tiktok.com/@corazonesymentes/video/6950673518027705606");
+      attr_dev(blockquote4, "data-video-id", "6950673518027705606");
+      add_location(blockquote4, file$7, 41, 3, 1533);
+      add_location(section5, file$7, 51, 5, 1901);
+      attr_dev(blockquote5, "class", "tiktok-embed");
+      attr_dev(blockquote5, "cite", "https://www.tiktok.com/@corazonesymentes/video/6948105586672274694");
+      attr_dev(blockquote5, "data-video-id", "6948105586672274694");
+      add_location(blockquote5, file$7, 47, 3, 1737);
+      add_location(section6, file$7, 56, 4, 2098);
+      attr_dev(blockquote6, "class", "tiktok-embed");
+      attr_dev(blockquote6, "cite", "https://www.tiktok.com/@corazonesymentes/video/6945179190819933446");
+      attr_dev(blockquote6, "data-video-id", "6945179190819933446");
+      add_location(blockquote6, file$7, 53, 3, 1941);
+      add_location(section7, file$7, 62, 5, 2301);
+      attr_dev(blockquote7, "class", "tiktok-embed");
+      attr_dev(blockquote7, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943423751316983045");
+      attr_dev(blockquote7, "data-video-id", "6943423751316983045");
+      add_location(blockquote7, file$7, 58, 3, 2138);
+      add_location(section8, file$7, 67, 4, 2500);
+      attr_dev(blockquote8, "class", "tiktok-embed");
+      attr_dev(blockquote8, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943419461844094213");
+      attr_dev(blockquote8, "data-video-id", "6943419461844094213");
+      add_location(blockquote8, file$7, 64, 3, 2341);
+      add_location(section9, file$7, 74, 5, 2710);
+      attr_dev(blockquote9, "class", "tiktok-embed");
+      attr_dev(blockquote9, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943253691826801925");
+      attr_dev(blockquote9, "data-video-id", "6943253691826801925");
+      add_location(blockquote9, file$7, 70, 3, 2546);
       script.async = true;
       if (script.src !== (script_src_value = "https://www.tiktok.com/embed.js")) attr_dev(script, "src", script_src_value);
-      add_location(script, file$7, 49, 3, 1741);
+      add_location(script, file$7, 76, 3, 2750);
       attr_dev(div2, "class", "grid grid-cols-1 md:grid-cols-3 gap-1 mt-10");
       add_location(div2, file$7, 16, 2, 658);
       attr_dev(article, "class", "container mx-auto ");
@@ -540,6 +645,21 @@ function create_fragment$7(ctx) {
       append_dev(div2, blockquote4);
       append_dev(blockquote4, section4);
       append_dev(div2, t15);
+      append_dev(div2, blockquote5);
+      append_dev(blockquote5, section5);
+      append_dev(div2, t16);
+      append_dev(div2, blockquote6);
+      append_dev(blockquote6, section6);
+      append_dev(div2, t17);
+      append_dev(div2, blockquote7);
+      append_dev(blockquote7, section7);
+      append_dev(div2, t18);
+      append_dev(div2, blockquote8);
+      append_dev(blockquote8, section8);
+      append_dev(div2, t19);
+      append_dev(div2, blockquote9);
+      append_dev(blockquote9, section9);
+      append_dev(div2, t20);
       append_dev(div2, script);
     },
     p: noop,

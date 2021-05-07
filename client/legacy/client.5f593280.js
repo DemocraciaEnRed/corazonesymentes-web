@@ -917,6 +917,10 @@ function _isNativeReflectConstruct$4() { if (typeof Reflect === "undefined" || !
 
 function noop() {}
 
+var identity = function identity(x) {
+  return x;
+};
+
 function assign(tar, src) {
   // @ts-ignore
   for (var k in src) {
@@ -1004,6 +1008,49 @@ function update_slot(slot, slot_definition, ctx, $$scope, dirty, get_slot_change
     var slot_context = get_slot_context(slot_definition, ctx, $$scope, get_slot_context_fn);
     slot.p(slot_context, slot_changes);
   }
+}
+
+var is_client = typeof window !== 'undefined';
+var now = is_client ? function () {
+  return window.performance.now();
+} : function () {
+  return Date.now();
+};
+var raf = is_client ? function (cb) {
+  return requestAnimationFrame(cb);
+} : noop; // used internally for testing
+
+var tasks = new Set();
+
+function run_tasks(now) {
+  tasks.forEach(function (task) {
+    if (!task.c(now)) {
+      tasks.delete(task);
+      task.f();
+    }
+  });
+  if (tasks.size !== 0) raf(run_tasks);
+}
+/**
+ * Creates a new task that runs on each raf frame
+ * until it returns a falsy value or is aborted
+ */
+
+
+function loop(callback) {
+  var task;
+  if (tasks.size === 0) raf(run_tasks);
+  return {
+    promise: new Promise(function (fulfill) {
+      tasks.add(task = {
+        c: callback,
+        f: fulfill
+      });
+    }),
+    abort: function abort() {
+      tasks.delete(task);
+    }
+  };
 }
 
 function append(target, node) {
@@ -1118,6 +1165,83 @@ function query_selector_all(selector) {
   return Array.from(parent.querySelectorAll(selector));
 }
 
+var active_docs = new Set();
+var active = 0; // https://github.com/darkskyapp/string-hash/blob/master/index.js
+
+function hash(str) {
+  var hash = 5381;
+  var i = str.length;
+
+  while (i--) {
+    hash = (hash << 5) - hash ^ str.charCodeAt(i);
+  }
+
+  return hash >>> 0;
+}
+
+function create_rule(node, a, b, duration, delay, ease, fn) {
+  var uid = arguments.length > 7 && arguments[7] !== undefined ? arguments[7] : 0;
+  var step = 16.666 / duration;
+  var keyframes = '{\n';
+
+  for (var p = 0; p <= 1; p += step) {
+    var t = a + (b - a) * ease(p);
+    keyframes += p * 100 + "%{".concat(fn(t, 1 - t), "}\n");
+  }
+
+  var rule = keyframes + "100% {".concat(fn(b, 1 - b), "}\n}");
+  var name = "__svelte_".concat(hash(rule), "_").concat(uid);
+  var doc = node.ownerDocument;
+  active_docs.add(doc);
+  var stylesheet = doc.__svelte_stylesheet || (doc.__svelte_stylesheet = doc.head.appendChild(element('style')).sheet);
+  var current_rules = doc.__svelte_rules || (doc.__svelte_rules = {});
+
+  if (!current_rules[name]) {
+    current_rules[name] = true;
+    stylesheet.insertRule("@keyframes ".concat(name, " ").concat(rule), stylesheet.cssRules.length);
+  }
+
+  var animation = node.style.animation || '';
+  node.style.animation = "".concat(animation ? "".concat(animation, ", ") : '').concat(name, " ").concat(duration, "ms linear ").concat(delay, "ms 1 both");
+  active += 1;
+  return name;
+}
+
+function delete_rule(node, name) {
+  var previous = (node.style.animation || '').split(', ');
+  var next = previous.filter(name ? function (anim) {
+    return anim.indexOf(name) < 0;
+  } // remove specific animation
+  : function (anim) {
+    return anim.indexOf('__svelte') === -1;
+  } // remove all Svelte animations
+  );
+  var deleted = previous.length - next.length;
+
+  if (deleted) {
+    node.style.animation = next.join(', ');
+    active -= deleted;
+    if (!active) clear_rules();
+  }
+}
+
+function clear_rules() {
+  raf(function () {
+    if (active) return;
+    active_docs.forEach(function (doc) {
+      var stylesheet = doc.__svelte_stylesheet;
+      var i = stylesheet.cssRules.length;
+
+      while (i--) {
+        stylesheet.deleteRule(i);
+      }
+
+      doc.__svelte_rules = {};
+    });
+    active_docs.clear();
+  });
+}
+
 var current_component;
 
 function set_current_component(component) {
@@ -1218,6 +1342,23 @@ function update($$) {
   }
 }
 
+var promise;
+
+function wait() {
+  if (!promise) {
+    promise = Promise.resolve();
+    promise.then(function () {
+      promise = null;
+    });
+  }
+
+  return promise;
+}
+
+function dispatch(node, direction, kind) {
+  node.dispatchEvent(custom_event("".concat(direction ? 'intro' : 'outro').concat(kind)));
+}
+
 var outroing = new Set();
 var outros;
 
@@ -1259,6 +1400,133 @@ function transition_out(block, local, detach, callback) {
     });
     block.o(local);
   }
+}
+
+var null_transition = {
+  duration: 0
+};
+
+function create_bidirectional_transition(node, fn, params, intro) {
+  var config = fn(node, params);
+  var t = intro ? 0 : 1;
+  var running_program = null;
+  var pending_program = null;
+  var animation_name = null;
+
+  function clear_animation() {
+    if (animation_name) delete_rule(node, animation_name);
+  }
+
+  function init(program, duration) {
+    var d = program.b - t;
+    duration *= Math.abs(d);
+    return {
+      a: t,
+      b: program.b,
+      d: d,
+      duration: duration,
+      start: program.start,
+      end: program.start + duration,
+      group: program.group
+    };
+  }
+
+  function go(b) {
+    var _ref3 = config || null_transition,
+        _ref3$delay = _ref3.delay,
+        delay = _ref3$delay === void 0 ? 0 : _ref3$delay,
+        _ref3$duration = _ref3.duration,
+        duration = _ref3$duration === void 0 ? 300 : _ref3$duration,
+        _ref3$easing = _ref3.easing,
+        easing = _ref3$easing === void 0 ? identity : _ref3$easing,
+        _ref3$tick = _ref3.tick,
+        tick = _ref3$tick === void 0 ? noop : _ref3$tick,
+        css = _ref3.css;
+
+    var program = {
+      start: now() + delay,
+      b: b
+    };
+
+    if (!b) {
+      // @ts-ignore todo: improve typings
+      program.group = outros;
+      outros.r += 1;
+    }
+
+    if (running_program || pending_program) {
+      pending_program = program;
+    } else {
+      // if this is an intro, and there's a delay, we need to do
+      // an initial tick and/or apply CSS animation immediately
+      if (css) {
+        clear_animation();
+        animation_name = create_rule(node, t, b, duration, delay, easing, css);
+      }
+
+      if (b) tick(0, 1);
+      running_program = init(program, duration);
+      add_render_callback(function () {
+        return dispatch(node, b, 'start');
+      });
+      loop(function (now) {
+        if (pending_program && now > pending_program.start) {
+          running_program = init(pending_program, duration);
+          pending_program = null;
+          dispatch(node, running_program.b, 'start');
+
+          if (css) {
+            clear_animation();
+            animation_name = create_rule(node, t, running_program.b, running_program.duration, 0, easing, config.css);
+          }
+        }
+
+        if (running_program) {
+          if (now >= running_program.end) {
+            tick(t = running_program.b, 1 - t);
+            dispatch(node, running_program.b, 'end');
+
+            if (!pending_program) {
+              // we're done
+              if (running_program.b) {
+                // intro — we can tidy up immediately
+                clear_animation();
+              } else {
+                // outro — needs to be coordinated
+                if (! --running_program.group.r) run_all(running_program.group.c);
+              }
+            }
+
+            running_program = null;
+          } else if (now >= running_program.start) {
+            var p = now - running_program.start;
+            t = running_program.a + running_program.d * easing(p / running_program.duration);
+            tick(t, 1 - t);
+          }
+        }
+
+        return !!(running_program || pending_program);
+      });
+    }
+  }
+
+  return {
+    run: function run(b) {
+      if (is_function(config)) {
+        wait().then(function () {
+          // @ts-ignore
+          config = config();
+          go(b);
+        });
+      } else {
+        go(b);
+      }
+    },
+    end: function end() {
+      clear_animation();
+      running_program = pending_program = null;
+    }
+  };
 }
 
 var globals = typeof window !== 'undefined' ? window : typeof globalThis !== 'undefined' ? globalThis : global;
@@ -3317,7 +3585,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.f472d879.js'), __inject_styles(["client-53f58bb9.css","index-ef74a48f.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.270dac30.js'), __inject_styles(["client-53f58bb9.css","index-db1e8b68.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{
@@ -4235,6 +4503,6 @@ start$1({
     target: document.querySelector('#sapper'),
 });
 
-export { create_component as A, claim_component as B, mount_component as C, transition_in as D, transition_out as E, destroy_component as F, set_style as G, group_outros as H, check_outros as I, destroy_each as J, onMount as K, _typeof as L, assign as M, get_spread_update as N, get_spread_object as O, query_selector_all as P, SvelteComponentDev as S, _inherits as _, _getPrototypeOf as a, _possibleConstructorReturn as b, _classCallCheck as c, _assertThisInitialized as d, dispatch_dev as e, element as f, space as g, claim_element as h, init$1 as i, children as j, claim_space as k, claim_text as l, detach_dev as m, attr_dev as n, add_location as o, insert_dev as p, append_dev as q, noop as r, safe_not_equal as s, text as t, _createClass as u, validate_slots as v, listen_dev as w, _slicedToArray as x, set_data_dev as y, validate_each_argument as z };
+export { _createClass as A, set_data_dev as B, validate_each_argument as C, create_component as D, claim_component as E, mount_component as F, transition_in as G, transition_out as H, destroy_component as I, set_style as J, group_outros as K, check_outros as L, destroy_each as M, onMount as N, _typeof as O, assign as P, get_spread_update as Q, get_spread_object as R, SvelteComponentDev as S, query_selector_all as T, _inherits as _, _getPrototypeOf as a, _possibleConstructorReturn as b, _classCallCheck as c, _assertThisInitialized as d, dispatch_dev as e, element as f, space as g, claim_element as h, init$1 as i, children as j, claim_space as k, claim_text as l, detach_dev as m, attr_dev as n, add_location as o, insert_dev as p, append_dev as q, noop as r, safe_not_equal as s, text as t, identity as u, validate_slots as v, listen_dev as w, _slicedToArray as x, add_render_callback as y, create_bidirectional_transition as z };
 
 import __inject_styles from './inject_styles.fe622066.js';

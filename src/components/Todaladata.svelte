@@ -1,3 +1,13 @@
+<script>
+	import { fade } from "svelte/transition";
+	let showAll = false;
+</script>
+<style>
+	#show-all-tik{
+		 background-color: white;
+		 padding: 5px 20px;
+	}
+</style>
 <div class="bg-black p-10" id="toda-la-data">
 	<article class="container mx-auto ">
 		<div class="flex items-start justify-items-center mt-10">
@@ -27,12 +37,22 @@
 				data-video-id="6954373530138053893"> 
 					<section></section>
 			</blockquote>
+			
 			<blockquote 
 				class="tiktok-embed"
 				cite="https://www.tiktok.com/@corazonesymentes/video/6953286503363579142"
 				data-video-id="6953286503363579142" > 
 					<section></section>
 			</blockquote>
+		</div>
+		{#if !showAll}
+		<div class="text-center">
+			<button id="show-all-tik" on:click={() => showAll = true}>
+				Ver mas >>
+			</button>
+		</div>
+		{/if}
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-1 mt-10 {!showAll ? 'hidden' : ''}" transition:fade={{ delay: 50, duration: 300 }} >
 			<blockquote 
 				class="tiktok-embed"
 				cite="https://www.tiktok.com/@corazonesymentes/video/6951784224907152645"
@@ -53,7 +73,8 @@
 			</blockquote>
 			<blockquote 
 				class="tiktok-embed"
-			cite="https://www.tiktok.com/@corazonesymentes/video/6945179190819933446" data-video-id="6945179190819933446" >
+				cite="https://www.tiktok.com/@corazonesymentes/video/6945179190819933446" 
+				data-video-id="6945179190819933446" >
 				<section></section>
 			</blockquote>
 			<blockquote 
@@ -62,7 +83,8 @@
 				data-video-id="6943423751316983045"> 
 					<section></section>
 			</blockquote>
-			<blockquote class="tiktok-embed" 
+			<blockquote 
+				class="tiktok-embed" 
 				cite="https://www.tiktok.com/@corazonesymentes/video/6943419461844094213" 
 				data-video-id="6943419461844094213"> 
 				<section> 
@@ -74,7 +96,7 @@
 				data-video-id="6943253691826801925"> 
 					<section></section>
 			</blockquote>
-			<script async src="https://www.tiktok.com/embed.js"></script>
 		</div>
+		<script async src="https://www.tiktok.com/embed.js"></script>
 	</article>
 </div>	

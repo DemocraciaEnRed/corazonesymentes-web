@@ -5,7 +5,7 @@
 		top: -56px;
 	}
 </style>
-<div class="container mx-auto p-20" id="home">
+<div class="container mx-auto p-24" id="home">
 	<article class="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex">
 		<img width="300" src="logo-circular.png" alt="Conoce a tu mente para que tu mente no te domine">
 		<div>

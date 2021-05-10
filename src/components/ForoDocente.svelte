@@ -7,9 +7,9 @@ import { onMount } from "svelte";
   }) 
 </script>
 <style>
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     img{
-      width: 100%;
+      display: none;
     }
   }
 </style>
@@ -21,7 +21,7 @@ import { onMount } from "svelte";
           <span class="text-blue-300">FORO</span> DOCENTE
         </h1>
       </div>
-      <img src="dialog.png" alt="icono de dialogo"/>
+      <img src="dialog.png" id="dialog" alt="icono de dialogo"/>
     </div>
     <p class="text-white mt-10 text-xl font-sans">
       Un espacio para intercambiar ideas, sugerir bibliografía,<br>

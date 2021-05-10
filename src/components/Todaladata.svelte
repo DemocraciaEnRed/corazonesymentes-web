@@ -7,20 +7,24 @@
 		 background-color: white;
 		 padding: 5px 20px;
 	}
+	#hashtag{
+		position: relative;
+		top: 11px;
+	}
 </style>
 <div class="bg-black p-10" id="toda-la-data">
 	<article class="container mx-auto ">
 		<div class="flex items-start justify-items-center mt-10">
-			<img width="100" src="excl_globo.png" alt="importante" />
+			<img width="100" src="excl_globo.png" alt="importante" style="min-width: 145px;"/>
 			<div >
 				<h1 class="fushia-text text-6xl uppercase font-bold">
-					<span class="celeste-text">#</span>
+					<span id="hashtag" class="text-7xl  celeste-text">#</span>
 					 Toda 
 					<span class="celeste-text">la</span>
 					 data
 				</h1>
-				<h2 class="fushia-text uppercase font-sans text-xl"> <span class="celeste-text">+ info</span>
-					 para activar una convivencia digital positiva </h2>
+				<h2 class="fushia-text uppercase text-xl"> <span class="celeste-text">+ info</span>
+					para activar una convivencia digital positiva </h2>
 				<p class="celeste-text font-sans">Subí un video y mencionanos en @corazonesymentes </p>
 			</div>
 		</div>

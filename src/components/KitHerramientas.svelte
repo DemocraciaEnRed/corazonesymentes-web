@@ -25,7 +25,7 @@
     background-repeat: no-repeat;
   }
 </style>
-<div class="p-10 pt-20" id="kit-de-herramientas" style="background-image:url(ideas2.png)">
+<div class="p-10 pt-20" id="kit-de-herramientas">
   <article class="container mx-auto text-center">
     <h1 class="uppercase text-6xl fushia-text mb-3">
       <span class="text-black">Kit</span>
@@ -33,7 +33,7 @@
        Herramientas
     </h1>
     <h2>
-      <span class="fushia-bg text-lg text-white p-2 uppercase text-bold">Articulos, podcast, reflexiones, videos y más.</span>
+      <span class="fushia-bg text-2xl tracking-wide text-white p-2 uppercase text-bold">Articulos, podcast, reflexiones, videos y más.</span>
     </h2>
     <p class="text-bold text-lg mt-5 mb-10 uppercase">
       Te compartimos este recursero con un poco de todo para habitar <br>

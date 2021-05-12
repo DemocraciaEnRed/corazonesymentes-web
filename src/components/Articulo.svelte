@@ -9,11 +9,11 @@
 			<div></div>
 		</div>
 		<div>
-			<h3 class="text-4xl mt-10 uppercase font-thin">
+			<h3 class="text-3xl mt-10 uppercase font-thin">
 				<span class="text-white fushia-bg tracking-tighter">
 					<span class="text-black">#</span>internet<span class="text-black">es</span>nuestro</span>
 			</h3>
-			<p class="mt-5 text-xl font-sans">
+			<p class="mt-5 text-2xl font-sans">
 				<span class="bg-white">
 					Escribimos un libro para que podamos <br>
 					contribuir a una nueva convivencia digital positiva y empática. <br>
@@ -22,8 +22,8 @@
 			</p>
 		</div>
 		<a href="/documents/Corazones-y-mentes.pdf" download
-		 	class="flex mt-10 hover:underline" >
-			<img src="cerebri.png" alt="icono de cerebro"/>
+		 	class="flex mt-10 hover:underline text-2xl" >
+			<img width="65" src="cerebri.png"  alt="icono de cerebro"/>
 			<strong class="ml-5">
 				Descargá el libro <br> completo acá
 			</strong>

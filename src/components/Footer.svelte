@@ -3,30 +3,33 @@
     width: 150px;
   }
   .developers{
-    width: 160px;
+    width: 260px;
   }
   .fot{
-    max-width: 800px;
+    max-width: 1200px;
+  }
+  @media only screen and (max-width: 600px) {
+    .fot{
+      flex-direction: column;
+    }
   }
 </style>
-<footer class="bg-gray-200 p-10">
-  <div class="container mx-auto fot justify-center align-center flex">
-    <div class="grid md:grid-cols-3 grid-cols-1 gap-4 ">
+<footer class="bg-gray-200 p-20">
+  <div class="container fot flex justify-between align-center ">
       <img class="logo mt-5" src="logo-circular.png" alt="corazones y mentes logo" />
-      <div class="mt-5">
-        <div class="flex flex-col justify-center ">
+      <div class="mt-10">
+        <div class="flex flex-col justify-center align-center">
           <small class="text-xs">Desarrollado por:</small>
           <img class="developers" src="developers2.png" alt="democracya en red, plataforma democratica fundacion fhc centro edelstein" />
         </div>
       </div>
-      <ul class="uppercase text-bold mt-5 text-left sm:text-center">
+      <ul class="uppercase text-bold mt-5 text-left">
         <li><a class="hover:underline" href="#home">Home</a></li>
         <li><a class="hover:underline" href="#toda-la-data">#todaladata</a></li>
         <li><a class="hover:underline" href="#libro">Libro</a></li>
         <li><a class="hover:underline" href="#foro-docente">foro docente</a></li>
         <li><a class="hover:underline" href="#kit-de-herramientas">kit de herramientas</a></li>
       </ul>
-    </div>
   </div>
   <p class="text-center text-xs text-bold mt-10">Todos los materiales originales están bajo una licencia de 
     <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">Creative Commons Reconocimiento 4.0 Internacional.</a>

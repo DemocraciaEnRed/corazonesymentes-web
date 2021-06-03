@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.1100b83e.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.213cd5b6.js';
 
 function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -4231,81 +4231,88 @@ var file$1 = "src/components/Footer.svelte";
 
 function create_fragment$1(ctx) {
   var footer;
-  var div2;
+  var div3;
   var img0;
   var img0_src_value;
   var t0;
+  var div2;
   var div1;
-  var div0;
   var small;
   var t1;
   var t2;
+  var div0;
   var img1;
   var img1_src_value;
   var t3;
+  var img2;
+  var img2_src_value;
+  var t4;
   var ul;
   var li0;
   var a0;
-  var t4;
   var t5;
+  var t6;
   var li1;
   var a1;
-  var t6;
   var t7;
+  var t8;
   var li2;
   var a2;
-  var t8;
   var t9;
+  var t10;
   var li3;
   var a3;
-  var t10;
   var t11;
+  var t12;
   var li4;
   var a4;
-  var t12;
   var t13;
-  var p;
   var t14;
-  var a5;
+  var p;
   var t15;
+  var a5;
+  var t16;
   var block = {
     c: function create() {
       footer = element("footer");
-      div2 = element("div");
+      div3 = element("div");
       img0 = element("img");
       t0 = space();
+      div2 = element("div");
       div1 = element("div");
-      div0 = element("div");
       small = element("small");
-      t1 = text("Desarrollado por:");
+      t1 = text("Impulsado por:");
       t2 = space();
+      div0 = element("div");
       img1 = element("img");
       t3 = space();
+      img2 = element("img");
+      t4 = space();
       ul = element("ul");
       li0 = element("li");
       a0 = element("a");
-      t4 = text("Home");
-      t5 = space();
+      t5 = text("Home");
+      t6 = space();
       li1 = element("li");
       a1 = element("a");
-      t6 = text("#todaladata");
-      t7 = space();
+      t7 = text("#todaladata");
+      t8 = space();
       li2 = element("li");
       a2 = element("a");
-      t8 = text("Libro");
-      t9 = space();
+      t9 = text("Libro");
+      t10 = space();
       li3 = element("li");
       a3 = element("a");
-      t10 = text("foro docente");
-      t11 = space();
+      t11 = text("foro docente");
+      t12 = space();
       li4 = element("li");
       a4 = element("a");
-      t12 = text("kit de herramientas");
-      t13 = space();
+      t13 = text("kit de herramientas");
+      t14 = space();
       p = element("p");
-      t14 = text("Todos los materiales originales están bajo una licencia de \n    ");
+      t15 = text("Todos los materiales originales están bajo una licencia de \n    ");
       a5 = element("a");
-      t15 = text("Creative Commons Reconocimiento 4.0 Internacional.");
+      t16 = text("Creative Commons Reconocimiento 4.0 Internacional.");
       this.h();
     },
     l: function claim(nodes) {
@@ -4313,40 +4320,49 @@ function create_fragment$1(ctx) {
         class: true
       });
       var footer_nodes = children(footer);
-      div2 = claim_element(footer_nodes, "DIV", {
+      div3 = claim_element(footer_nodes, "DIV", {
         class: true
       });
-      var div2_nodes = children(div2);
-      img0 = claim_element(div2_nodes, "IMG", {
+      var div3_nodes = children(div3);
+      img0 = claim_element(div3_nodes, "IMG", {
         class: true,
         src: true,
         alt: true
       });
-      t0 = claim_space(div2_nodes);
+      t0 = claim_space(div3_nodes);
+      div2 = claim_element(div3_nodes, "DIV", {
+        class: true
+      });
+      var div2_nodes = children(div2);
       div1 = claim_element(div2_nodes, "DIV", {
         class: true
       });
       var div1_nodes = children(div1);
-      div0 = claim_element(div1_nodes, "DIV", {
-        class: true
-      });
-      var div0_nodes = children(div0);
-      small = claim_element(div0_nodes, "SMALL", {
+      small = claim_element(div1_nodes, "SMALL", {
         class: true
       });
       var small_nodes = children(small);
-      t1 = claim_text(small_nodes, "Desarrollado por:");
+      t1 = claim_text(small_nodes, "Impulsado por:");
       small_nodes.forEach(detach_dev);
-      t2 = claim_space(div0_nodes);
+      t2 = claim_space(div1_nodes);
+      div0 = claim_element(div1_nodes, "DIV", {});
+      var div0_nodes = children(div0);
       img1 = claim_element(div0_nodes, "IMG", {
+        class: true,
+        src: true,
+        alt: true
+      });
+      t3 = claim_space(div0_nodes);
+      img2 = claim_element(div0_nodes, "IMG", {
         class: true,
         src: true,
         alt: true
       });
       div0_nodes.forEach(detach_dev);
       div1_nodes.forEach(detach_dev);
-      t3 = claim_space(div2_nodes);
-      ul = claim_element(div2_nodes, "UL", {
+      div2_nodes.forEach(detach_dev);
+      t4 = claim_space(div3_nodes);
+      ul = claim_element(div3_nodes, "UL", {
         class: true
       });
       var ul_nodes = children(ul);
@@ -4357,10 +4373,10 @@ function create_fragment$1(ctx) {
         href: true
       });
       var a0_nodes = children(a0);
-      t4 = claim_text(a0_nodes, "Home");
+      t5 = claim_text(a0_nodes, "Home");
       a0_nodes.forEach(detach_dev);
       li0_nodes.forEach(detach_dev);
-      t5 = claim_space(ul_nodes);
+      t6 = claim_space(ul_nodes);
       li1 = claim_element(ul_nodes, "LI", {});
       var li1_nodes = children(li1);
       a1 = claim_element(li1_nodes, "A", {
@@ -4368,10 +4384,10 @@ function create_fragment$1(ctx) {
         href: true
       });
       var a1_nodes = children(a1);
-      t6 = claim_text(a1_nodes, "#todaladata");
+      t7 = claim_text(a1_nodes, "#todaladata");
       a1_nodes.forEach(detach_dev);
       li1_nodes.forEach(detach_dev);
-      t7 = claim_space(ul_nodes);
+      t8 = claim_space(ul_nodes);
       li2 = claim_element(ul_nodes, "LI", {});
       var li2_nodes = children(li2);
       a2 = claim_element(li2_nodes, "A", {
@@ -4379,10 +4395,10 @@ function create_fragment$1(ctx) {
         href: true
       });
       var a2_nodes = children(a2);
-      t8 = claim_text(a2_nodes, "Libro");
+      t9 = claim_text(a2_nodes, "Libro");
       a2_nodes.forEach(detach_dev);
       li2_nodes.forEach(detach_dev);
-      t9 = claim_space(ul_nodes);
+      t10 = claim_space(ul_nodes);
       li3 = claim_element(ul_nodes, "LI", {});
       var li3_nodes = children(li3);
       a3 = claim_element(li3_nodes, "A", {
@@ -4390,10 +4406,10 @@ function create_fragment$1(ctx) {
         href: true
       });
       var a3_nodes = children(a3);
-      t10 = claim_text(a3_nodes, "foro docente");
+      t11 = claim_text(a3_nodes, "foro docente");
       a3_nodes.forEach(detach_dev);
       li3_nodes.forEach(detach_dev);
-      t11 = claim_space(ul_nodes);
+      t12 = claim_space(ul_nodes);
       li4 = claim_element(ul_nodes, "LI", {});
       var li4_nodes = children(li4);
       a4 = claim_element(li4_nodes, "A", {
@@ -4401,112 +4417,120 @@ function create_fragment$1(ctx) {
         href: true
       });
       var a4_nodes = children(a4);
-      t12 = claim_text(a4_nodes, "kit de herramientas");
+      t13 = claim_text(a4_nodes, "kit de herramientas");
       a4_nodes.forEach(detach_dev);
       li4_nodes.forEach(detach_dev);
       ul_nodes.forEach(detach_dev);
-      div2_nodes.forEach(detach_dev);
-      t13 = claim_space(footer_nodes);
+      div3_nodes.forEach(detach_dev);
+      t14 = claim_space(footer_nodes);
       p = claim_element(footer_nodes, "P", {
         class: true
       });
       var p_nodes = children(p);
-      t14 = claim_text(p_nodes, "Todos los materiales originales están bajo una licencia de \n    ");
+      t15 = claim_text(p_nodes, "Todos los materiales originales están bajo una licencia de \n    ");
       a5 = claim_element(p_nodes, "A", {
         href: true,
         target: true
       });
       var a5_nodes = children(a5);
-      t15 = claim_text(a5_nodes, "Creative Commons Reconocimiento 4.0 Internacional.");
+      t16 = claim_text(a5_nodes, "Creative Commons Reconocimiento 4.0 Internacional.");
       a5_nodes.forEach(detach_dev);
       p_nodes.forEach(detach_dev);
       footer_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img0, "class", "logo mt-5 svelte-1vw2p6p");
+      attr_dev(img0, "class", "logo mt-5 svelte-y0wl1s");
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "corazones y mentes logo");
-      add_location(img0, file$1, 20, 6, 295);
+      add_location(img0, file$1, 26, 6, 350);
       attr_dev(small, "class", "text-xs");
-      add_location(small, file$1, 23, 10, 475);
-      attr_dev(img1, "class", "developers svelte-1vw2p6p");
+      add_location(small, file$1, 29, 10, 530);
+      attr_dev(img1, "class", "developers svelte-y0wl1s");
       if (img1.src !== (img1_src_value = "developers2.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "democracya en red, plataforma democratica fundacion fhc centro edelstein");
-      add_location(img1, file$1, 24, 10, 534);
-      attr_dev(div0, "class", "flex flex-col justify-center align-center");
-      add_location(div0, file$1, 22, 8, 409);
-      attr_dev(div1, "class", "mt-10");
-      add_location(div1, file$1, 21, 6, 381);
+      add_location(img1, file$1, 31, 12, 604);
+      attr_dev(img2, "class", "minu svelte-y0wl1s");
+      if (img2.src !== (img2_src_value = "minu-logo.png")) attr_dev(img2, "src", img2_src_value);
+      attr_dev(img2, "alt", "Minu asociacion civil");
+      add_location(img2, file$1, 32, 12, 744);
+      add_location(div0, file$1, 30, 10, 586);
+      attr_dev(div1, "class", "flex flex-col justify-center align-center");
+      add_location(div1, file$1, 28, 8, 464);
+      attr_dev(div2, "class", "mt-10");
+      add_location(div2, file$1, 27, 6, 436);
       attr_dev(a0, "class", "hover:underline");
       attr_dev(a0, "href", "#home");
-      add_location(a0, file$1, 28, 12, 756);
-      add_location(li0, file$1, 28, 8, 752);
+      add_location(a0, file$1, 37, 12, 923);
+      add_location(li0, file$1, 37, 8, 919);
       attr_dev(a1, "class", "hover:underline");
       attr_dev(a1, "href", "#toda-la-data");
-      add_location(a1, file$1, 29, 12, 822);
-      add_location(li1, file$1, 29, 8, 818);
+      add_location(a1, file$1, 38, 12, 989);
+      add_location(li1, file$1, 38, 8, 985);
       attr_dev(a2, "class", "hover:underline");
       attr_dev(a2, "href", "#libro");
-      add_location(a2, file$1, 30, 12, 903);
-      add_location(li2, file$1, 30, 8, 899);
+      add_location(a2, file$1, 39, 12, 1070);
+      add_location(li2, file$1, 39, 8, 1066);
       attr_dev(a3, "class", "hover:underline");
       attr_dev(a3, "href", "#foro-docente");
-      add_location(a3, file$1, 31, 12, 971);
-      add_location(li3, file$1, 31, 8, 967);
+      add_location(a3, file$1, 40, 12, 1138);
+      add_location(li3, file$1, 40, 8, 1134);
       attr_dev(a4, "class", "hover:underline");
       attr_dev(a4, "href", "#kit-de-herramientas");
-      add_location(a4, file$1, 32, 12, 1053);
-      add_location(li4, file$1, 32, 8, 1049);
+      add_location(a4, file$1, 41, 12, 1220);
+      add_location(li4, file$1, 41, 8, 1216);
       attr_dev(ul, "class", "uppercase text-bold mt-5 text-left");
-      add_location(ul, file$1, 27, 6, 696);
-      attr_dev(div2, "class", "container fot flex justify-between align-center  svelte-1vw2p6p");
-      add_location(div2, file$1, 19, 2, 226);
+      add_location(ul, file$1, 36, 6, 863);
+      attr_dev(div3, "class", "container fot flex justify-between align-center  svelte-y0wl1s");
+      add_location(div3, file$1, 25, 2, 281);
       attr_dev(a5, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
       attr_dev(a5, "target", "_blank");
-      add_location(a5, file$1, 36, 4, 1271);
+      add_location(a5, file$1, 45, 4, 1438);
       attr_dev(p, "class", "text-center text-xs text-bold mt-10");
-      add_location(p, file$1, 35, 2, 1160);
+      add_location(p, file$1, 44, 2, 1327);
       attr_dev(footer, "class", "bg-gray-200 p-20");
-      add_location(footer, file$1, 18, 0, 190);
+      add_location(footer, file$1, 24, 0, 245);
     },
     m: function mount(target, anchor) {
       insert_dev(target, footer, anchor);
-      append_dev(footer, div2);
-      append_dev(div2, img0);
-      append_dev(div2, t0);
+      append_dev(footer, div3);
+      append_dev(div3, img0);
+      append_dev(div3, t0);
+      append_dev(div3, div2);
       append_dev(div2, div1);
-      append_dev(div1, div0);
-      append_dev(div0, small);
+      append_dev(div1, small);
       append_dev(small, t1);
-      append_dev(div0, t2);
+      append_dev(div1, t2);
+      append_dev(div1, div0);
       append_dev(div0, img1);
-      append_dev(div2, t3);
-      append_dev(div2, ul);
+      append_dev(div0, t3);
+      append_dev(div0, img2);
+      append_dev(div3, t4);
+      append_dev(div3, ul);
       append_dev(ul, li0);
       append_dev(li0, a0);
-      append_dev(a0, t4);
-      append_dev(ul, t5);
+      append_dev(a0, t5);
+      append_dev(ul, t6);
       append_dev(ul, li1);
       append_dev(li1, a1);
-      append_dev(a1, t6);
-      append_dev(ul, t7);
+      append_dev(a1, t7);
+      append_dev(ul, t8);
       append_dev(ul, li2);
       append_dev(li2, a2);
-      append_dev(a2, t8);
-      append_dev(ul, t9);
+      append_dev(a2, t9);
+      append_dev(ul, t10);
       append_dev(ul, li3);
       append_dev(li3, a3);
-      append_dev(a3, t10);
-      append_dev(ul, t11);
+      append_dev(a3, t11);
+      append_dev(ul, t12);
       append_dev(ul, li4);
       append_dev(li4, a4);
-      append_dev(a4, t12);
-      append_dev(footer, t13);
+      append_dev(a4, t13);
+      append_dev(footer, t14);
       append_dev(footer, p);
-      append_dev(p, t14);
+      append_dev(p, t15);
       append_dev(p, a5);
-      append_dev(a5, t15);
+      append_dev(a5, t16);
     },
     p: noop,
     i: noop,

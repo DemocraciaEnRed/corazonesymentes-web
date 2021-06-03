@@ -4,6 +4,11 @@
   }
   .developers{
     width: 260px;
+    float: left;
+  }
+  .minu{
+    float: left;
+    width: 70px;
   }
   .fot{
     max-width: 1200px;
@@ -19,8 +24,11 @@
       <img class="logo mt-5" src="logo-circular.png" alt="corazones y mentes logo" />
       <div class="mt-10">
         <div class="flex flex-col justify-center align-center">
-          <small class="text-xs">Desarrollado por:</small>
-          <img class="developers" src="developers2.png" alt="democracya en red, plataforma democratica fundacion fhc centro edelstein" />
+          <small class="text-xs">Impulsado por:</small>
+          <div>
+            <img class="developers" src="developers2.png" alt="democracya en red, plataforma democratica fundacion fhc centro edelstein" />
+            <img class="minu" src="minu-logo.png" alt="Minu asociacion civil"/>
+          </div>
         </div>
       </div>
       <ul class="uppercase text-bold mt-5 text-left">

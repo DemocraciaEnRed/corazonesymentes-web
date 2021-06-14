@@ -12,6 +12,7 @@
   }
   .fot{
     max-width: 1200px;
+    margin:auto
   }
   @media only screen and (max-width: 600px) {
     .fot{

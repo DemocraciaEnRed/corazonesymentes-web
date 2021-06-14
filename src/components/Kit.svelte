@@ -39,9 +39,10 @@
     margin-right: 15px;
     width: 80px;
     height: 80px;
+    padding:10px
   }
   .download img{
-    width: 20px;
+    width: 30px;
   }
 </style>
 
@@ -59,7 +60,7 @@
       {description}
     </p>
     <a class="download p-2" href={url}>
-      <img class="float-right" src="icons/download.png" alt="descarga">
+      <img class="float-right" src="icons/open-link.png" alt="abrir link">
     </a>
-  {/if}
+  {/if} 
 </div>

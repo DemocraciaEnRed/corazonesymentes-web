@@ -1,9 +1,9 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.213cd5b6.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.edecbc03.js';
 
 function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$8() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$8 = "src/components/Home.svelte";
+var file$8 = "src\\components\\Home.svelte";
 
 function create_fragment$8(ctx) {
   var div1;
@@ -267,7 +267,7 @@ function fade(node) {
 function _createSuper$7(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$7(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$7() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$7 = "src/components/Todaladata.svelte"; // (52:2) {#if !showAll}
+var file$7 = "src\\components\\Todaladata.svelte"; // (52:2) {#if !showAll}
 
 function create_if_block$1(ctx) {
   var div;
@@ -917,7 +917,7 @@ var Todaladata = /*#__PURE__*/function (_SvelteComponentDev) {
 function _createSuper$6(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$6(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$6() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$6 = "src/components/DocumentDownload.svelte";
+var file$6 = "src\\components\\DocumentDownload.svelte";
 
 function create_fragment$6(ctx) {
   var div1;
@@ -1205,7 +1205,7 @@ var documents = [{
 function _createSuper$5(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$5(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$5() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$5 = "src/components/Articulo.svelte";
+var file$5 = "src\\components\\Articulo.svelte";
 
 function get_each_context$1(ctx, list, i) {
   var child_ctx = ctx.slice();
@@ -1669,7 +1669,7 @@ var Articulo = /*#__PURE__*/function (_SvelteComponentDev) {
 function _createSuper$4(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$4(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$4() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$4 = "src/components/ForoDocente.svelte";
+var file$4 = "src\\components\\ForoDocente.svelte";
 
 function create_fragment$4(ctx) {
   var div4;
@@ -3344,7 +3344,7 @@ var axios = axios_1;
 function _createSuper$3(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$3(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$3() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$3 = "src/components/Kit.svelte"; // (57:2) {#if opened}
+var file$3 = "src\\components\\Kit.svelte"; // (58:2) {#if opened}
 
 function create_if_block(ctx) {
   var p;
@@ -3389,16 +3389,16 @@ function create_if_block(ctx) {
     },
     h: function hydrate() {
       attr_dev(p, "class", "ml-10 text-left font-sans");
-      add_location(p, file$3, 57, 4, 1250);
-      attr_dev(img, "class", "float-right svelte-9vwsy3");
-      if (img.src !== (img_src_value = "icons/download.png")) attr_dev(img, "src", img_src_value);
-      attr_dev(img, "alt", "descarga");
-      add_location(img, file$3, 61, 6, 1363);
-      attr_dev(a, "class", "download p-2 svelte-9vwsy3");
+      add_location(p, file$3, 58, 4, 1265);
+      attr_dev(img, "class", "float-right svelte-1f4zug6");
+      if (img.src !== (img_src_value = "icons/open-link.png")) attr_dev(img, "src", img_src_value);
+      attr_dev(img, "alt", "abrir link");
+      add_location(img, file$3, 62, 6, 1378);
+      attr_dev(a, "class", "download p-2 svelte-1f4zug6");
       attr_dev(a, "href",
       /*url*/
       ctx[3]);
-      add_location(a, file$3, 60, 4, 1321);
+      add_location(a, file$3, 61, 4, 1336);
     },
     m: function mount(target, anchor) {
       insert_dev(target, p, anchor);
@@ -3432,7 +3432,7 @@ function create_if_block(ctx) {
     block: block,
     id: create_if_block.name,
     type: "if",
-    source: "(57:2) {#if opened}",
+    source: "(58:2) {#if opened}",
     ctx: ctx
   });
   return block;
@@ -3539,23 +3539,23 @@ function create_fragment$3(ctx) {
       if (img.src !== (img_src_value =
       /*icon*/
       ctx[5])) attr_dev(img, "src", img_src_value);
-      attr_dev(img, "class", "document-icon hidden md:block svelte-9vwsy3");
+      attr_dev(img, "class", "document-icon hidden md:block svelte-1f4zug6");
       attr_dev(img, "alt",
       /*type*/
       ctx[1]);
-      add_location(img, file$3, 49, 4, 837);
+      add_location(img, file$3, 50, 4, 852);
       attr_dev(h5, "class", "text-xs uppercase font-bold font-sans");
-      add_location(h5, file$3, 51, 6, 968);
+      add_location(h5, file$3, 52, 6, 983);
       attr_dev(h3, "class", "uppercase font-bold text-md text-2xl");
-      add_location(h3, file$3, 52, 6, 1036);
+      add_location(h3, file$3, 53, 6, 1051);
       attr_dev(div0, "class", "flex-grow text-left flex flex-col pb-1");
-      add_location(div0, file$3, 50, 4, 909);
+      add_location(div0, file$3, 51, 4, 924);
       attr_dev(span, "class", "text-right text-2xl font-sans cursor-pointer p-1");
-      add_location(span, file$3, 54, 4, 1113);
+      add_location(span, file$3, 55, 4, 1128);
       attr_dev(div1, "class", "flex");
-      add_location(div1, file$3, 48, 2, 814);
+      add_location(div1, file$3, 49, 2, 829);
       attr_dev(div2, "class", "flex flex-col border-b border-black m-5");
-      add_location(div2, file$3, 47, 0, 758);
+      add_location(div2, file$3, 48, 0, 773);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div2, anchor);
@@ -3830,7 +3830,7 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
 function _createSuper$2(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$2(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$2() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$2 = "src/components/KitHerramientas.svelte";
+var file$2 = "src\\components\\KitHerramientas.svelte";
 
 function get_each_context(ctx, list, i) {
   var child_ctx = ctx.slice();
@@ -4227,7 +4227,7 @@ var KitHerramientas = /*#__PURE__*/function (_SvelteComponentDev) {
 function _createSuper$1(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$1(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$1() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$1 = "src/components/Footer.svelte";
+var file$1 = "src\\components\\Footer.svelte";
 
 function create_fragment$1(ctx) {
   var footer;
@@ -4440,56 +4440,56 @@ function create_fragment$1(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img0, "class", "logo mt-5 svelte-y0wl1s");
+      attr_dev(img0, "class", "logo mt-5 svelte-19ymy2v");
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "corazones y mentes logo");
-      add_location(img0, file$1, 26, 6, 350);
+      add_location(img0, file$1, 27, 6, 364);
       attr_dev(small, "class", "text-xs");
-      add_location(small, file$1, 29, 10, 530);
-      attr_dev(img1, "class", "developers svelte-y0wl1s");
+      add_location(small, file$1, 30, 10, 544);
+      attr_dev(img1, "class", "developers svelte-19ymy2v");
       if (img1.src !== (img1_src_value = "developers2.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "democracya en red, plataforma democratica fundacion fhc centro edelstein");
-      add_location(img1, file$1, 31, 12, 604);
-      attr_dev(img2, "class", "minu svelte-y0wl1s");
+      add_location(img1, file$1, 32, 12, 618);
+      attr_dev(img2, "class", "minu svelte-19ymy2v");
       if (img2.src !== (img2_src_value = "minu-logo.png")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Minu asociacion civil");
-      add_location(img2, file$1, 32, 12, 744);
-      add_location(div0, file$1, 30, 10, 586);
+      add_location(img2, file$1, 33, 12, 758);
+      add_location(div0, file$1, 31, 10, 600);
       attr_dev(div1, "class", "flex flex-col justify-center align-center");
-      add_location(div1, file$1, 28, 8, 464);
+      add_location(div1, file$1, 29, 8, 478);
       attr_dev(div2, "class", "mt-10");
-      add_location(div2, file$1, 27, 6, 436);
+      add_location(div2, file$1, 28, 6, 450);
       attr_dev(a0, "class", "hover:underline");
       attr_dev(a0, "href", "#home");
-      add_location(a0, file$1, 37, 12, 923);
-      add_location(li0, file$1, 37, 8, 919);
+      add_location(a0, file$1, 38, 12, 937);
+      add_location(li0, file$1, 38, 8, 933);
       attr_dev(a1, "class", "hover:underline");
       attr_dev(a1, "href", "#toda-la-data");
-      add_location(a1, file$1, 38, 12, 989);
-      add_location(li1, file$1, 38, 8, 985);
+      add_location(a1, file$1, 39, 12, 1003);
+      add_location(li1, file$1, 39, 8, 999);
       attr_dev(a2, "class", "hover:underline");
       attr_dev(a2, "href", "#libro");
-      add_location(a2, file$1, 39, 12, 1070);
-      add_location(li2, file$1, 39, 8, 1066);
+      add_location(a2, file$1, 40, 12, 1084);
+      add_location(li2, file$1, 40, 8, 1080);
       attr_dev(a3, "class", "hover:underline");
       attr_dev(a3, "href", "#foro-docente");
-      add_location(a3, file$1, 40, 12, 1138);
-      add_location(li3, file$1, 40, 8, 1134);
+      add_location(a3, file$1, 41, 12, 1152);
+      add_location(li3, file$1, 41, 8, 1148);
       attr_dev(a4, "class", "hover:underline");
       attr_dev(a4, "href", "#kit-de-herramientas");
-      add_location(a4, file$1, 41, 12, 1220);
-      add_location(li4, file$1, 41, 8, 1216);
+      add_location(a4, file$1, 42, 12, 1234);
+      add_location(li4, file$1, 42, 8, 1230);
       attr_dev(ul, "class", "uppercase text-bold mt-5 text-left");
-      add_location(ul, file$1, 36, 6, 863);
-      attr_dev(div3, "class", "container fot flex justify-between align-center  svelte-y0wl1s");
-      add_location(div3, file$1, 25, 2, 281);
+      add_location(ul, file$1, 37, 6, 877);
+      attr_dev(div3, "class", "container fot flex justify-between align-center  svelte-19ymy2v");
+      add_location(div3, file$1, 26, 2, 295);
       attr_dev(a5, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
       attr_dev(a5, "target", "_blank");
-      add_location(a5, file$1, 45, 4, 1438);
+      add_location(a5, file$1, 46, 4, 1452);
       attr_dev(p, "class", "text-center text-xs text-bold mt-10");
-      add_location(p, file$1, 44, 2, 1327);
+      add_location(p, file$1, 45, 2, 1341);
       attr_dev(footer, "class", "bg-gray-200 p-20");
-      add_location(footer, file$1, 24, 0, 245);
+      add_location(footer, file$1, 25, 0, 259);
     },
     m: function mount(target, anchor) {
       insert_dev(target, footer, anchor);
@@ -4588,7 +4588,7 @@ var Footer = /*#__PURE__*/function (_SvelteComponentDev) {
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file = "src/routes/index.svelte";
+var file = "src\\routes\\index.svelte";
 
 function create_fragment(ctx) {
   var link0;

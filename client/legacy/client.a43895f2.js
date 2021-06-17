@@ -2049,7 +2049,7 @@ function create_fragment$3(ctx) {
       t13 = text("Kit De Herramientas");
       t14 = space();
       a5 = element("a");
-      t15 = text("Quienes Somos");
+      t15 = text("Quiénes Somos");
       t16 = space();
       div8 = element("div");
       div7 = element("div");
@@ -2069,7 +2069,7 @@ function create_fragment$3(ctx) {
       t25 = text("Kit De Heramientas");
       t26 = space();
       a11 = element("a");
-      t27 = text("Quienes Somos");
+      t27 = text("Quiénes Somos");
       this.h();
     },
     l: function claim(nodes) {
@@ -2209,7 +2209,7 @@ function create_fragment$3(ctx) {
         class: true
       });
       var a5_nodes = children(a5);
-      t15 = claim_text(a5_nodes, "Quienes Somos");
+      t15 = claim_text(a5_nodes, "Quiénes Somos");
       a5_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
@@ -2271,7 +2271,7 @@ function create_fragment$3(ctx) {
         class: true
       });
       var a11_nodes = children(a11);
-      t27 = claim_text(a11_nodes, "Quienes Somos");
+      t27 = claim_text(a11_nodes, "Quiénes Somos");
       a11_nodes.forEach(detach_dev);
       div7_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
@@ -3629,7 +3629,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.ce768e51.js'), __inject_styles(["client-53f58bb9.css","index-d8c22e3d.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.6002aaea.js'), __inject_styles(["client-53f58bb9.css","index-d8c22e3d.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

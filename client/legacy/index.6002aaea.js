@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.5e379be9.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.a43895f2.js';
 
 function _createSuper$a(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$a(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -4324,7 +4324,7 @@ function create_fragment$3(ctx) {
       t0 = space();
       h1 = element("h1");
       span1 = element("span");
-      t1 = text("Quienes");
+      t1 = text("Quiénes");
       span0 = element("span");
       t2 = text("somos");
       t3 = space();
@@ -4394,7 +4394,7 @@ function create_fragment$3(ctx) {
       img8 = element("img");
       t33 = space();
       style = element("style");
-      t34 = text("section.quienes-somos-section{\n  background-color: #AEDCEA;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\n.quienes-somos-container{\n  max-width:980px;\n  margin:auto\n}\n\n.quienes-somos-container .logo-corazones-mentes{\n  width:500px\n}\n\n.plataforma-democratica-container a{\n  font-size:20px\n}\n\n.logos-container{\n  display:flex\n}\n\n.logos-container a img{\n  height:30px;\n}\n\n.logos-container a{\n  margin:10px\n}\n\n.quienes-somos-container h1 {\n  font-family: Staatliches;\n  line-height: 48px;\n  font-size:56px;\n  text-transform: uppercase;\n  color: #FFFFFF;\n  padding-top:60px;\n}\n\n.quienes-somos-container h2{\n  font-family: Staatliches;\n  font-size: 30px;\n  line-height: 32px;\n  color: #000000;\n  padding:80px 0 15px 0\n}\n\n.quienes-somos-container p{\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  color: #000000;\n  padding-bottom:20px\n}\n\n.democracia-en-red-container{\n  font-family: Staatliches;\n  font-size: 30px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 32px;\n  letter-spacing: 0em;\n  text-align: left;\n}");
+      t34 = text("section.quienes-somos-section{\n  background-color: #AEDCEA;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\n.quienes-somos-container{\n  max-width:980px;\n  margin:auto\n}\n\n.quienes-somos-container .logo-corazones-mentes{\n  width:500px\n}\n\n.plataforma-democratica-container a{\n  font-size:20px\n}\n\n.logos-container{\n  display:flex\n}\n\n.logos-container a img{\n  height:30px;\n}\n\n.logos-container a{\n  margin:10px\n}\n\n.quienes-somos-container h1 {\n  font-family: Staatliches;\n  line-height: 48px;\n  font-size:48px;\n  text-transform: uppercase;\n  color: #FFFFFF;\n  padding-top:60px;\n}\n\n.quienes-somos-container h2{\n  font-family: Staatliches;\n  font-size: 25px;\n  line-height: 32px;\n  color: #000000;\n  padding:80px 0 15px 0\n}\n\n.quienes-somos-container p{\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  color: #000000;\n  padding-bottom:20px\n}\n\n.democracia-en-red-container{\n  font-family: Staatliches;\n  font-size: 30px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 32px;\n  letter-spacing: 0em;\n  text-align: left;\n}");
       this.h();
     },
     l: function claim(nodes) {
@@ -4419,7 +4419,7 @@ function create_fragment$3(ctx) {
         class: true
       });
       var span1_nodes = children(span1);
-      t1 = claim_text(span1_nodes, "Quienes");
+      t1 = claim_text(span1_nodes, "Quiénes");
       span0 = claim_element(span1_nodes, "SPAN", {
         class: true
       });
@@ -4618,7 +4618,7 @@ function create_fragment$3(ctx) {
       t33 = claim_space(section_nodes);
       style = claim_element(section_nodes, "STYLE", {});
       var style_nodes = children(style);
-      t34 = claim_text(style_nodes, "section.quienes-somos-section{\n  background-color: #AEDCEA;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\n.quienes-somos-container{\n  max-width:980px;\n  margin:auto\n}\n\n.quienes-somos-container .logo-corazones-mentes{\n  width:500px\n}\n\n.plataforma-democratica-container a{\n  font-size:20px\n}\n\n.logos-container{\n  display:flex\n}\n\n.logos-container a img{\n  height:30px;\n}\n\n.logos-container a{\n  margin:10px\n}\n\n.quienes-somos-container h1 {\n  font-family: Staatliches;\n  line-height: 48px;\n  font-size:56px;\n  text-transform: uppercase;\n  color: #FFFFFF;\n  padding-top:60px;\n}\n\n.quienes-somos-container h2{\n  font-family: Staatliches;\n  font-size: 30px;\n  line-height: 32px;\n  color: #000000;\n  padding:80px 0 15px 0\n}\n\n.quienes-somos-container p{\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  color: #000000;\n  padding-bottom:20px\n}\n\n.democracia-en-red-container{\n  font-family: Staatliches;\n  font-size: 30px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 32px;\n  letter-spacing: 0em;\n  text-align: left;\n}");
+      t34 = claim_text(style_nodes, "section.quienes-somos-section{\n  background-color: #AEDCEA;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\n.quienes-somos-container{\n  max-width:980px;\n  margin:auto\n}\n\n.quienes-somos-container .logo-corazones-mentes{\n  width:500px\n}\n\n.plataforma-democratica-container a{\n  font-size:20px\n}\n\n.logos-container{\n  display:flex\n}\n\n.logos-container a img{\n  height:30px;\n}\n\n.logos-container a{\n  margin:10px\n}\n\n.quienes-somos-container h1 {\n  font-family: Staatliches;\n  line-height: 48px;\n  font-size:48px;\n  text-transform: uppercase;\n  color: #FFFFFF;\n  padding-top:60px;\n}\n\n.quienes-somos-container h2{\n  font-family: Staatliches;\n  font-size: 25px;\n  line-height: 32px;\n  color: #000000;\n  padding:80px 0 15px 0\n}\n\n.quienes-somos-container p{\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  color: #000000;\n  padding-bottom:20px\n}\n\n.democracia-en-red-container{\n  font-family: Staatliches;\n  font-size: 30px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 32px;\n  letter-spacing: 0em;\n  text-align: left;\n}");
       style_nodes.forEach(detach_dev);
       section_nodes.forEach(detach_dev);
       this.h();
@@ -5229,7 +5229,7 @@ function create_fragment$1(ctx) {
       t14 = space();
       li5 = element("li");
       a5 = element("a");
-      t15 = text("Quienes Somos");
+      t15 = text("Quiénes Somos");
       t16 = space();
       p = element("p");
       t17 = text("Todos los materiales originales están bajo una licencia de \n    ");
@@ -5350,7 +5350,7 @@ function create_fragment$1(ctx) {
         href: true
       });
       var a5_nodes = children(a5);
-      t15 = claim_text(a5_nodes, "Quienes Somos");
+      t15 = claim_text(a5_nodes, "Quiénes Somos");
       a5_nodes.forEach(detach_dev);
       li5_nodes.forEach(detach_dev);
       ul_nodes.forEach(detach_dev);

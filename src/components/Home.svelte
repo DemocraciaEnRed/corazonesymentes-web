@@ -4,6 +4,11 @@
 		position: relative;
 		top: -56px;
 	}
+	@media (max-width:480px){
+		#home.container{
+			padding:3rem;
+		}
+	}
 </style>
 <div class="container mx-auto p-24" id="home">
 	<article class="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex">

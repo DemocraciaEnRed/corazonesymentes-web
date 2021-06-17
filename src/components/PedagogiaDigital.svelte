@@ -1,7 +1,7 @@
 <section class="pedagogias-digitales-section">
     <div class="pedagogias-digitales-container">
         <div class="title-container">
-            <img src="" alt="">
+            <img class="thumbs-up" src="thumbs-up.svg" alt="pulgar en alto">
             <h1>
                 <span class="text-blue-300">¿por qué nos interesa</span>
             <br>
@@ -23,6 +23,19 @@
         .pedagogias-digitales-section{
             background-color:#000;
             padding:100px 0;
+            padding-left:2.5em;
+            padding-right:2.5em;
+        }
+
+        img.thumbs-up{
+            filter: invert(58%) sepia(45%) saturate(4209%) hue-rotate(219deg) brightness(96%) contrast(110%);
+            width:100px;
+            margin-right:10px;
+        }
+
+        .title-container{
+            display:flex;
+            align-items:flex-start;
         }
 
         .pedagogias-digitales-container h1{
@@ -55,6 +68,17 @@
             font-size: 20px;
             line-height: 32px;
             padding-bottom:20px
+        }
+
+        @media (max-width:480px){
+            
+            .title-container{
+                flex-direction:column
+            }
+            img.thumbs-up{
+                margin-bottom:10px
+            }
+
         }
     </style>
 

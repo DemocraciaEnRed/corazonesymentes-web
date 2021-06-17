@@ -1,4 +1,4 @@
-<section class="quienes-somos-section">
+<section class="quienes-somos-section" id="quienes-somos">
     <div class="quienes-somos-container">
         
         <img class="logo-corazones-mentes" src="logo-horizontal.png" alt="Logo de Mentes y Corazones">
@@ -9,8 +9,15 @@
             <h2> <span class=" bg-white">DEMOCRACIA EN RED</span></h2>
             <p>Trabajamos en el cruce entre la política y la tecnología digital. Elaboramos estrategias para instituciones públicas y/o movimientos activistas.</p>
             <p>Desde hace 7 años, diseñamos e implementamos herramientas digitales para que la ciudadanía tenga incidencia en la toma de decisiones. Creamos soluciones de participación ciudadana para fortalecer la democracia.</p>
+
             <div class="logos-container">
-    
+                <a href="https://www.facebook.com/democraciaenred/" target="_blank"><img src="social-media-icons/facebook.svg" alt="Logo de facebook"/> </a>                
+                <a href="https://twitter.com/fundacionDER" target="_blank"> <img src="social-media-icons/twitter.svg" alt="Logo de twitter"/> </a>               
+                <a href="https://www.instagram.com/democraciaenred/" target="_blank"> <img src="social-media-icons/instagram.svg" alt="Logo de instagram"/></a>                
+                <a href="https://www.linkedin.com/in/democraciaenred/" target="_blank"> <img src="social-media-icons/linkedin.svg" alt="Logo de linkedin"/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCm5n0zxmfWN0pMuMPxk7psw" target="_blank"> <img src="social-media-icons/youtube.svg" alt="Logo de youtube"/></a> 
+
             </div>
     
         </div>
@@ -34,7 +41,9 @@
             <p>Nuestro trabajo pretende complementar los espacios curriculares de educación formal para comprender, desde una perspectiva más didáctica y participativa, las realidades en la que estamos inmersos como sociedad. Para ello apostamos a programas como las simulaciones cívicas, talleres sobre desinformación y fake news, consumos problemáticos, bullying y grooming, entre otros. También, trabajamos con educadores para acercarles nuevas tendencias educativas y herramientas tecnológicas para que utilicen con sus estudiantes.</p>
     
             <div class="logos-container">
-    
+                <a href="https://twitter.com/asociacionminu" target="_blank"> <img src="social-media-icons/twitter.svg" alt="Logo de twitter"/> </a> 
+                <a href="https://www.instagram.com/asociacionminu/" target="_blank"> <img src="social-media-icons/instagram.svg" alt="Logo de instagram"/></a>    
+                <a href="https://www.facebook.com/asociacionminu" target="_blank"><img src="social-media-icons/facebook.svg" alt="Logo de facebook"/> </a>  
             </div>
             
             
@@ -46,7 +55,9 @@
 
         section.quienes-somos-section{
             background-color: #AEDCEA;
-            padding:100px 0
+            padding:100px 0;
+            padding-left:2.5em;
+            padding-right:2.5em;
         }
 
         .quienes-somos-container{
@@ -60,6 +71,18 @@
 
         .plataforma-democratica-container a{
             font-size:20px
+        }
+
+        .logos-container{
+            display:flex
+        }
+
+        .logos-container a img{
+            height:30px;
+        }
+
+        .logos-container a{
+            margin:10px
         }
 
         .quienes-somos-container h1 {

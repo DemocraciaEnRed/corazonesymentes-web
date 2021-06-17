@@ -38,7 +38,7 @@
         <li><a class="hover:underline" href="#libro">Libro</a></li>
         <li><a class="hover:underline" href="#foro-docente">foro docente</a></li>
         <li><a class="hover:underline" href="#kit-de-herramientas">kit de herramientas</a></li>
-        <li><a class="hover:underline" href="#quienes-somos">Quienes Somos</a></li>
+        <li><a class="hover:underline" href="#quienes-somos">Quiénes Somos</a></li>
       </ul>
   </div>
   <p class="text-center text-xs text-bold mt-10">Todos los materiales originales están bajo una licencia de 

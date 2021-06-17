@@ -3,7 +3,7 @@
         
         <img class="logo-corazones-mentes" src="logo-horizontal.png" alt="Logo de Mentes y Corazones">
         
-        <h1 ><span class="fushia-bg">Quienes<span class="text-black">somos</span></span> </h1>
+        <h1 ><span class="fushia-bg">Quiénes<span class="text-black">somos</span></span> </h1>
 
         <div class="democracia-en-red-container">
             <h2> <span class=" bg-white">DEMOCRACIA EN RED</span></h2>
@@ -88,7 +88,7 @@
         .quienes-somos-container h1 {
             font-family: Staatliches;
             line-height: 48px;
-            font-size:56px;
+            font-size:48px;
             text-transform: uppercase;
             color: #FFFFFF;
             padding-top:60px;
@@ -96,7 +96,7 @@
 
         .quienes-somos-container h2{
             font-family: Staatliches;
-            font-size: 30px;
+            font-size: 25px;
             line-height: 32px;
             color: #000000;
             padding:80px 0 15px 0

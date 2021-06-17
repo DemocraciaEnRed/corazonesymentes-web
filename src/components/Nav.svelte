@@ -44,7 +44,7 @@
             <a href="#libro" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">LIBRO</a>
             <a href="#foro-docente" class="{getActive("foro-docente")}  px-3 py-2 text-sm font-medium">Foro DOCENTE</a>
             <a href="#kit-de-herramientas" class="{getActive("kit-de-herramientas")} px-3 py-2 text-sm font-medium">Kit De Herramientas</a>
-            <a href="#quienes-somos" class="{getActive("quienes-somos")} px-3 py-2 text-sm font-medium">Quienes Somos</a>
+            <a href="#quienes-somos" class="{getActive("quienes-somos")} px-3 py-2 text-sm font-medium">Quiénes Somos</a>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
       <a href="#libro" class="{getActive("libro")} block px-3 py-2 text-base font-medium">LIBRO</a>
       <a href="#foro-docente" class="{getActive("foro-docente")} block px-3 py-2 text-base font-medium">Foro DOCENTE</a>
       <a href="#kit-de-herramientas" class="{getActive("kit-de-herramientas")} block px-3 py-2 text-base font-medium">Kit De Heramientas</a>
-      <a href="#quienes-somos" class="{getActive("quienes-somos")} block px-3 py-2 text-base font-medium">Quienes Somos</a>
+      <a href="#quienes-somos" class="{getActive("quienes-somos")} block px-3 py-2 text-base font-medium">Quiénes Somos</a>
     </div>
   </div>
 </nav>

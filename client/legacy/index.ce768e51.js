@@ -1,11 +1,11 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.edecbc03.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.5e379be9.js';
 
-function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$a(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$a(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$8() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$8 = "src\\components\\Home.svelte";
+function _isNativeReflectConstruct$a() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$a = "src\\components\\Home.svelte";
 
-function create_fragment$8(ctx) {
+function create_fragment$a(ctx) {
   var div1;
   var article;
   var img0;
@@ -136,34 +136,34 @@ function create_fragment$8(ctx) {
       attr_dev(img0, "width", "300");
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Conoce a tu mente para que tu mente no te domine");
-      add_location(img0, file$8, 8, 2, 215);
-      attr_dev(img1, "class", "float-right svelte-r58saq");
+      add_location(img0, file$a, 14, 2, 285);
+      attr_dev(img1, "class", "float-right svelte-1qzk0ge");
       attr_dev(img1, "id", "cere");
       if (img1.src !== (img1_src_value = "cerebro_celeste.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ok!");
-      add_location(img1, file$8, 10, 3, 323);
+      add_location(img1, file$a, 16, 3, 393);
       attr_dev(h20, "class", " text-3xl celeste-bg rounded-sm  p-1 uppercase");
-      add_location(h20, file$8, 11, 3, 398);
+      add_location(h20, file$a, 17, 3, 468);
       attr_dev(h21, "class", " text-3xl celeste-bg rounded-sm mt-5  p-1 uppercase");
-      add_location(h21, file$8, 14, 3, 543);
-      add_location(span, file$8, 18, 4, 729);
+      add_location(h21, file$a, 20, 3, 613);
+      add_location(span, file$a, 24, 4, 799);
       attr_dev(p, "class", "font-semibold mt-6 uppercase text-xl");
-      add_location(p, file$8, 17, 3, 676);
+      add_location(p, file$a, 23, 3, 746);
       attr_dev(img2, "class", "float-right");
       if (img2.src !== (img2_src_value = "check.png")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Ok!");
-      add_location(img2, file$8, 22, 3, 913);
-      add_location(br, file$8, 23, 3, 968);
+      add_location(img2, file$a, 28, 3, 983);
+      add_location(br, file$a, 29, 3, 1038);
       attr_dev(a, "class", "fushia-bg border-2 border-black mt-10 font-semibold p-1");
       attr_dev(a, "href", "/documents/Corazones-y-mentes.pdf");
       attr_dev(a, "download", "");
-      add_location(a, file$8, 24, 3, 976);
-      add_location(div0, file$8, 9, 2, 314);
+      add_location(a, file$a, 30, 3, 1046);
+      add_location(div0, file$a, 15, 2, 384);
       attr_dev(article, "class", "grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex");
-      add_location(article, file$8, 7, 1, 124);
-      attr_dev(div1, "class", "container mx-auto p-24");
+      add_location(article, file$a, 13, 1, 194);
+      attr_dev(div1, "class", "container mx-auto p-24 svelte-1qzk0ge");
       attr_dev(div1, "id", "home");
-      add_location(div1, file$8, 6, 0, 76);
+      add_location(div1, file$a, 12, 0, 146);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div1, anchor);
@@ -200,7 +200,7 @@ function create_fragment$8(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$8.name,
+    id: create_fragment$a.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -208,7 +208,7 @@ function create_fragment$8(ctx) {
   return block;
 }
 
-function instance$8($$self, $$props) {
+function instance$a($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -223,7 +223,7 @@ function instance$8($$self, $$props) {
 var Home = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Home, _SvelteComponentDev);
 
-  var _super = _createSuper$8(Home);
+  var _super = _createSuper$a(Home);
 
   function Home(options) {
     var _this;
@@ -231,12 +231,12 @@ var Home = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Home);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$8, create_fragment$8, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$a, create_fragment$a, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Home",
       options: options,
-      id: create_fragment$8.name
+      id: create_fragment$a.name
     });
     return _this;
   }
@@ -264,10 +264,10 @@ function fade(node) {
   };
 }
 
-function _createSuper$7(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$7(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$9(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$9(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$7() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$7 = "src\\components\\Todaladata.svelte"; // (52:2) {#if !showAll}
+function _isNativeReflectConstruct$9() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$9 = "src\\components\\Todaladata.svelte"; // (52:2) {#if !showAll}
 
 function create_if_block$1(ctx) {
   var div;
@@ -300,9 +300,9 @@ function create_if_block$1(ctx) {
     h: function hydrate() {
       attr_dev(button, "id", "show-all-tik");
       attr_dev(button, "class", "svelte-1ujxkbk");
-      add_location(button, file$7, 53, 3, 1637);
+      add_location(button, file$9, 53, 3, 1637);
       attr_dev(div, "class", "text-center");
-      add_location(div, file$7, 52, 2, 1608);
+      add_location(div, file$9, 52, 2, 1608);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div, anchor);
@@ -333,7 +333,7 @@ function create_if_block$1(ctx) {
   return block;
 }
 
-function create_fragment$7(ctx) {
+function create_fragment$9(ctx) {
   var div4;
   var article;
   var div1;
@@ -653,87 +653,87 @@ function create_fragment$7(ctx) {
       if (img.src !== (img_src_value = "excl_globo.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "importante");
       set_style(img, "min-width", "145px");
-      add_location(img, file$7, 17, 3, 360);
+      add_location(img, file$9, 17, 3, 360);
       attr_dev(span0, "id", "hashtag");
       attr_dev(span0, "class", "text-7xl  celeste-text svelte-1ujxkbk");
-      add_location(span0, file$7, 20, 5, 516);
+      add_location(span0, file$9, 20, 5, 516);
       attr_dev(span1, "class", "celeste-text");
-      add_location(span1, file$7, 22, 5, 592);
+      add_location(span1, file$9, 22, 5, 592);
       attr_dev(h1, "class", "fushia-text text-6xl uppercase font-bold");
-      add_location(h1, file$7, 19, 4, 457);
+      add_location(h1, file$9, 19, 4, 457);
       attr_dev(span2, "class", "celeste-text");
-      add_location(span2, file$7, 25, 47, 697);
+      add_location(span2, file$9, 25, 47, 697);
       attr_dev(h2, "class", "fushia-text uppercase text-xl");
-      add_location(h2, file$7, 25, 4, 654);
+      add_location(h2, file$9, 25, 4, 654);
       attr_dev(p, "class", "celeste-text font-sans");
-      add_location(p, file$7, 27, 4, 799);
-      add_location(div0, file$7, 18, 3, 446);
+      add_location(p, file$9, 27, 4, 799);
+      add_location(div0, file$9, 18, 3, 446);
       attr_dev(div1, "class", "flex items-start justify-items-center mt-10");
-      add_location(div1, file$7, 16, 2, 299);
-      add_location(section0, file$7, 35, 5, 1132);
+      add_location(div1, file$9, 16, 2, 299);
+      add_location(section0, file$9, 35, 5, 1132);
       attr_dev(blockquote0, "class", "tiktok-embed");
       attr_dev(blockquote0, "cite", "https://www.tiktok.com/@corazonesymentes/video/6958468814375881989");
       attr_dev(blockquote0, "data-video-id", "6958468814375881989");
-      add_location(blockquote0, file$7, 31, 3, 969);
-      add_location(section1, file$7, 41, 5, 1335);
+      add_location(blockquote0, file$9, 31, 3, 969);
+      add_location(section1, file$9, 41, 5, 1335);
       attr_dev(blockquote1, "class", "tiktok-embed");
       attr_dev(blockquote1, "cite", "https://www.tiktok.com/@corazonesymentes/video/6954373530138053893");
       attr_dev(blockquote1, "data-video-id", "6954373530138053893");
-      add_location(blockquote1, file$7, 37, 3, 1172);
-      add_location(section2, file$7, 48, 5, 1543);
+      add_location(blockquote1, file$9, 37, 3, 1172);
+      add_location(section2, file$9, 48, 5, 1543);
       attr_dev(blockquote2, "class", "tiktok-embed");
       attr_dev(blockquote2, "cite", "https://www.tiktok.com/@corazonesymentes/video/6953286503363579142");
       attr_dev(blockquote2, "data-video-id", "6953286503363579142");
-      add_location(blockquote2, file$7, 44, 3, 1379);
+      add_location(blockquote2, file$9, 44, 3, 1379);
       attr_dev(div2, "class", "grid grid-cols-1 md:grid-cols-3 gap-1 mt-10");
-      add_location(div2, file$7, 30, 2, 908);
-      add_location(section3, file$7, 63, 5, 2043);
+      add_location(div2, file$9, 30, 2, 908);
+      add_location(section3, file$9, 63, 5, 2043);
       attr_dev(blockquote3, "class", "tiktok-embed");
       attr_dev(blockquote3, "cite", "https://www.tiktok.com/@corazonesymentes/video/6951784224907152645");
       attr_dev(blockquote3, "data-video-id", "6951784224907152645");
-      add_location(blockquote3, file$7, 59, 3, 1879);
-      add_location(section4, file$7, 69, 5, 2247);
+      add_location(blockquote3, file$9, 59, 3, 1879);
+      add_location(section4, file$9, 69, 5, 2247);
       attr_dev(blockquote4, "class", "tiktok-embed");
       attr_dev(blockquote4, "cite", "https://www.tiktok.com/@corazonesymentes/video/6950673518027705606");
       attr_dev(blockquote4, "data-video-id", "6950673518027705606");
-      add_location(blockquote4, file$7, 65, 3, 2083);
-      add_location(section5, file$7, 75, 5, 2451);
+      add_location(blockquote4, file$9, 65, 3, 2083);
+      add_location(section5, file$9, 75, 5, 2451);
       attr_dev(blockquote5, "class", "tiktok-embed");
       attr_dev(blockquote5, "cite", "https://www.tiktok.com/@corazonesymentes/video/6948105586672274694");
       attr_dev(blockquote5, "data-video-id", "6948105586672274694");
-      add_location(blockquote5, file$7, 71, 3, 2287);
-      add_location(section6, file$7, 81, 4, 2654);
+      add_location(blockquote5, file$9, 71, 3, 2287);
+      add_location(section6, file$9, 81, 4, 2654);
       attr_dev(blockquote6, "class", "tiktok-embed");
       attr_dev(blockquote6, "cite", "https://www.tiktok.com/@corazonesymentes/video/6945179190819933446");
       attr_dev(blockquote6, "data-video-id", "6945179190819933446");
-      add_location(blockquote6, file$7, 77, 3, 2491);
-      add_location(section7, file$7, 87, 5, 2857);
+      add_location(blockquote6, file$9, 77, 3, 2491);
+      add_location(section7, file$9, 87, 5, 2857);
       attr_dev(blockquote7, "class", "tiktok-embed");
       attr_dev(blockquote7, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943423751316983045");
       attr_dev(blockquote7, "data-video-id", "6943423751316983045");
-      add_location(blockquote7, file$7, 83, 3, 2694);
-      add_location(section8, file$7, 93, 4, 3061);
+      add_location(blockquote7, file$9, 83, 3, 2694);
+      add_location(section8, file$9, 93, 4, 3061);
       attr_dev(blockquote8, "class", "tiktok-embed");
       attr_dev(blockquote8, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943419461844094213");
       attr_dev(blockquote8, "data-video-id", "6943419461844094213");
-      add_location(blockquote8, file$7, 89, 3, 2897);
-      add_location(section9, file$7, 100, 5, 3271);
+      add_location(blockquote8, file$9, 89, 3, 2897);
+      add_location(section9, file$9, 100, 5, 3271);
       attr_dev(blockquote9, "class", "tiktok-embed");
       attr_dev(blockquote9, "cite", "https://www.tiktok.com/@corazonesymentes/video/6943253691826801925");
       attr_dev(blockquote9, "data-video-id", "6943253691826801925");
-      add_location(blockquote9, file$7, 96, 3, 3107);
+      add_location(blockquote9, file$9, 96, 3, 3107);
       attr_dev(div3, "class", div3_class_value = "grid grid-cols-1 md:grid-cols-3 gap-1 mt-10 " + (!
       /*showAll*/
       ctx[0] ? "hidden" : ""));
-      add_location(div3, file$7, 58, 2, 1743);
+      add_location(div3, file$9, 58, 2, 1743);
       script.async = true;
       if (script.src !== (script_src_value = "https://www.tiktok.com/embed.js")) attr_dev(script, "src", script_src_value);
-      add_location(script, file$7, 103, 2, 3319);
+      add_location(script, file$9, 103, 2, 3319);
       attr_dev(article, "class", "container mx-auto ");
-      add_location(article, file$7, 15, 1, 260);
+      add_location(article, file$9, 15, 1, 260);
       attr_dev(div4, "class", "bg-black p-10");
       attr_dev(div4, "id", "toda-la-data");
-      add_location(div4, file$7, 14, 0, 213);
+      add_location(div4, file$9, 14, 0, 213);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div4, anchor);
@@ -849,7 +849,7 @@ function create_fragment$7(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$7.name,
+    id: create_fragment$9.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -857,7 +857,7 @@ function create_fragment$7(ctx) {
   return block;
 }
 
-function instance$7($$self, $$props, $$invalidate) {
+function instance$9($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -893,7 +893,7 @@ function instance$7($$self, $$props, $$invalidate) {
 var Todaladata = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Todaladata, _SvelteComponentDev);
 
-  var _super = _createSuper$7(Todaladata);
+  var _super = _createSuper$9(Todaladata);
 
   function Todaladata(options) {
     var _this;
@@ -901,12 +901,12 @@ var Todaladata = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Todaladata);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$7, create_fragment$7, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$9, create_fragment$9, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Todaladata",
       options: options,
-      id: create_fragment$7.name
+      id: create_fragment$9.name
     });
     return _this;
   }
@@ -914,12 +914,12 @@ var Todaladata = /*#__PURE__*/function (_SvelteComponentDev) {
   return Todaladata;
 }(SvelteComponentDev);
 
-function _createSuper$6(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$6(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$6() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$6 = "src\\components\\DocumentDownload.svelte";
+function _isNativeReflectConstruct$8() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$8 = "src\\components\\DocumentDownload.svelte";
 
-function create_fragment$6(ctx) {
+function create_fragment$8(ctx) {
   var div1;
   var img;
   var img_src_value;
@@ -992,15 +992,15 @@ function create_fragment$6(ctx) {
       if (img.src !== (img_src_value = "/icons/icon-document.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "class", "document-icon svelte-14lxvia");
       attr_dev(img, "alt", "documento");
-      add_location(img, file$6, 15, 2, 295);
+      add_location(img, file$8, 15, 2, 295);
       attr_dev(h5, "class", "text-xs uppercase font-sans font-bold");
-      add_location(h5, file$6, 17, 4, 433);
+      add_location(h5, file$8, 17, 4, 433);
       attr_dev(h3, "class", "uppercase text-2xl font-bold text-md");
-      add_location(h3, file$6, 18, 4, 511);
+      add_location(h3, file$8, 18, 4, 511);
       attr_dev(div0, "class", "flex flex-col border-b border-black pb-3");
-      add_location(div0, file$6, 16, 2, 374);
+      add_location(div0, file$8, 16, 2, 374);
       attr_dev(div1, "class", "flex mt-5 mb-5 cursor-pointer hover:underline");
-      add_location(div1, file$6, 14, 0, 209);
+      add_location(div1, file$8, 14, 0, 209);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div1, anchor);
@@ -1046,7 +1046,7 @@ function create_fragment$6(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$6.name,
+    id: create_fragment$8.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -1054,7 +1054,7 @@ function create_fragment$6(ctx) {
   return block;
 }
 
-function instance$6($$self, $$props, $$invalidate) {
+function instance$8($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -1104,7 +1104,7 @@ function instance$6($$self, $$props, $$invalidate) {
 var DocumentDownload = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(DocumentDownload, _SvelteComponentDev);
 
-  var _super = _createSuper$6(DocumentDownload);
+  var _super = _createSuper$8(DocumentDownload);
 
   function DocumentDownload(options) {
     var _this;
@@ -1112,7 +1112,7 @@ var DocumentDownload = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, DocumentDownload);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$6, create_fragment$6, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$8, create_fragment$8, safe_not_equal, {
       chapter: 0,
       title: 1,
       url: 3
@@ -1121,7 +1121,7 @@ var DocumentDownload = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "DocumentDownload",
       options: options,
-      id: create_fragment$6.name
+      id: create_fragment$8.name
     });
     var ctx = _this.$$.ctx;
     var props = options.props || {};
@@ -1202,10 +1202,10 @@ var documents = [{
   url: "/documents/CAPÍTULO_8_C&M.pdf"
 }];
 
-function _createSuper$5(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$5(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$7(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$7(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$5() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$5 = "src\\components\\Articulo.svelte";
+function _isNativeReflectConstruct$7() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$7 = "src\\components\\Articulo.svelte";
 
 function get_each_context$1(ctx, list, i) {
   var child_ctx = ctx.slice();
@@ -1267,7 +1267,7 @@ function create_each_block$1(ctx) {
   return block;
 }
 
-function create_fragment$5(ctx) {
+function create_fragment$7(ctx) {
   var div4;
   var article;
   var div1;
@@ -1469,44 +1469,44 @@ function create_fragment$5(ctx) {
     h: function hydrate() {
       if (img0.src !== (img0_src_value = "logo-horizontal.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Corazones y mentes");
-      add_location(img0, file$5, 7, 3, 301);
-      add_location(div0, file$5, 8, 3, 363);
+      add_location(img0, file$7, 7, 3, 301);
+      add_location(div0, file$7, 8, 3, 363);
       attr_dev(div1, "class", "grid grid-col-2");
-      add_location(div1, file$5, 6, 2, 268);
+      add_location(div1, file$7, 6, 2, 268);
       attr_dev(span0, "class", "text-black");
-      add_location(span0, file$5, 13, 5, 505);
+      add_location(span0, file$7, 13, 5, 505);
       attr_dev(span1, "class", "text-black");
-      add_location(span1, file$5, 13, 46, 546);
+      add_location(span1, file$7, 13, 46, 546);
       attr_dev(span2, "class", "text-white fushia-bg tracking-tighter");
-      add_location(span2, file$5, 12, 4, 447);
+      add_location(span2, file$7, 12, 4, 447);
       attr_dev(h3, "class", "text-3xl mt-10 uppercase font-thin");
-      add_location(h3, file$5, 11, 3, 395);
-      add_location(br0, file$5, 17, 42, 713);
-      add_location(br1, file$5, 18, 69, 787);
+      add_location(h3, file$7, 11, 3, 395);
+      add_location(br0, file$7, 17, 42, 713);
+      add_location(br1, file$7, 18, 69, 787);
       attr_dev(span3, "class", "bg-white");
-      add_location(span3, file$5, 16, 4, 647);
+      add_location(span3, file$7, 16, 4, 647);
       attr_dev(p, "class", "mt-5 text-2xl font-sans");
-      add_location(p, file$5, 15, 3, 607);
-      add_location(div2, file$5, 10, 2, 386);
+      add_location(p, file$7, 15, 3, 607);
+      add_location(div2, file$7, 10, 2, 386);
       attr_dev(img1, "width", "65");
       if (img1.src !== (img1_src_value = "cerebri.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "icono de cerebro");
-      add_location(img1, file$5, 25, 3, 970);
-      add_location(br2, file$5, 27, 22, 1077);
+      add_location(img1, file$7, 25, 3, 970);
+      add_location(br2, file$7, 27, 22, 1077);
       attr_dev(strong, "class", "ml-5");
-      add_location(strong, file$5, 26, 3, 1033);
+      add_location(strong, file$7, 26, 3, 1033);
       attr_dev(a, "href", "/documents/Corazones-y-mentes.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "flex mt-10 hover:underline text-2xl");
-      add_location(a, file$5, 23, 2, 864);
+      add_location(a, file$7, 23, 2, 864);
       attr_dev(div3, "class", "grid grid-cols-1 md:grid-cols-3 mt-10");
-      add_location(div3, file$5, 30, 2, 1117);
+      add_location(div3, file$7, 30, 2, 1117);
       attr_dev(article, "class", "container mx-auto");
-      add_location(article, file$5, 5, 1, 230);
+      add_location(article, file$7, 5, 1, 230);
       attr_dev(div4, "class", "p-10 tech-back px-10 celeste-bg");
       set_style(div4, "background-image", "url(background-tech.png)");
       attr_dev(div4, "id", "libro");
-      add_location(div4, file$5, 4, 0, 122);
+      add_location(div4, file$7, 4, 0, 122);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div4, anchor);
@@ -1614,7 +1614,7 @@ function create_fragment$5(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$5.name,
+    id: create_fragment$7.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -1622,7 +1622,7 @@ function create_fragment$5(ctx) {
   return block;
 }
 
-function instance$5($$self, $$props, $$invalidate) {
+function instance$7($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -1645,7 +1645,7 @@ function instance$5($$self, $$props, $$invalidate) {
 var Articulo = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Articulo, _SvelteComponentDev);
 
-  var _super = _createSuper$5(Articulo);
+  var _super = _createSuper$7(Articulo);
 
   function Articulo(options) {
     var _this;
@@ -1653,12 +1653,12 @@ var Articulo = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Articulo);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$5, create_fragment$5, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$7, create_fragment$7, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Articulo",
       options: options,
-      id: create_fragment$5.name
+      id: create_fragment$7.name
     });
     return _this;
   }
@@ -1666,12 +1666,12 @@ var Articulo = /*#__PURE__*/function (_SvelteComponentDev) {
   return Articulo;
 }(SvelteComponentDev);
 
-function _createSuper$4(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$4(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$6(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$6(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$4() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$4 = "src\\components\\ForoDocente.svelte";
+function _isNativeReflectConstruct$6() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$6 = "src\\components\\ForoDocente.svelte";
 
-function create_fragment$4(ctx) {
+function create_fragment$6(ctx) {
   var div4;
   var article;
   var div1;
@@ -1800,38 +1800,38 @@ function create_fragment$4(ctx) {
     },
     h: function hydrate() {
       attr_dev(span, "class", "text-blue-300");
-      add_location(span, file$4, 19, 10, 716);
+      add_location(span, file$6, 19, 10, 716);
       attr_dev(h1, "class", "uppercase bg-white text-black text-5xl p-2 text-bold");
-      add_location(h1, file$4, 18, 8, 640);
+      add_location(h1, file$6, 18, 8, 640);
       attr_dev(div0, "class", "mr-5");
-      add_location(div0, file$4, 17, 6, 613);
+      add_location(div0, file$6, 17, 6, 613);
       if (img.src !== (img_src_value = "dialog.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "id", "dialog");
       attr_dev(img, "alt", "icono de dialogo");
       attr_dev(img, "class", "svelte-1j75uuy");
-      add_location(img, file$4, 22, 6, 797);
+      add_location(img, file$6, 22, 6, 797);
       attr_dev(div1, "class", "flex items-center justify-start");
-      add_location(div1, file$4, 16, 4, 561);
-      add_location(br0, file$4, 25, 63, 981);
-      add_location(br1, file$4, 26, 69, 1055);
+      add_location(div1, file$6, 16, 4, 561);
+      add_location(br0, file$6, 25, 63, 981);
+      add_location(br1, file$6, 26, 69, 1055);
       attr_dev(p, "class", "text-white mt-10 text-xl font-sans");
-      add_location(p, file$4, 24, 4, 871);
+      add_location(p, file$6, 24, 4, 871);
       attr_dev(a, "href", "https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing");
       attr_dev(a, "target", "_blank");
       attr_dev(a, "class", "bg-white uppercase mt-5 p-3 leading-6");
-      add_location(a, file$4, 30, 6, 1174);
+      add_location(a, file$6, 30, 6, 1174);
       attr_dev(div2, "class", "text-left mt-10");
-      add_location(div2, file$4, 29, 4, 1138);
+      add_location(div2, file$6, 29, 4, 1138);
       attr_dev(div3, "class", "typeform-widget mt-10");
       attr_dev(div3, "data-url", "https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet");
       set_style(div3, "width", "100%");
       set_style(div3, "height", "500px");
-      add_location(div3, file$4, 37, 4, 1437);
+      add_location(div3, file$6, 37, 4, 1437);
       attr_dev(article, "class", "container mx-auto");
-      add_location(article, file$4, 15, 2, 521);
+      add_location(article, file$6, 15, 2, 521);
       attr_dev(div4, "class", "bg-black p-10");
       attr_dev(div4, "id", "foro-docente");
-      add_location(div4, file$4, 14, 0, 473);
+      add_location(div4, file$6, 14, 0, 473);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div4, anchor);
@@ -1867,7 +1867,7 @@ function create_fragment$4(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$4.name,
+    id: create_fragment$6.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -1875,7 +1875,7 @@ function create_fragment$4(ctx) {
   return block;
 }
 
-function instance$4($$self, $$props, $$invalidate) {
+function instance$6($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -1917,7 +1917,7 @@ function instance$4($$self, $$props, $$invalidate) {
 var ForoDocente = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(ForoDocente, _SvelteComponentDev);
 
-  var _super = _createSuper$4(ForoDocente);
+  var _super = _createSuper$6(ForoDocente);
 
   function ForoDocente(options) {
     var _this;
@@ -1925,12 +1925,12 @@ var ForoDocente = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, ForoDocente);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$4, create_fragment$4, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$6, create_fragment$6, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "ForoDocente",
       options: options,
-      id: create_fragment$4.name
+      id: create_fragment$6.name
     });
     return _this;
   }
@@ -3341,10 +3341,10 @@ axios_1.default = _default;
 
 var axios = axios_1;
 
-function _createSuper$3(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$3(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$5(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$5(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$3() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$3 = "src\\components\\Kit.svelte"; // (58:2) {#if opened}
+function _isNativeReflectConstruct$5() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$5 = "src\\components\\Kit.svelte"; // (58:2) {#if opened}
 
 function create_if_block(ctx) {
   var p;
@@ -3389,16 +3389,16 @@ function create_if_block(ctx) {
     },
     h: function hydrate() {
       attr_dev(p, "class", "ml-10 text-left font-sans");
-      add_location(p, file$3, 58, 4, 1265);
+      add_location(p, file$5, 58, 4, 1265);
       attr_dev(img, "class", "float-right svelte-1f4zug6");
       if (img.src !== (img_src_value = "icons/open-link.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "abrir link");
-      add_location(img, file$3, 62, 6, 1378);
+      add_location(img, file$5, 62, 6, 1378);
       attr_dev(a, "class", "download p-2 svelte-1f4zug6");
       attr_dev(a, "href",
       /*url*/
       ctx[3]);
-      add_location(a, file$3, 61, 4, 1336);
+      add_location(a, file$5, 61, 4, 1336);
     },
     m: function mount(target, anchor) {
       insert_dev(target, p, anchor);
@@ -3438,7 +3438,7 @@ function create_if_block(ctx) {
   return block;
 }
 
-function create_fragment$3(ctx) {
+function create_fragment$5(ctx) {
   var div2;
   var div1;
   var img;
@@ -3543,19 +3543,19 @@ function create_fragment$3(ctx) {
       attr_dev(img, "alt",
       /*type*/
       ctx[1]);
-      add_location(img, file$3, 50, 4, 852);
+      add_location(img, file$5, 50, 4, 852);
       attr_dev(h5, "class", "text-xs uppercase font-bold font-sans");
-      add_location(h5, file$3, 52, 6, 983);
+      add_location(h5, file$5, 52, 6, 983);
       attr_dev(h3, "class", "uppercase font-bold text-md text-2xl");
-      add_location(h3, file$3, 53, 6, 1051);
+      add_location(h3, file$5, 53, 6, 1051);
       attr_dev(div0, "class", "flex-grow text-left flex flex-col pb-1");
-      add_location(div0, file$3, 51, 4, 924);
+      add_location(div0, file$5, 51, 4, 924);
       attr_dev(span, "class", "text-right text-2xl font-sans cursor-pointer p-1");
-      add_location(span, file$3, 55, 4, 1128);
+      add_location(span, file$5, 55, 4, 1128);
       attr_dev(div1, "class", "flex");
-      add_location(div1, file$3, 49, 2, 829);
+      add_location(div1, file$5, 49, 2, 829);
       attr_dev(div2, "class", "flex flex-col border-b border-black m-5");
-      add_location(div2, file$3, 48, 0, 773);
+      add_location(div2, file$5, 48, 0, 773);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div2, anchor);
@@ -3643,7 +3643,7 @@ function create_fragment$3(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$3.name,
+    id: create_fragment$5.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -3651,7 +3651,7 @@ function create_fragment$3(ctx) {
   return block;
 }
 
-function instance$3($$self, $$props, $$invalidate) {
+function instance$5($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -3740,7 +3740,7 @@ function instance$3($$self, $$props, $$invalidate) {
 var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Kit, _SvelteComponentDev);
 
-  var _super = _createSuper$3(Kit);
+  var _super = _createSuper$5(Kit);
 
   function Kit(options) {
     var _this;
@@ -3748,7 +3748,7 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Kit);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$3, create_fragment$3, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$5, create_fragment$5, safe_not_equal, {
       description: 0,
       type: 1,
       title: 2,
@@ -3758,7 +3758,7 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "Kit",
       options: options,
-      id: create_fragment$3.name
+      id: create_fragment$5.name
     });
     var ctx = _this.$$.ctx;
     var props = options.props || {};
@@ -3827,10 +3827,10 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
   return Kit;
 }(SvelteComponentDev);
 
-function _createSuper$2(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$2(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$4(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$4(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$2() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$2 = "src\\components\\KitHerramientas.svelte";
+function _isNativeReflectConstruct$4() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$4 = "src\\components\\KitHerramientas.svelte";
 
 function get_each_context(ctx, list, i) {
   var child_ctx = ctx.slice();
@@ -3897,7 +3897,7 @@ function create_each_block(ctx) {
   return block;
 }
 
-function create_fragment$2(ctx) {
+function create_fragment$4(ctx) {
   var div1;
   var article;
   var h1;
@@ -4029,24 +4029,24 @@ function create_fragment$2(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "text-black");
-      add_location(span0, file$2, 29, 6, 899);
+      add_location(span0, file$4, 29, 6, 899);
       attr_dev(span1, "class", "celeste-text");
-      add_location(span1, file$2, 30, 6, 941);
+      add_location(span1, file$4, 30, 6, 941);
       attr_dev(h1, "class", "uppercase text-6xl fushia-text mb-3");
-      add_location(h1, file$2, 28, 4, 844);
+      add_location(h1, file$4, 28, 4, 844);
       attr_dev(span2, "class", "fushia-bg text-2xl tracking-wide text-white p-2 uppercase text-bold");
-      add_location(span2, file$2, 34, 6, 1023);
-      add_location(h2, file$2, 33, 4, 1012);
-      add_location(br, file$2, 37, 69, 1293);
+      add_location(span2, file$4, 34, 6, 1023);
+      add_location(h2, file$4, 33, 4, 1012);
+      add_location(br, file$4, 37, 69, 1293);
       attr_dev(p, "class", "text-bold text-lg mt-5 mb-10 uppercase");
-      add_location(p, file$2, 36, 4, 1173);
+      add_location(p, file$4, 36, 4, 1173);
       attr_dev(div0, "class", "grid grid-cols-1 md:grid-cols-2 mt-10");
-      add_location(div0, file$2, 40, 4, 1367);
+      add_location(div0, file$4, 40, 4, 1367);
       attr_dev(article, "class", "container mx-auto text-center");
-      add_location(article, file$2, 27, 2, 792);
+      add_location(article, file$4, 27, 2, 792);
       attr_dev(div1, "class", "p-10 pt-20 svelte-fzyaxp");
       attr_dev(div1, "id", "kit-de-herramientas");
-      add_location(div1, file$2, 26, 0, 740);
+      add_location(div1, file$4, 26, 0, 740);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div1, anchor);
@@ -4142,7 +4142,7 @@ function create_fragment$2(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$2.name,
+    id: create_fragment$4.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -4152,7 +4152,7 @@ function create_fragment$2(ctx) {
 
 var url = "https://spreadsheets.google.com/feeds/list/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/1/public/values?alt=json";
 
-function instance$2($$self, $$props, $$invalidate) {
+function instance$4($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -4203,7 +4203,7 @@ function instance$2($$self, $$props, $$invalidate) {
 var KitHerramientas = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(KitHerramientas, _SvelteComponentDev);
 
-  var _super = _createSuper$2(KitHerramientas);
+  var _super = _createSuper$4(KitHerramientas);
 
   function KitHerramientas(options) {
     var _this;
@@ -4211,17 +4211,931 @@ var KitHerramientas = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, KitHerramientas);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$2, create_fragment$2, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$4, create_fragment$4, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "KitHerramientas",
+      options: options,
+      id: create_fragment$4.name
+    });
+    return _this;
+  }
+
+  return KitHerramientas;
+}(SvelteComponentDev);
+
+function _createSuper$3(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$3(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _isNativeReflectConstruct$3() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$3 = "src\\components\\QuienesSomos.svelte";
+
+function create_fragment$3(ctx) {
+  var section;
+  var div5;
+  var img0;
+  var img0_src_value;
+  var t0;
+  var h1;
+  var span1;
+  var t1;
+  var span0;
+  var t2;
+  var t3;
+  var div1;
+  var h20;
+  var span2;
+  var t4;
+  var t5;
+  var p0;
+  var t6;
+  var t7;
+  var p1;
+  var t8;
+  var t9;
+  var div0;
+  var a0;
+  var img1;
+  var img1_src_value;
+  var t10;
+  var a1;
+  var img2;
+  var img2_src_value;
+  var t11;
+  var a2;
+  var img3;
+  var img3_src_value;
+  var t12;
+  var a3;
+  var img4;
+  var img4_src_value;
+  var t13;
+  var a4;
+  var img5;
+  var img5_src_value;
+  var t14;
+  var div2;
+  var h21;
+  var span3;
+  var t15;
+  var t16;
+  var p2;
+  var t17;
+  var t18;
+  var p3;
+  var t19;
+  var t20;
+  var p4;
+  var t21;
+  var t22;
+  var a5;
+  var t23;
+  var t24;
+  var div4;
+  var h22;
+  var span4;
+  var t25;
+  var t26;
+  var p5;
+  var t27;
+  var t28;
+  var p6;
+  var t29;
+  var t30;
+  var div3;
+  var a6;
+  var img6;
+  var img6_src_value;
+  var t31;
+  var a7;
+  var img7;
+  var img7_src_value;
+  var t32;
+  var a8;
+  var img8;
+  var img8_src_value;
+  var t33;
+  var style;
+  var t34;
+  var block = {
+    c: function create() {
+      section = element("section");
+      div5 = element("div");
+      img0 = element("img");
+      t0 = space();
+      h1 = element("h1");
+      span1 = element("span");
+      t1 = text("Quienes");
+      span0 = element("span");
+      t2 = text("somos");
+      t3 = space();
+      div1 = element("div");
+      h20 = element("h2");
+      span2 = element("span");
+      t4 = text("DEMOCRACIA EN RED");
+      t5 = space();
+      p0 = element("p");
+      t6 = text("Trabajamos en el cruce entre la política y la tecnología digital. Elaboramos estrategias para instituciones públicas y/o movimientos activistas.");
+      t7 = space();
+      p1 = element("p");
+      t8 = text("Desde hace 7 años, diseñamos e implementamos herramientas digitales para que la ciudadanía tenga incidencia en la toma de decisiones. Creamos soluciones de participación ciudadana para fortalecer la democracia.");
+      t9 = space();
+      div0 = element("div");
+      a0 = element("a");
+      img1 = element("img");
+      t10 = space();
+      a1 = element("a");
+      img2 = element("img");
+      t11 = space();
+      a2 = element("a");
+      img3 = element("img");
+      t12 = space();
+      a3 = element("a");
+      img4 = element("img");
+      t13 = space();
+      a4 = element("a");
+      img5 = element("img");
+      t14 = space();
+      div2 = element("div");
+      h21 = element("h2");
+      span3 = element("span");
+      t15 = text("PLATAFORMA DEMOCRÁTICA");
+      t16 = space();
+      p2 = element("p");
+      t17 = text("Creada en 2007 por la Fundación Fernando Henrique Cardoso y el Centro Edelstein de Investigaciones Sociales, con el objetivo de fortalecer la cultura y las instituciones democráticas en Brasil y América Latina.");
+      t18 = space();
+      p3 = element("p");
+      t19 = text("Desarrollamos nuestro trabajo a través de investigaciones, publicaciones y seminarios sobre las transformaciones de la sociedad y la política en la región y en el sistema internacional, con un enfoque en los desafíos para la convivencia y la gobernabilidad democrática.");
+      t20 = space();
+      p4 = element("p");
+      t21 = text("También desarrollamos proyectos aplicados que promueven el aprendizaje democrático de la ciudadanía, particularmente en el espacio público virtual, fomentando una cultura cívica que valora la argumentación y el pluralismo de puntos de vista.");
+      t22 = space();
+      a5 = element("a");
+      t23 = text("web plataforma democrática");
+      t24 = space();
+      div4 = element("div");
+      h22 = element("h2");
+      span4 = element("span");
+      t25 = text("asociación minu");
+      t26 = space();
+      p5 = element("p");
+      t27 = text("Somos una Asociación Civil, sin fines de lucro, dedicada al desarrollo de programas que promueven la inclusión y la participación de los y las jóvenes en la sociedad. Nuestra misión es implementar proyectos educativos y programas tomando como punto de partida el respeto, la democracia y el pluralismo, promoviendo visiones críticas de la realidad.");
+      t28 = space();
+      p6 = element("p");
+      t29 = text("Nuestro trabajo pretende complementar los espacios curriculares de educación formal para comprender, desde una perspectiva más didáctica y participativa, las realidades en la que estamos inmersos como sociedad. Para ello apostamos a programas como las simulaciones cívicas, talleres sobre desinformación y fake news, consumos problemáticos, bullying y grooming, entre otros. También, trabajamos con educadores para acercarles nuevas tendencias educativas y herramientas tecnológicas para que utilicen con sus estudiantes.");
+      t30 = space();
+      div3 = element("div");
+      a6 = element("a");
+      img6 = element("img");
+      t31 = space();
+      a7 = element("a");
+      img7 = element("img");
+      t32 = space();
+      a8 = element("a");
+      img8 = element("img");
+      t33 = space();
+      style = element("style");
+      t34 = text("section.quienes-somos-section{\n  background-color: #AEDCEA;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\n.quienes-somos-container{\n  max-width:980px;\n  margin:auto\n}\n\n.quienes-somos-container .logo-corazones-mentes{\n  width:500px\n}\n\n.plataforma-democratica-container a{\n  font-size:20px\n}\n\n.logos-container{\n  display:flex\n}\n\n.logos-container a img{\n  height:30px;\n}\n\n.logos-container a{\n  margin:10px\n}\n\n.quienes-somos-container h1 {\n  font-family: Staatliches;\n  line-height: 48px;\n  font-size:56px;\n  text-transform: uppercase;\n  color: #FFFFFF;\n  padding-top:60px;\n}\n\n.quienes-somos-container h2{\n  font-family: Staatliches;\n  font-size: 30px;\n  line-height: 32px;\n  color: #000000;\n  padding:80px 0 15px 0\n}\n\n.quienes-somos-container p{\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  color: #000000;\n  padding-bottom:20px\n}\n\n.democracia-en-red-container{\n  font-family: Staatliches;\n  font-size: 30px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 32px;\n  letter-spacing: 0em;\n  text-align: left;\n}");
+      this.h();
+    },
+    l: function claim(nodes) {
+      section = claim_element(nodes, "SECTION", {
+        class: true,
+        id: true
+      });
+      var section_nodes = children(section);
+      div5 = claim_element(section_nodes, "DIV", {
+        class: true
+      });
+      var div5_nodes = children(div5);
+      img0 = claim_element(div5_nodes, "IMG", {
+        class: true,
+        src: true,
+        alt: true
+      });
+      t0 = claim_space(div5_nodes);
+      h1 = claim_element(div5_nodes, "H1", {});
+      var h1_nodes = children(h1);
+      span1 = claim_element(h1_nodes, "SPAN", {
+        class: true
+      });
+      var span1_nodes = children(span1);
+      t1 = claim_text(span1_nodes, "Quienes");
+      span0 = claim_element(span1_nodes, "SPAN", {
+        class: true
+      });
+      var span0_nodes = children(span0);
+      t2 = claim_text(span0_nodes, "somos");
+      span0_nodes.forEach(detach_dev);
+      span1_nodes.forEach(detach_dev);
+      h1_nodes.forEach(detach_dev);
+      t3 = claim_space(div5_nodes);
+      div1 = claim_element(div5_nodes, "DIV", {
+        class: true
+      });
+      var div1_nodes = children(div1);
+      h20 = claim_element(div1_nodes, "H2", {});
+      var h20_nodes = children(h20);
+      span2 = claim_element(h20_nodes, "SPAN", {
+        class: true
+      });
+      var span2_nodes = children(span2);
+      t4 = claim_text(span2_nodes, "DEMOCRACIA EN RED");
+      span2_nodes.forEach(detach_dev);
+      h20_nodes.forEach(detach_dev);
+      t5 = claim_space(div1_nodes);
+      p0 = claim_element(div1_nodes, "P", {});
+      var p0_nodes = children(p0);
+      t6 = claim_text(p0_nodes, "Trabajamos en el cruce entre la política y la tecnología digital. Elaboramos estrategias para instituciones públicas y/o movimientos activistas.");
+      p0_nodes.forEach(detach_dev);
+      t7 = claim_space(div1_nodes);
+      p1 = claim_element(div1_nodes, "P", {});
+      var p1_nodes = children(p1);
+      t8 = claim_text(p1_nodes, "Desde hace 7 años, diseñamos e implementamos herramientas digitales para que la ciudadanía tenga incidencia en la toma de decisiones. Creamos soluciones de participación ciudadana para fortalecer la democracia.");
+      p1_nodes.forEach(detach_dev);
+      t9 = claim_space(div1_nodes);
+      div0 = claim_element(div1_nodes, "DIV", {
+        class: true
+      });
+      var div0_nodes = children(div0);
+      a0 = claim_element(div0_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a0_nodes = children(a0);
+      img1 = claim_element(a0_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a0_nodes.forEach(detach_dev);
+      t10 = claim_space(div0_nodes);
+      a1 = claim_element(div0_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a1_nodes = children(a1);
+      img2 = claim_element(a1_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a1_nodes.forEach(detach_dev);
+      t11 = claim_space(div0_nodes);
+      a2 = claim_element(div0_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a2_nodes = children(a2);
+      img3 = claim_element(a2_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a2_nodes.forEach(detach_dev);
+      t12 = claim_space(div0_nodes);
+      a3 = claim_element(div0_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a3_nodes = children(a3);
+      img4 = claim_element(a3_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a3_nodes.forEach(detach_dev);
+      t13 = claim_space(div0_nodes);
+      a4 = claim_element(div0_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a4_nodes = children(a4);
+      img5 = claim_element(a4_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a4_nodes.forEach(detach_dev);
+      div0_nodes.forEach(detach_dev);
+      div1_nodes.forEach(detach_dev);
+      t14 = claim_space(div5_nodes);
+      div2 = claim_element(div5_nodes, "DIV", {
+        class: true
+      });
+      var div2_nodes = children(div2);
+      h21 = claim_element(div2_nodes, "H2", {});
+      var h21_nodes = children(h21);
+      span3 = claim_element(h21_nodes, "SPAN", {
+        class: true
+      });
+      var span3_nodes = children(span3);
+      t15 = claim_text(span3_nodes, "PLATAFORMA DEMOCRÁTICA");
+      span3_nodes.forEach(detach_dev);
+      h21_nodes.forEach(detach_dev);
+      t16 = claim_space(div2_nodes);
+      p2 = claim_element(div2_nodes, "P", {});
+      var p2_nodes = children(p2);
+      t17 = claim_text(p2_nodes, "Creada en 2007 por la Fundación Fernando Henrique Cardoso y el Centro Edelstein de Investigaciones Sociales, con el objetivo de fortalecer la cultura y las instituciones democráticas en Brasil y América Latina.");
+      p2_nodes.forEach(detach_dev);
+      t18 = claim_space(div2_nodes);
+      p3 = claim_element(div2_nodes, "P", {});
+      var p3_nodes = children(p3);
+      t19 = claim_text(p3_nodes, "Desarrollamos nuestro trabajo a través de investigaciones, publicaciones y seminarios sobre las transformaciones de la sociedad y la política en la región y en el sistema internacional, con un enfoque en los desafíos para la convivencia y la gobernabilidad democrática.");
+      p3_nodes.forEach(detach_dev);
+      t20 = claim_space(div2_nodes);
+      p4 = claim_element(div2_nodes, "P", {});
+      var p4_nodes = children(p4);
+      t21 = claim_text(p4_nodes, "También desarrollamos proyectos aplicados que promueven el aprendizaje democrático de la ciudadanía, particularmente en el espacio público virtual, fomentando una cultura cívica que valora la argumentación y el pluralismo de puntos de vista.");
+      p4_nodes.forEach(detach_dev);
+      t22 = claim_space(div2_nodes);
+      a5 = claim_element(div2_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a5_nodes = children(a5);
+      t23 = claim_text(a5_nodes, "web plataforma democrática");
+      a5_nodes.forEach(detach_dev);
+      div2_nodes.forEach(detach_dev);
+      t24 = claim_space(div5_nodes);
+      div4 = claim_element(div5_nodes, "DIV", {
+        class: true
+      });
+      var div4_nodes = children(div4);
+      h22 = claim_element(div4_nodes, "H2", {});
+      var h22_nodes = children(h22);
+      span4 = claim_element(h22_nodes, "SPAN", {
+        class: true
+      });
+      var span4_nodes = children(span4);
+      t25 = claim_text(span4_nodes, "asociación minu");
+      span4_nodes.forEach(detach_dev);
+      h22_nodes.forEach(detach_dev);
+      t26 = claim_space(div4_nodes);
+      p5 = claim_element(div4_nodes, "P", {});
+      var p5_nodes = children(p5);
+      t27 = claim_text(p5_nodes, "Somos una Asociación Civil, sin fines de lucro, dedicada al desarrollo de programas que promueven la inclusión y la participación de los y las jóvenes en la sociedad. Nuestra misión es implementar proyectos educativos y programas tomando como punto de partida el respeto, la democracia y el pluralismo, promoviendo visiones críticas de la realidad.");
+      p5_nodes.forEach(detach_dev);
+      t28 = claim_space(div4_nodes);
+      p6 = claim_element(div4_nodes, "P", {});
+      var p6_nodes = children(p6);
+      t29 = claim_text(p6_nodes, "Nuestro trabajo pretende complementar los espacios curriculares de educación formal para comprender, desde una perspectiva más didáctica y participativa, las realidades en la que estamos inmersos como sociedad. Para ello apostamos a programas como las simulaciones cívicas, talleres sobre desinformación y fake news, consumos problemáticos, bullying y grooming, entre otros. También, trabajamos con educadores para acercarles nuevas tendencias educativas y herramientas tecnológicas para que utilicen con sus estudiantes.");
+      p6_nodes.forEach(detach_dev);
+      t30 = claim_space(div4_nodes);
+      div3 = claim_element(div4_nodes, "DIV", {
+        class: true
+      });
+      var div3_nodes = children(div3);
+      a6 = claim_element(div3_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a6_nodes = children(a6);
+      img6 = claim_element(a6_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a6_nodes.forEach(detach_dev);
+      t31 = claim_space(div3_nodes);
+      a7 = claim_element(div3_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a7_nodes = children(a7);
+      img7 = claim_element(a7_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a7_nodes.forEach(detach_dev);
+      t32 = claim_space(div3_nodes);
+      a8 = claim_element(div3_nodes, "A", {
+        href: true,
+        target: true
+      });
+      var a8_nodes = children(a8);
+      img8 = claim_element(a8_nodes, "IMG", {
+        src: true,
+        alt: true
+      });
+      a8_nodes.forEach(detach_dev);
+      div3_nodes.forEach(detach_dev);
+      div4_nodes.forEach(detach_dev);
+      div5_nodes.forEach(detach_dev);
+      t33 = claim_space(section_nodes);
+      style = claim_element(section_nodes, "STYLE", {});
+      var style_nodes = children(style);
+      t34 = claim_text(style_nodes, "section.quienes-somos-section{\n  background-color: #AEDCEA;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\n.quienes-somos-container{\n  max-width:980px;\n  margin:auto\n}\n\n.quienes-somos-container .logo-corazones-mentes{\n  width:500px\n}\n\n.plataforma-democratica-container a{\n  font-size:20px\n}\n\n.logos-container{\n  display:flex\n}\n\n.logos-container a img{\n  height:30px;\n}\n\n.logos-container a{\n  margin:10px\n}\n\n.quienes-somos-container h1 {\n  font-family: Staatliches;\n  line-height: 48px;\n  font-size:56px;\n  text-transform: uppercase;\n  color: #FFFFFF;\n  padding-top:60px;\n}\n\n.quienes-somos-container h2{\n  font-family: Staatliches;\n  font-size: 30px;\n  line-height: 32px;\n  color: #000000;\n  padding:80px 0 15px 0\n}\n\n.quienes-somos-container p{\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  color: #000000;\n  padding-bottom:20px\n}\n\n.democracia-en-red-container{\n  font-family: Staatliches;\n  font-size: 30px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 32px;\n  letter-spacing: 0em;\n  text-align: left;\n}");
+      style_nodes.forEach(detach_dev);
+      section_nodes.forEach(detach_dev);
+      this.h();
+    },
+    h: function hydrate() {
+      attr_dev(img0, "class", "logo-corazones-mentes");
+      if (img0.src !== (img0_src_value = "logo-horizontal.png")) attr_dev(img0, "src", img0_src_value);
+      attr_dev(img0, "alt", "Logo de Mentes y Corazones");
+      add_location(img0, file$3, 3, 8, 121);
+      attr_dev(span0, "class", "text-black");
+      add_location(span0, file$3, 5, 44, 271);
+      attr_dev(span1, "class", "fushia-bg");
+      add_location(span1, file$3, 5, 13, 240);
+      add_location(h1, file$3, 5, 8, 235);
+      attr_dev(span2, "class", " bg-white");
+      add_location(span2, file$3, 8, 17, 393);
+      add_location(h20, file$3, 8, 12, 388);
+      add_location(p0, file$3, 9, 12, 460);
+      add_location(p1, file$3, 10, 12, 625);
+      if (img1.src !== (img1_src_value = "social-media-icons/facebook.svg")) attr_dev(img1, "src", img1_src_value);
+      attr_dev(img1, "alt", "Logo de facebook");
+      add_location(img1, file$3, 13, 84, 973);
+      attr_dev(a0, "href", "https://www.facebook.com/democraciaenred/");
+      attr_dev(a0, "target", "_blank");
+      add_location(a0, file$3, 13, 16, 905);
+      if (img2.src !== (img2_src_value = "social-media-icons/twitter.svg")) attr_dev(img2, "src", img2_src_value);
+      attr_dev(img2, "alt", "Logo de twitter");
+      add_location(img2, file$3, 14, 76, 1139);
+      attr_dev(a1, "href", "https://twitter.com/fundacionDER");
+      attr_dev(a1, "target", "_blank");
+      add_location(a1, file$3, 14, 16, 1079);
+      if (img3.src !== (img3_src_value = "social-media-icons/instagram.svg")) attr_dev(img3, "src", img3_src_value);
+      attr_dev(img3, "alt", "Logo de instagram");
+      add_location(img3, file$3, 15, 86, 1312);
+      attr_dev(a2, "href", "https://www.instagram.com/democraciaenred/");
+      attr_dev(a2, "target", "_blank");
+      add_location(a2, file$3, 15, 16, 1242);
+      if (img4.src !== (img4_src_value = "social-media-icons/linkedin.svg")) attr_dev(img4, "src", img4_src_value);
+      attr_dev(img4, "alt", "Logo de linkedin");
+      add_location(img4, file$3, 16, 88, 1491);
+      attr_dev(a3, "href", "https://www.linkedin.com/in/democraciaenred/");
+      attr_dev(a3, "target", "_blank");
+      add_location(a3, file$3, 16, 16, 1419);
+      if (img5.src !== (img5_src_value = "social-media-icons/youtube.svg")) attr_dev(img5, "src", img5_src_value);
+      attr_dev(img5, "alt", "Logo de youtube");
+      add_location(img5, file$3, 18, 100, 1682);
+      attr_dev(a4, "href", "https://www.youtube.com/channel/UCm5n0zxmfWN0pMuMPxk7psw");
+      attr_dev(a4, "target", "_blank");
+      add_location(a4, file$3, 18, 16, 1598);
+      attr_dev(div0, "class", "logos-container");
+      add_location(div0, file$3, 12, 12, 858);
+      attr_dev(div1, "class", "democracia-en-red-container");
+      add_location(div1, file$3, 7, 8, 333);
+      attr_dev(span3, "class", " bg-white");
+      add_location(span3, file$3, 26, 17, 1883);
+      add_location(h21, file$3, 26, 12, 1878);
+      add_location(p2, file$3, 28, 12, 1963);
+      add_location(p3, file$3, 29, 12, 2194);
+      add_location(p4, file$3, 30, 12, 2484);
+      attr_dev(a5, "href", "http://www.plataformademocratica.org/espanol/ ");
+      attr_dev(a5, "target", "_blank ");
+      add_location(a5, file$3, 32, 12, 2752);
+      attr_dev(div2, "class", "plataforma-democratica-container");
+      add_location(div2, file$3, 24, 8, 1812);
+      attr_dev(span4, "class", " bg-white");
+      add_location(span4, file$3, 37, 17, 2975);
+      add_location(h22, file$3, 37, 12, 2970);
+      add_location(p5, file$3, 39, 12, 3046);
+      add_location(p6, file$3, 40, 12, 3416);
+      if (img6.src !== (img6_src_value = "social-media-icons/twitter.svg")) attr_dev(img6, "src", img6_src_value);
+      attr_dev(img6, "alt", "Logo de twitter");
+      add_location(img6, file$3, 43, 78, 4073);
+      attr_dev(a6, "href", "https://twitter.com/asociacionminu");
+      attr_dev(a6, "target", "_blank");
+      add_location(a6, file$3, 43, 16, 4011);
+      if (img7.src !== (img7_src_value = "social-media-icons/instagram.svg")) attr_dev(img7, "src", img7_src_value);
+      attr_dev(img7, "alt", "Logo de instagram");
+      add_location(img7, file$3, 44, 85, 4231);
+      attr_dev(a7, "href", "https://www.instagram.com/asociacionminu/");
+      attr_dev(a7, "target", "_blank");
+      add_location(a7, file$3, 44, 16, 4162);
+      if (img8.src !== (img8_src_value = "social-media-icons/facebook.svg")) attr_dev(img8, "src", img8_src_value);
+      attr_dev(img8, "alt", "Logo de facebook");
+      add_location(img8, file$3, 45, 82, 4392);
+      attr_dev(a8, "href", "https://www.facebook.com/asociacionminu");
+      attr_dev(a8, "target", "_blank");
+      add_location(a8, file$3, 45, 16, 4326);
+      attr_dev(div3, "class", "logos-container");
+      add_location(div3, file$3, 42, 12, 3964);
+      attr_dev(div4, "class", "plataforma-democratica-container");
+      add_location(div4, file$3, 35, 8, 2896);
+      attr_dev(div5, "class", "quienes-somos-container");
+      add_location(div5, file$3, 1, 4, 64);
+      add_location(style, file$3, 53, 4, 4556);
+      attr_dev(section, "class", "quienes-somos-section");
+      attr_dev(section, "id", "quienes-somos");
+      add_location(section, file$3, 0, 0, 0);
+    },
+    m: function mount(target, anchor) {
+      insert_dev(target, section, anchor);
+      append_dev(section, div5);
+      append_dev(div5, img0);
+      append_dev(div5, t0);
+      append_dev(div5, h1);
+      append_dev(h1, span1);
+      append_dev(span1, t1);
+      append_dev(span1, span0);
+      append_dev(span0, t2);
+      append_dev(div5, t3);
+      append_dev(div5, div1);
+      append_dev(div1, h20);
+      append_dev(h20, span2);
+      append_dev(span2, t4);
+      append_dev(div1, t5);
+      append_dev(div1, p0);
+      append_dev(p0, t6);
+      append_dev(div1, t7);
+      append_dev(div1, p1);
+      append_dev(p1, t8);
+      append_dev(div1, t9);
+      append_dev(div1, div0);
+      append_dev(div0, a0);
+      append_dev(a0, img1);
+      append_dev(div0, t10);
+      append_dev(div0, a1);
+      append_dev(a1, img2);
+      append_dev(div0, t11);
+      append_dev(div0, a2);
+      append_dev(a2, img3);
+      append_dev(div0, t12);
+      append_dev(div0, a3);
+      append_dev(a3, img4);
+      append_dev(div0, t13);
+      append_dev(div0, a4);
+      append_dev(a4, img5);
+      append_dev(div5, t14);
+      append_dev(div5, div2);
+      append_dev(div2, h21);
+      append_dev(h21, span3);
+      append_dev(span3, t15);
+      append_dev(div2, t16);
+      append_dev(div2, p2);
+      append_dev(p2, t17);
+      append_dev(div2, t18);
+      append_dev(div2, p3);
+      append_dev(p3, t19);
+      append_dev(div2, t20);
+      append_dev(div2, p4);
+      append_dev(p4, t21);
+      append_dev(div2, t22);
+      append_dev(div2, a5);
+      append_dev(a5, t23);
+      append_dev(div5, t24);
+      append_dev(div5, div4);
+      append_dev(div4, h22);
+      append_dev(h22, span4);
+      append_dev(span4, t25);
+      append_dev(div4, t26);
+      append_dev(div4, p5);
+      append_dev(p5, t27);
+      append_dev(div4, t28);
+      append_dev(div4, p6);
+      append_dev(p6, t29);
+      append_dev(div4, t30);
+      append_dev(div4, div3);
+      append_dev(div3, a6);
+      append_dev(a6, img6);
+      append_dev(div3, t31);
+      append_dev(div3, a7);
+      append_dev(a7, img7);
+      append_dev(div3, t32);
+      append_dev(div3, a8);
+      append_dev(a8, img8);
+      append_dev(section, t33);
+      append_dev(section, style);
+      append_dev(style, t34);
+    },
+    p: noop,
+    i: noop,
+    o: noop,
+    d: function destroy(detaching) {
+      if (detaching) detach_dev(section);
+    }
+  };
+  dispatch_dev("SvelteRegisterBlock", {
+    block: block,
+    id: create_fragment$3.name,
+    type: "component",
+    source: "",
+    ctx: ctx
+  });
+  return block;
+}
+
+function instance$3($$self, $$props) {
+  var _$$props$$$slots = $$props.$$slots,
+      slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
+      $$props.$$scope;
+  validate_slots("QuienesSomos", slots, []);
+  var writable_props = [];
+  Object.keys($$props).forEach(function (key) {
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<QuienesSomos> was created with unknown prop '".concat(key, "'"));
+  });
+  return [];
+}
+
+var QuienesSomos = /*#__PURE__*/function (_SvelteComponentDev) {
+  _inherits(QuienesSomos, _SvelteComponentDev);
+
+  var _super = _createSuper$3(QuienesSomos);
+
+  function QuienesSomos(options) {
+    var _this;
+
+    _classCallCheck(this, QuienesSomos);
+
+    _this = _super.call(this, options);
+    init(_assertThisInitialized(_this), options, instance$3, create_fragment$3, safe_not_equal, {});
+    dispatch_dev("SvelteRegisterComponent", {
+      component: _assertThisInitialized(_this),
+      tagName: "QuienesSomos",
+      options: options,
+      id: create_fragment$3.name
+    });
+    return _this;
+  }
+
+  return QuienesSomos;
+}(SvelteComponentDev);
+
+function _createSuper$2(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$2(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _isNativeReflectConstruct$2() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var file$2 = "src\\components\\PedagogiaDigital.svelte";
+
+function create_fragment$2(ctx) {
+  var section;
+  var div1;
+  var div0;
+  var img;
+  var img_src_value;
+  var t0;
+  var h1;
+  var span0;
+  var t1;
+  var t2;
+  var br;
+  var t3;
+  var span1;
+  var t4;
+  var t5;
+  var p0;
+  var t6;
+  var t7;
+  var p1;
+  var span4;
+  var t8;
+  var span2;
+  var t9;
+  var t10;
+  var span3;
+  var t11;
+  var t12;
+  var t13;
+  var p2;
+  var t14;
+  var span5;
+  var t15;
+  var t16;
+  var t17;
+  var style;
+  var t18;
+  var block = {
+    c: function create() {
+      section = element("section");
+      div1 = element("div");
+      div0 = element("div");
+      img = element("img");
+      t0 = space();
+      h1 = element("h1");
+      span0 = element("span");
+      t1 = text("¿por qué nos interesa");
+      t2 = space();
+      br = element("br");
+      t3 = space();
+      span1 = element("span");
+      t4 = text("la pedagogía digital?");
+      t5 = space();
+      p0 = element("p");
+      t6 = text("El debate en las redes sociales se convirtió en una guerra de trincheras: ya no somos libres de compartir lo que pensamos sin miedo a las agresiones o a que nos reduzcan a estereotipos.");
+      t7 = space();
+      p1 = element("p");
+      span4 = element("span");
+      t8 = text("Corazones ");
+      span2 = element("span");
+      t9 = text("y");
+      t10 = space();
+      span3 = element("span");
+      t11 = text("Mentes");
+      t12 = text(" apunta a cambiar eso: ¿en qué medida nuestras propias emociones, creencias y/o valores nos hacen colaborar, sin darnos cuenta, con todo el ruido que amenaza nuestra convivencia digital? Prestar atención a nuestros propios prejuicios es el primer paso para cambiar la dinámica.");
+      t13 = space();
+      p2 = element("p");
+      t14 = text("Por eso, creamos herramientas, en distintos formatos interactivos y pensadas para trabajar en conjunto con toda la comunidad educativa, que estimulen ese ejercicio. ");
+      span5 = element("span");
+      t15 = text("Para que observemos nuestras propias reacciones");
+      t16 = text(" y nuestras propias tendencias antes de juzgar, decidir y hacer click.");
+      t17 = space();
+      style = element("style");
+      t18 = text(".pedagogias-digitales-section{\n  background-color:#000;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\nimg.thumbs-up{\n  filter: invert(58%) sepia(45%) saturate(4209%) hue-rotate(219deg) brightness(96%) contrast(110%);\n  width:100px;\n  margin-right:10px;\n}\n\n.title-container{\n  display:flex;\n  align-items:flex-start;\n}\n\n.pedagogias-digitales-container h1{\n  font-family: Staatliches;\n  font-size: 48px;\n  line-height: 48px;\n  text-transform: uppercase;\n  padding-bottom:80px\n}\n\n.pedagogias-digitales-container .text-blue-300.bg-white{\n  text-transform: uppercase;\n  font-family: Staatliches;\n}\n\n.bg-ligth-blue{\n  color:#000;\n  background-color:#AEDCEA\n}\n\n.pedagogias-digitales-container{\n  max-width:980px;\n  margin:auto\n}\n\n.pedagogias-digitales-container p{\n  color:#fff;\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  padding-bottom:20px\n}\n\n@media (max-width:480px){\n  .title-container{\n    flex-direction:column\n  }\n\n  img.thumbs-up{\n    margin-bottom:10px\n  }\n}");
+      this.h();
+    },
+    l: function claim(nodes) {
+      section = claim_element(nodes, "SECTION", {
+        class: true
+      });
+      var section_nodes = children(section);
+      div1 = claim_element(section_nodes, "DIV", {
+        class: true
+      });
+      var div1_nodes = children(div1);
+      div0 = claim_element(div1_nodes, "DIV", {
+        class: true
+      });
+      var div0_nodes = children(div0);
+      img = claim_element(div0_nodes, "IMG", {
+        class: true,
+        src: true,
+        alt: true
+      });
+      t0 = claim_space(div0_nodes);
+      h1 = claim_element(div0_nodes, "H1", {});
+      var h1_nodes = children(h1);
+      span0 = claim_element(h1_nodes, "SPAN", {
+        class: true
+      });
+      var span0_nodes = children(span0);
+      t1 = claim_text(span0_nodes, "¿por qué nos interesa");
+      span0_nodes.forEach(detach_dev);
+      t2 = claim_space(h1_nodes);
+      br = claim_element(h1_nodes, "BR", {});
+      t3 = claim_space(h1_nodes);
+      span1 = claim_element(h1_nodes, "SPAN", {
+        class: true
+      });
+      var span1_nodes = children(span1);
+      t4 = claim_text(span1_nodes, "la pedagogía digital?");
+      span1_nodes.forEach(detach_dev);
+      h1_nodes.forEach(detach_dev);
+      div0_nodes.forEach(detach_dev);
+      t5 = claim_space(div1_nodes);
+      p0 = claim_element(div1_nodes, "P", {});
+      var p0_nodes = children(p0);
+      t6 = claim_text(p0_nodes, "El debate en las redes sociales se convirtió en una guerra de trincheras: ya no somos libres de compartir lo que pensamos sin miedo a las agresiones o a que nos reduzcan a estereotipos.");
+      p0_nodes.forEach(detach_dev);
+      t7 = claim_space(div1_nodes);
+      p1 = claim_element(div1_nodes, "P", {});
+      var p1_nodes = children(p1);
+      span4 = claim_element(p1_nodes, "SPAN", {
+        class: true
+      });
+      var span4_nodes = children(span4);
+      t8 = claim_text(span4_nodes, "Corazones ");
+      span2 = claim_element(span4_nodes, "SPAN", {
+        class: true
+      });
+      var span2_nodes = children(span2);
+      t9 = claim_text(span2_nodes, "y");
+      span2_nodes.forEach(detach_dev);
+      t10 = claim_space(span4_nodes);
+      span3 = claim_element(span4_nodes, "SPAN", {
+        class: true
+      });
+      var span3_nodes = children(span3);
+      t11 = claim_text(span3_nodes, "Mentes");
+      span3_nodes.forEach(detach_dev);
+      span4_nodes.forEach(detach_dev);
+      t12 = claim_text(p1_nodes, " apunta a cambiar eso: ¿en qué medida nuestras propias emociones, creencias y/o valores nos hacen colaborar, sin darnos cuenta, con todo el ruido que amenaza nuestra convivencia digital? Prestar atención a nuestros propios prejuicios es el primer paso para cambiar la dinámica.");
+      p1_nodes.forEach(detach_dev);
+      t13 = claim_space(div1_nodes);
+      p2 = claim_element(div1_nodes, "P", {});
+      var p2_nodes = children(p2);
+      t14 = claim_text(p2_nodes, "Por eso, creamos herramientas, en distintos formatos interactivos y pensadas para trabajar en conjunto con toda la comunidad educativa, que estimulen ese ejercicio. ");
+      span5 = claim_element(p2_nodes, "SPAN", {
+        class: true
+      });
+      var span5_nodes = children(span5);
+      t15 = claim_text(span5_nodes, "Para que observemos nuestras propias reacciones");
+      span5_nodes.forEach(detach_dev);
+      t16 = claim_text(p2_nodes, " y nuestras propias tendencias antes de juzgar, decidir y hacer click.");
+      p2_nodes.forEach(detach_dev);
+      div1_nodes.forEach(detach_dev);
+      t17 = claim_space(section_nodes);
+      style = claim_element(section_nodes, "STYLE", {});
+      var style_nodes = children(style);
+      t18 = claim_text(style_nodes, ".pedagogias-digitales-section{\n  background-color:#000;\n  padding:100px 0;\n  padding-left:2.5em;\n  padding-right:2.5em;\n}\n\nimg.thumbs-up{\n  filter: invert(58%) sepia(45%) saturate(4209%) hue-rotate(219deg) brightness(96%) contrast(110%);\n  width:100px;\n  margin-right:10px;\n}\n\n.title-container{\n  display:flex;\n  align-items:flex-start;\n}\n\n.pedagogias-digitales-container h1{\n  font-family: Staatliches;\n  font-size: 48px;\n  line-height: 48px;\n  text-transform: uppercase;\n  padding-bottom:80px\n}\n\n.pedagogias-digitales-container .text-blue-300.bg-white{\n  text-transform: uppercase;\n  font-family: Staatliches;\n}\n\n.bg-ligth-blue{\n  color:#000;\n  background-color:#AEDCEA\n}\n\n.pedagogias-digitales-container{\n  max-width:980px;\n  margin:auto\n}\n\n.pedagogias-digitales-container p{\n  color:#fff;\n  font-family: Circular, Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  line-height: 32px;\n  padding-bottom:20px\n}\n\n@media (max-width:480px){\n  .title-container{\n    flex-direction:column\n  }\n\n  img.thumbs-up{\n    margin-bottom:10px\n  }\n}");
+      style_nodes.forEach(detach_dev);
+      section_nodes.forEach(detach_dev);
+      this.h();
+    },
+    h: function hydrate() {
+      attr_dev(img, "class", "thumbs-up");
+      if (img.src !== (img_src_value = "thumbs-up.svg")) attr_dev(img, "src", img_src_value);
+      attr_dev(img, "alt", "pulgar en alto");
+      add_location(img, file$2, 3, 12, 149);
+      attr_dev(span0, "class", "text-blue-300");
+      add_location(span0, file$2, 5, 16, 249);
+      add_location(br, file$2, 6, 12, 319);
+      attr_dev(span1, "class", "fushia-text");
+      add_location(span1, file$2, 7, 16, 341);
+      add_location(h1, file$2, 4, 12, 227);
+      attr_dev(div0, "class", "title-container");
+      add_location(div0, file$2, 2, 8, 106);
+      add_location(p0, file$2, 10, 8, 440);
+      attr_dev(span2, "class", "text-black");
+      add_location(span2, file$2, 13, 59, 721);
+      attr_dev(span3, "class", "fushia-text");
+      add_location(span3, file$2, 13, 93, 755);
+      attr_dev(span4, "class", "text-blue-300 bg-white");
+      add_location(span4, file$2, 13, 12, 674);
+      add_location(p1, file$2, 12, 8, 657);
+      attr_dev(span5, "class", "bg-ligth-blue");
+      add_location(span5, file$2, 16, 177, 1287);
+      add_location(p2, file$2, 15, 8, 1105);
+      attr_dev(div1, "class", "pedagogias-digitales-container");
+      add_location(div1, file$2, 1, 4, 52);
+      add_location(style, file$2, 21, 4, 1480);
+      attr_dev(section, "class", "pedagogias-digitales-section");
+      add_location(section, file$2, 0, 0, 0);
+    },
+    m: function mount(target, anchor) {
+      insert_dev(target, section, anchor);
+      append_dev(section, div1);
+      append_dev(div1, div0);
+      append_dev(div0, img);
+      append_dev(div0, t0);
+      append_dev(div0, h1);
+      append_dev(h1, span0);
+      append_dev(span0, t1);
+      append_dev(h1, t2);
+      append_dev(h1, br);
+      append_dev(h1, t3);
+      append_dev(h1, span1);
+      append_dev(span1, t4);
+      append_dev(div1, t5);
+      append_dev(div1, p0);
+      append_dev(p0, t6);
+      append_dev(div1, t7);
+      append_dev(div1, p1);
+      append_dev(p1, span4);
+      append_dev(span4, t8);
+      append_dev(span4, span2);
+      append_dev(span2, t9);
+      append_dev(span4, t10);
+      append_dev(span4, span3);
+      append_dev(span3, t11);
+      append_dev(p1, t12);
+      append_dev(div1, t13);
+      append_dev(div1, p2);
+      append_dev(p2, t14);
+      append_dev(p2, span5);
+      append_dev(span5, t15);
+      append_dev(p2, t16);
+      append_dev(section, t17);
+      append_dev(section, style);
+      append_dev(style, t18);
+    },
+    p: noop,
+    i: noop,
+    o: noop,
+    d: function destroy(detaching) {
+      if (detaching) detach_dev(section);
+    }
+  };
+  dispatch_dev("SvelteRegisterBlock", {
+    block: block,
+    id: create_fragment$2.name,
+    type: "component",
+    source: "",
+    ctx: ctx
+  });
+  return block;
+}
+
+function instance$2($$self, $$props) {
+  var _$$props$$$slots = $$props.$$slots,
+      slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
+      $$props.$$scope;
+  validate_slots("PedagogiaDigital", slots, []);
+  var writable_props = [];
+  Object.keys($$props).forEach(function (key) {
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<PedagogiaDigital> was created with unknown prop '".concat(key, "'"));
+  });
+  return [];
+}
+
+var PedagogiaDigital = /*#__PURE__*/function (_SvelteComponentDev) {
+  _inherits(PedagogiaDigital, _SvelteComponentDev);
+
+  var _super = _createSuper$2(PedagogiaDigital);
+
+  function PedagogiaDigital(options) {
+    var _this;
+
+    _classCallCheck(this, PedagogiaDigital);
+
+    _this = _super.call(this, options);
+    init(_assertThisInitialized(_this), options, instance$2, create_fragment$2, safe_not_equal, {});
+    dispatch_dev("SvelteRegisterComponent", {
+      component: _assertThisInitialized(_this),
+      tagName: "PedagogiaDigital",
       options: options,
       id: create_fragment$2.name
     });
     return _this;
   }
 
-  return KitHerramientas;
+  return PedagogiaDigital;
 }(SvelteComponentDev);
 
 function _createSuper$1(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$1(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
@@ -4268,10 +5182,14 @@ function create_fragment$1(ctx) {
   var a4;
   var t13;
   var t14;
-  var p;
-  var t15;
+  var li5;
   var a5;
+  var t15;
   var t16;
+  var p;
+  var t17;
+  var a6;
+  var t18;
   var block = {
     c: function create() {
       footer = element("footer");
@@ -4309,10 +5227,14 @@ function create_fragment$1(ctx) {
       a4 = element("a");
       t13 = text("kit de herramientas");
       t14 = space();
-      p = element("p");
-      t15 = text("Todos los materiales originales están bajo una licencia de \n    ");
+      li5 = element("li");
       a5 = element("a");
-      t16 = text("Creative Commons Reconocimiento 4.0 Internacional.");
+      t15 = text("Quienes Somos");
+      t16 = space();
+      p = element("p");
+      t17 = text("Todos los materiales originales están bajo una licencia de \n    ");
+      a6 = element("a");
+      t18 = text("Creative Commons Reconocimiento 4.0 Internacional.");
       this.h();
     },
     l: function claim(nodes) {
@@ -4420,21 +5342,32 @@ function create_fragment$1(ctx) {
       t13 = claim_text(a4_nodes, "kit de herramientas");
       a4_nodes.forEach(detach_dev);
       li4_nodes.forEach(detach_dev);
+      t14 = claim_space(ul_nodes);
+      li5 = claim_element(ul_nodes, "LI", {});
+      var li5_nodes = children(li5);
+      a5 = claim_element(li5_nodes, "A", {
+        class: true,
+        href: true
+      });
+      var a5_nodes = children(a5);
+      t15 = claim_text(a5_nodes, "Quienes Somos");
+      a5_nodes.forEach(detach_dev);
+      li5_nodes.forEach(detach_dev);
       ul_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
-      t14 = claim_space(footer_nodes);
+      t16 = claim_space(footer_nodes);
       p = claim_element(footer_nodes, "P", {
         class: true
       });
       var p_nodes = children(p);
-      t15 = claim_text(p_nodes, "Todos los materiales originales están bajo una licencia de \n    ");
-      a5 = claim_element(p_nodes, "A", {
+      t17 = claim_text(p_nodes, "Todos los materiales originales están bajo una licencia de \n    ");
+      a6 = claim_element(p_nodes, "A", {
         href: true,
         target: true
       });
-      var a5_nodes = children(a5);
-      t16 = claim_text(a5_nodes, "Creative Commons Reconocimiento 4.0 Internacional.");
-      a5_nodes.forEach(detach_dev);
+      var a6_nodes = children(a6);
+      t18 = claim_text(a6_nodes, "Creative Commons Reconocimiento 4.0 Internacional.");
+      a6_nodes.forEach(detach_dev);
       p_nodes.forEach(detach_dev);
       footer_nodes.forEach(detach_dev);
       this.h();
@@ -4479,15 +5412,19 @@ function create_fragment$1(ctx) {
       attr_dev(a4, "href", "#kit-de-herramientas");
       add_location(a4, file$1, 42, 12, 1234);
       add_location(li4, file$1, 42, 8, 1230);
+      attr_dev(a5, "class", "hover:underline");
+      attr_dev(a5, "href", "#quienes-somos");
+      add_location(a5, file$1, 43, 12, 1330);
+      add_location(li5, file$1, 43, 8, 1326);
       attr_dev(ul, "class", "uppercase text-bold mt-5 text-left");
       add_location(ul, file$1, 37, 6, 877);
       attr_dev(div3, "class", "container fot flex justify-between align-center  svelte-19ymy2v");
       add_location(div3, file$1, 26, 2, 295);
-      attr_dev(a5, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
-      attr_dev(a5, "target", "_blank");
-      add_location(a5, file$1, 46, 4, 1452);
+      attr_dev(a6, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
+      attr_dev(a6, "target", "_blank");
+      add_location(a6, file$1, 47, 4, 1536);
       attr_dev(p, "class", "text-center text-xs text-bold mt-10");
-      add_location(p, file$1, 45, 2, 1341);
+      add_location(p, file$1, 46, 2, 1425);
       attr_dev(footer, "class", "bg-gray-200 p-20");
       add_location(footer, file$1, 25, 0, 259);
     },
@@ -4526,11 +5463,15 @@ function create_fragment$1(ctx) {
       append_dev(ul, li4);
       append_dev(li4, a4);
       append_dev(a4, t13);
-      append_dev(footer, t14);
+      append_dev(ul, t14);
+      append_dev(ul, li5);
+      append_dev(li5, a5);
+      append_dev(a5, t15);
+      append_dev(footer, t16);
       append_dev(footer, p);
-      append_dev(p, t15);
-      append_dev(p, a5);
-      append_dev(a5, t16);
+      append_dev(p, t17);
+      append_dev(p, a6);
+      append_dev(a6, t18);
     },
     p: noop,
     i: noop,
@@ -4606,6 +5547,10 @@ function create_fragment(ctx) {
   var t4;
   var kitherramientas;
   var t5;
+  var quienessomos;
+  var t6;
+  var pedagogiadigital;
+  var t7;
   var footer;
   var current;
   home = new Home({
@@ -4621,6 +5566,12 @@ function create_fragment(ctx) {
     $$inline: true
   });
   kitherramientas = new KitHerramientas({
+    $$inline: true
+  });
+  quienessomos = new QuienesSomos({
+    $$inline: true
+  });
+  pedagogiadigital = new PedagogiaDigital({
     $$inline: true
   });
   footer = new Footer({
@@ -4642,6 +5593,10 @@ function create_fragment(ctx) {
       t4 = space();
       create_component(kitherramientas.$$.fragment);
       t5 = space();
+      create_component(quienessomos.$$.fragment);
+      t6 = space();
+      create_component(pedagogiadigital.$$.fragment);
+      t7 = space();
       create_component(footer.$$.fragment);
       this.h();
     },
@@ -4673,6 +5628,10 @@ function create_fragment(ctx) {
       t4 = claim_space(nodes);
       claim_component(kitherramientas.$$.fragment, nodes);
       t5 = claim_space(nodes);
+      claim_component(quienessomos.$$.fragment, nodes);
+      t6 = claim_space(nodes);
+      claim_component(pedagogiadigital.$$.fragment, nodes);
+      t7 = claim_space(nodes);
       claim_component(footer.$$.fragment, nodes);
       this.h();
     },
@@ -4680,13 +5639,13 @@ function create_fragment(ctx) {
       document.title = "Corazones Y Mentes";
       attr_dev(link0, "rel", "preconnect");
       attr_dev(link0, "href", "https://fonts.gstatic.com");
-      add_location(link0, file, 19, 1, 679);
+      add_location(link0, file, 21, 1, 811);
       attr_dev(link1, "href", "https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
       attr_dev(link1, "rel", "stylesheet");
-      add_location(link1, file, 20, 1, 737);
+      add_location(link1, file, 22, 1, 869);
       script.async = true;
       if (script.src !== (script_src_value = "https://www.googletagmanager.com/gtag/js?id=G-LJWHDC5L57")) attr_dev(script, "src", script_src_value);
-      add_location(script, file, 21, 1, 835);
+      add_location(script, file, 23, 1, 967);
     },
     m: function mount(target, anchor) {
       append_dev(document.head, link0);
@@ -4703,6 +5662,10 @@ function create_fragment(ctx) {
       insert_dev(target, t4, anchor);
       mount_component(kitherramientas, target, anchor);
       insert_dev(target, t5, anchor);
+      mount_component(quienessomos, target, anchor);
+      insert_dev(target, t6, anchor);
+      mount_component(pedagogiadigital, target, anchor);
+      insert_dev(target, t7, anchor);
       mount_component(footer, target, anchor);
       current = true;
     },
@@ -4714,6 +5677,8 @@ function create_fragment(ctx) {
       transition_in(articulo.$$.fragment, local);
       transition_in(forodocente.$$.fragment, local);
       transition_in(kitherramientas.$$.fragment, local);
+      transition_in(quienessomos.$$.fragment, local);
+      transition_in(pedagogiadigital.$$.fragment, local);
       transition_in(footer.$$.fragment, local);
       current = true;
     },
@@ -4723,6 +5688,8 @@ function create_fragment(ctx) {
       transition_out(articulo.$$.fragment, local);
       transition_out(forodocente.$$.fragment, local);
       transition_out(kitherramientas.$$.fragment, local);
+      transition_out(quienessomos.$$.fragment, local);
+      transition_out(pedagogiadigital.$$.fragment, local);
       transition_out(footer.$$.fragment, local);
       current = false;
     },
@@ -4741,6 +5708,10 @@ function create_fragment(ctx) {
       if (detaching) detach_dev(t4);
       destroy_component(kitherramientas, detaching);
       if (detaching) detach_dev(t5);
+      destroy_component(quienessomos, detaching);
+      if (detaching) detach_dev(t6);
+      destroy_component(pedagogiadigital, detaching);
+      if (detaching) detach_dev(t7);
       destroy_component(footer, detaching);
     }
   };
@@ -4782,6 +5753,8 @@ function instance($$self, $$props, $$invalidate) {
       Articulo: Articulo,
       ForoDocente: ForoDocente,
       KitHerramientas: KitHerramientas,
+      QuienesSomos: QuienesSomos,
+      PedagogiaDigital: PedagogiaDigital,
       Footer: Footer,
       onMount: onMount
     };

@@ -1986,11 +1986,11 @@ function create_fragment$3(ctx) {
   var a4;
   var t13;
   var t14;
-  var div8;
-  var div7;
   var a5;
   var t15;
   var t16;
+  var div8;
+  var div7;
   var a6;
   var t17;
   var t18;
@@ -2002,6 +2002,12 @@ function create_fragment$3(ctx) {
   var t22;
   var a9;
   var t23;
+  var t24;
+  var a10;
+  var t25;
+  var t26;
+  var a11;
+  var t27;
   var div8_class_value;
   var mounted;
   var dispose;
@@ -2042,22 +2048,28 @@ function create_fragment$3(ctx) {
       a4 = element("a");
       t13 = text("Kit De Herramientas");
       t14 = space();
+      a5 = element("a");
+      t15 = text("Quienes Somos");
+      t16 = space();
       div8 = element("div");
       div7 = element("div");
-      a5 = element("a");
-      t15 = text("HOME");
-      t16 = space();
       a6 = element("a");
-      t17 = text("#TodaLaData");
+      t17 = text("HOME");
       t18 = space();
       a7 = element("a");
-      t19 = text("LIBRO");
+      t19 = text("#TodaLaData");
       t20 = space();
       a8 = element("a");
-      t21 = text("Foro DOCENTE");
+      t21 = text("LIBRO");
       t22 = space();
       a9 = element("a");
-      t23 = text("Kit De Heramientas");
+      t23 = text("Foro DOCENTE");
+      t24 = space();
+      a10 = element("a");
+      t25 = text("Kit De Heramientas");
+      t26 = space();
+      a11 = element("a");
+      t27 = text("Quienes Somos");
       this.h();
     },
     l: function claim(nodes) {
@@ -2191,12 +2203,20 @@ function create_fragment$3(ctx) {
       var a4_nodes = children(a4);
       t13 = claim_text(a4_nodes, "Kit De Herramientas");
       a4_nodes.forEach(detach_dev);
+      t14 = claim_space(div2_nodes);
+      a5 = claim_element(div2_nodes, "A", {
+        href: true,
+        class: true
+      });
+      var a5_nodes = children(a5);
+      t15 = claim_text(a5_nodes, "Quienes Somos");
+      a5_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      t14 = claim_space(nav_nodes);
+      t16 = claim_space(nav_nodes);
       div8 = claim_element(nav_nodes, "DIV", {
         class: true,
         id: true
@@ -2206,20 +2226,12 @@ function create_fragment$3(ctx) {
         class: true
       });
       var div7_nodes = children(div7);
-      a5 = claim_element(div7_nodes, "A", {
-        href: true,
-        class: true
-      });
-      var a5_nodes = children(a5);
-      t15 = claim_text(a5_nodes, "HOME");
-      a5_nodes.forEach(detach_dev);
-      t16 = claim_space(div7_nodes);
       a6 = claim_element(div7_nodes, "A", {
         href: true,
         class: true
       });
       var a6_nodes = children(a6);
-      t17 = claim_text(a6_nodes, "#TodaLaData");
+      t17 = claim_text(a6_nodes, "HOME");
       a6_nodes.forEach(detach_dev);
       t18 = claim_space(div7_nodes);
       a7 = claim_element(div7_nodes, "A", {
@@ -2227,7 +2239,7 @@ function create_fragment$3(ctx) {
         class: true
       });
       var a7_nodes = children(a7);
-      t19 = claim_text(a7_nodes, "LIBRO");
+      t19 = claim_text(a7_nodes, "#TodaLaData");
       a7_nodes.forEach(detach_dev);
       t20 = claim_space(div7_nodes);
       a8 = claim_element(div7_nodes, "A", {
@@ -2235,7 +2247,7 @@ function create_fragment$3(ctx) {
         class: true
       });
       var a8_nodes = children(a8);
-      t21 = claim_text(a8_nodes, "Foro DOCENTE");
+      t21 = claim_text(a8_nodes, "LIBRO");
       a8_nodes.forEach(detach_dev);
       t22 = claim_space(div7_nodes);
       a9 = claim_element(div7_nodes, "A", {
@@ -2243,8 +2255,24 @@ function create_fragment$3(ctx) {
         class: true
       });
       var a9_nodes = children(a9);
-      t23 = claim_text(a9_nodes, "Kit De Heramientas");
+      t23 = claim_text(a9_nodes, "Foro DOCENTE");
       a9_nodes.forEach(detach_dev);
+      t24 = claim_space(div7_nodes);
+      a10 = claim_element(div7_nodes, "A", {
+        href: true,
+        class: true
+      });
+      var a10_nodes = children(a10);
+      t25 = claim_text(a10_nodes, "Kit De Heramientas");
+      a10_nodes.forEach(detach_dev);
+      t26 = claim_space(div7_nodes);
+      a11 = claim_element(div7_nodes, "A", {
+        href: true,
+        class: true
+      });
+      var a11_nodes = children(a11);
+      t27 = claim_text(a11_nodes, "Quienes Somos");
+      a11_nodes.forEach(detach_dev);
       div7_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
       nav_nodes.forEach(detach_dev);
@@ -2319,6 +2347,11 @@ function create_fragment$3(ctx) {
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " px-3 py-2 text-sm font-medium"));
       add_location(a4, file$2, 45, 12, 2581);
+      attr_dev(a5, "href", "#quienes-somos");
+      attr_dev(a5, "class", "" + (
+      /*getActive*/
+      ctx[2]("quienes-somos") + " px-3 py-2 text-sm font-medium"));
+      add_location(a5, file$2, 46, 12, 2721);
       attr_dev(div2, "class", "flex space-x-4 items-end");
       add_location(div2, file$2, 39, 10, 1978);
       attr_dev(div3, "class", "hidden sm:block sm:ml-6");
@@ -2329,38 +2362,43 @@ function create_fragment$3(ctx) {
       add_location(div5, file$2, 15, 4, 415);
       attr_dev(div6, "class", "max-w-7xl mx-auto px-2 sm:px-6 lg:px-8");
       add_location(div6, file$2, 14, 2, 358);
-      attr_dev(a5, "href", "#home");
-      attr_dev(a5, "class", "" + (
-      /*getActive*/
-      ctx[2](undefined) + " block px-3 py-2 text-base font-medium"));
-      add_location(a5, file$2, 55, 6, 2953);
-      attr_dev(a6, "href", "#toda-la-data");
+      attr_dev(a6, "href", "#home");
       attr_dev(a6, "class", "" + (
       /*getActive*/
-      ctx[2]("toda-la-data") + " block px-3 py-2 text-base font-medium"));
-      add_location(a6, file$2, 56, 6, 3053);
-      attr_dev(a7, "href", "#libro");
+      ctx[2](undefined) + " block px-3 py-2 text-base font-medium"));
+      add_location(a6, file$2, 56, 6, 3075);
+      attr_dev(a7, "href", "#toda-la-data");
       attr_dev(a7, "class", "" + (
       /*getActive*/
-      ctx[2]("libro") + " block px-3 py-2 text-base font-medium"));
-      add_location(a7, file$2, 57, 6, 3173);
-      attr_dev(a8, "href", "#foro-docente");
+      ctx[2]("toda-la-data") + " block px-3 py-2 text-base font-medium"));
+      add_location(a7, file$2, 57, 6, 3175);
+      attr_dev(a8, "href", "#libro");
       attr_dev(a8, "class", "" + (
       /*getActive*/
-      ctx[2]("foro-docente") + " block px-3 py-2 text-base font-medium"));
-      add_location(a8, file$2, 58, 6, 3273);
-      attr_dev(a9, "href", "#kit-de-herramientas");
+      ctx[2]("libro") + " block px-3 py-2 text-base font-medium"));
+      add_location(a8, file$2, 58, 6, 3295);
+      attr_dev(a9, "href", "#foro-docente");
       attr_dev(a9, "class", "" + (
       /*getActive*/
+      ctx[2]("foro-docente") + " block px-3 py-2 text-base font-medium"));
+      add_location(a9, file$2, 59, 6, 3395);
+      attr_dev(a10, "href", "#kit-de-herramientas");
+      attr_dev(a10, "class", "" + (
+      /*getActive*/
       ctx[2]("kit-de-herramientas") + " block px-3 py-2 text-base font-medium"));
-      add_location(a9, file$2, 59, 6, 3394);
+      add_location(a10, file$2, 60, 6, 3516);
+      attr_dev(a11, "href", "#quienes-somos");
+      attr_dev(a11, "class", "" + (
+      /*getActive*/
+      ctx[2]("quienes-somos") + " block px-3 py-2 text-base font-medium"));
+      add_location(a11, file$2, 61, 6, 3657);
       attr_dev(div7, "class", "px-2 pt-2 pb-3 space-y-1");
-      add_location(div7, file$2, 54, 4, 2908);
+      add_location(div7, file$2, 55, 4, 3030);
       attr_dev(div8, "class", div8_class_value = "sm:hidden " + (
       /*opened*/
       ctx[0] ? "block" : "hidden"));
       attr_dev(div8, "id", "mobile-menu");
-      add_location(div8, file$2, 53, 2, 2832);
+      add_location(div8, file$2, 54, 2, 2954);
       attr_dev(nav, "class", "bg-white shadow font-sans");
       add_location(nav, file$2, 13, 0, 316);
     },
@@ -2399,12 +2437,12 @@ function create_fragment$3(ctx) {
       append_dev(div2, t12);
       append_dev(div2, a4);
       append_dev(a4, t13);
-      append_dev(nav, t14);
+      append_dev(div2, t14);
+      append_dev(div2, a5);
+      append_dev(a5, t15);
+      append_dev(nav, t16);
       append_dev(nav, div8);
       append_dev(div8, div7);
-      append_dev(div7, a5);
-      append_dev(a5, t15);
-      append_dev(div7, t16);
       append_dev(div7, a6);
       append_dev(a6, t17);
       append_dev(div7, t18);
@@ -2416,6 +2454,12 @@ function create_fragment$3(ctx) {
       append_dev(div7, t22);
       append_dev(div7, a9);
       append_dev(a9, t23);
+      append_dev(div7, t24);
+      append_dev(div7, a10);
+      append_dev(a10, t25);
+      append_dev(div7, t26);
+      append_dev(div7, a11);
+      append_dev(a11, t27);
 
       if (!mounted) {
         dispose = listen_dev(button, "click",
@@ -3585,7 +3629,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.870a051d.js'), __inject_styles(["client-53f58bb9.css","index-925f4043.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.ce768e51.js'), __inject_styles(["client-53f58bb9.css","index-d8c22e3d.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

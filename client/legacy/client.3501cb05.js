@@ -2382,7 +2382,7 @@ function create_fragment$3(ctx) {
       /*getActive*/
       ctx[2]("foro-docente") + " block px-3 py-2 text-base font-medium"));
       add_location(a9, file$2, 59, 6, 3395);
-      attr_dev(a10, "href", "#kit-de-herramientas");
+      attr_dev(a10, "href", "#kit-de-herramienpmntas");
       attr_dev(a10, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " block px-3 py-2 text-base font-medium"));
@@ -2391,7 +2391,7 @@ function create_fragment$3(ctx) {
       attr_dev(a11, "class", "" + (
       /*getActive*/
       ctx[2]("quienes-somos") + " block px-3 py-2 text-base font-medium"));
-      add_location(a11, file$2, 61, 6, 3657);
+      add_location(a11, file$2, 61, 6, 3660);
       attr_dev(div7, "class", "px-2 pt-2 pb-3 space-y-1");
       add_location(div7, file$2, 55, 4, 3030);
       attr_dev(div8, "class", div8_class_value = "sm:hidden " + (
@@ -3629,7 +3629,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.6002aaea.js'), __inject_styles(["client-53f58bb9.css","index-d8c22e3d.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.c15348af.js'), __inject_styles(["client-53f58bb9.css","index-59c315b1.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

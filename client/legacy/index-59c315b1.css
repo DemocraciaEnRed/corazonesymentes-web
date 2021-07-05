@@ -2,7 +2,7 @@
 #show-all-tik.svelte-1ujxkbk{background-color:white;padding:5px 20px}#hashtag.svelte-1ujxkbk{position:relative;top:11px}
 .document-icon.svelte-14lxvia{width:48px;height:48px
 }
-@media only screen and (max-width: 600px){img.svelte-1j75uuy{display:none}}
+.inscripcion-talleres.svelte-ikfrpc{position:relative;font-family:inherit;font-weight:700;cursor:pointer;transition-duration:0.1s;transition-property:background-color, color, border-color, opacity, box-shadow;transition-timing-function:ease-out;outline:none;border:1px solid transparent;margin:0px;box-shadow:rgb(0 0 0 / 10%) 0px 3px 12px 0px;padding:8px 18px;min-height:48px;background-color:rgb(138, 229, 238);color:rgb(0, 0, 0);border-radius:4px}@media only screen and (max-width: 600px){img.svelte-ikfrpc{display:none}}
 .document-icon.svelte-1f4zug6.svelte-1f4zug6{margin-right:15px;width:80px;height:80px;padding:10px
 }.download.svelte-1f4zug6 img.svelte-1f4zug6{width:30px}
 #kit-de-herramientas.svelte-fzyaxp{background-position:center;background-size:90%;background-repeat:no-repeat}

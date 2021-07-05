@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.a43895f2.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.3501cb05.js';
 
 function _createSuper$a(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$a(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -1672,64 +1672,88 @@ function _isNativeReflectConstruct$6() { if (typeof Reflect === "undefined" || !
 var file$6 = "src\\components\\ForoDocente.svelte";
 
 function create_fragment$6(ctx) {
-  var div4;
+  var div3;
   var article;
   var div1;
   var div0;
   var h1;
-  var span;
+  var span0;
   var t0;
   var t1;
   var t2;
   var img;
   var img_src_value;
   var t3;
-  var p;
+  var p0;
   var t4;
   var br0;
   var t5;
   var br1;
   var t6;
   var t7;
-  var div2;
-  var a;
+  var p1;
+  var span1;
   var t8;
   var t9;
-  var div3;
+  var p2;
+  var t10;
+  var t11;
+  var p3;
+  var t12;
+  var t13;
+  var p4;
+  var t14;
+  var t15;
+  var div2;
+  var span2;
+  var a;
+  var t16;
   var block = {
     c: function create() {
-      div4 = element("div");
+      div3 = element("div");
       article = element("article");
       div1 = element("div");
       div0 = element("div");
       h1 = element("h1");
-      span = element("span");
-      t0 = text("FORO");
-      t1 = text(" DOCENTE");
+      span0 = element("span");
+      t0 = text("Talleres");
+      t1 = text(" para docentes");
       t2 = space();
       img = element("img");
       t3 = space();
-      p = element("p");
-      t4 = text("Un espacio para intercambiar ideas, sugerir bibliografía,");
+      p0 = element("p");
+      t4 = text("Dos encuentros para trabajar estrategias y herramientas pedagógicas");
       br0 = element("br");
-      t5 = text("\n      dialogar y debatir sobre el uso de internet, las redes sociales");
+      t5 = text("\n      sobre fake news y convivencia digital positiva");
       br1 = element("br");
-      t6 = text("\n       y la convivencia digital entre les jovenes y en las aulas");
+      t6 = text("\n      para trabajar en el aula y debatir con lxs estudiantes.");
       t7 = space();
-      div2 = element("div");
-      a = element("a");
-      t8 = text("Descargá actividades para trabajar en clase");
+      p1 = element("p");
+      span1 = element("span");
+      t8 = text("¡Sumate a los próximos encuentros!");
       t9 = space();
-      div3 = element("div");
+      p2 = element("p");
+      t10 = text("Primer encuentro - 18/08 - 17:00 a 18:30");
+      t11 = space();
+      p3 = element("p");
+      t12 = text("Segundo encuentro - 20/08 - 17:00 a 18:30");
+      t13 = space();
+      p4 = element("p");
+      t14 = text("La actividad es gratuita y online vía Google Meet, con cupo limitado.");
+      t15 = space();
+      div2 = element("div");
+      span2 = element("span");
+      a = element("a");
+      t16 = text("QUIERO INSCRIBIRME");
       this.h();
     },
     l: function claim(nodes) {
-      div4 = claim_element(nodes, "DIV", {
+      div3 = claim_element(nodes, "DIV", {
         class: true,
         id: true
       });
-      var div4_nodes = children(div4);
-      article = claim_element(div4_nodes, "ARTICLE", {
+      var div3_nodes = children(div3);
+      article = claim_element(div3_nodes, "ARTICLE", {
         class: true
       });
       var article_nodes = children(article);
@@ -1745,13 +1769,13 @@ function create_fragment$6(ctx) {
         class: true
       });
       var h1_nodes = children(h1);
-      span = claim_element(h1_nodes, "SPAN", {
+      span0 = claim_element(h1_nodes, "SPAN", {
         class: true
       });
-      var span_nodes = children(span);
-      t0 = claim_text(span_nodes, "FORO");
-      span_nodes.forEach(detach_dev);
-      t1 = claim_text(h1_nodes, " DOCENTE");
+      var span0_nodes = children(span0);
+      t0 = claim_text(span0_nodes, "Talleres");
+      span0_nodes.forEach(detach_dev);
+      t1 = claim_text(h1_nodes, " para docentes");
       h1_nodes.forEach(detach_dev);
       div0_nodes.forEach(detach_dev);
       t2 = claim_space(div1_nodes);
@@ -1763,106 +1787,156 @@ function create_fragment$6(ctx) {
       });
       div1_nodes.forEach(detach_dev);
       t3 = claim_space(article_nodes);
-      p = claim_element(article_nodes, "P", {
+      p0 = claim_element(article_nodes, "P", {
         class: true
       });
-      var p_nodes = children(p);
-      t4 = claim_text(p_nodes, "Un espacio para intercambiar ideas, sugerir bibliografía,");
-      br0 = claim_element(p_nodes, "BR", {});
-      t5 = claim_text(p_nodes, "\n      dialogar y debatir sobre el uso de internet, las redes sociales");
-      br1 = claim_element(p_nodes, "BR", {});
-      t6 = claim_text(p_nodes, "\n       y la convivencia digital entre les jovenes y en las aulas");
-      p_nodes.forEach(detach_dev);
+      var p0_nodes = children(p0);
+      t4 = claim_text(p0_nodes, "Dos encuentros para trabajar estrategias y herramientas pedagógicas");
+      br0 = claim_element(p0_nodes, "BR", {});
+      t5 = claim_text(p0_nodes, "\n      sobre fake news y convivencia digital positiva");
+      br1 = claim_element(p0_nodes, "BR", {});
+      t6 = claim_text(p0_nodes, "\n      para trabajar en el aula y debatir con lxs estudiantes.");
+      p0_nodes.forEach(detach_dev);
       t7 = claim_space(article_nodes);
+      p1 = claim_element(article_nodes, "P", {
+        class: true
+      });
+      var p1_nodes = children(p1);
+      span1 = claim_element(p1_nodes, "SPAN", {
+        class: true
+      });
+      var span1_nodes = children(span1);
+      t8 = claim_text(span1_nodes, "¡Sumate a los próximos encuentros!");
+      span1_nodes.forEach(detach_dev);
+      p1_nodes.forEach(detach_dev);
+      t9 = claim_space(article_nodes);
+      p2 = claim_element(article_nodes, "P", {
+        class: true
+      });
+      var p2_nodes = children(p2);
+      t10 = claim_text(p2_nodes, "Primer encuentro - 18/08 - 17:00 a 18:30");
+      p2_nodes.forEach(detach_dev);
+      t11 = claim_space(article_nodes);
+      p3 = claim_element(article_nodes, "P", {
+        class: true
+      });
+      var p3_nodes = children(p3);
+      t12 = claim_text(p3_nodes, "Segundo encuentro - 20/08 - 17:00 a 18:30");
+      p3_nodes.forEach(detach_dev);
+      t13 = claim_space(article_nodes);
+      p4 = claim_element(article_nodes, "P", {
+        class: true
+      });
+      var p4_nodes = children(p4);
+      t14 = claim_text(p4_nodes, "La actividad es gratuita y online vía Google Meet, con cupo limitado.");
+      p4_nodes.forEach(detach_dev);
+      t15 = claim_space(article_nodes);
       div2 = claim_element(article_nodes, "DIV", {
         class: true
       });
       var div2_nodes = children(div2);
-      a = claim_element(div2_nodes, "A", {
+      span2 = claim_element(div2_nodes, "SPAN", {
+        class: true
+      });
+      var span2_nodes = children(span2);
+      a = claim_element(span2_nodes, "A", {
         href: true,
         target: true,
         class: true
       });
       var a_nodes = children(a);
-      t8 = claim_text(a_nodes, "Descargá actividades para trabajar en clase");
+      t16 = claim_text(a_nodes, "QUIERO INSCRIBIRME");
       a_nodes.forEach(detach_dev);
+      span2_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
-      t9 = claim_space(article_nodes);
-      div3 = claim_element(article_nodes, "DIV", {
-        class: true,
-        "data-url": true,
-        style: true
-      });
-      children(div3).forEach(detach_dev);
       article_nodes.forEach(detach_dev);
-      div4_nodes.forEach(detach_dev);
+      div3_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
-      attr_dev(span, "class", "text-blue-300");
-      add_location(span, file$6, 19, 10, 716);
+      attr_dev(span0, "class", "text-blue-300");
+      add_location(span0, file$6, 38, 10, 1219);
       attr_dev(h1, "class", "uppercase bg-white text-black text-5xl p-2 text-bold");
-      add_location(h1, file$6, 18, 8, 640);
+      add_location(h1, file$6, 37, 8, 1143);
       attr_dev(div0, "class", "mr-5");
-      add_location(div0, file$6, 17, 6, 613);
+      add_location(div0, file$6, 36, 6, 1116);
       if (img.src !== (img_src_value = "dialog.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "id", "dialog");
       attr_dev(img, "alt", "icono de dialogo");
-      attr_dev(img, "class", "svelte-1j75uuy");
-      add_location(img, file$6, 22, 6, 797);
+      attr_dev(img, "class", "svelte-ikfrpc");
+      add_location(img, file$6, 41, 6, 1310);
       attr_dev(div1, "class", "flex items-center justify-start");
-      add_location(div1, file$6, 16, 4, 561);
-      add_location(br0, file$6, 25, 63, 981);
-      add_location(br1, file$6, 26, 69, 1055);
-      attr_dev(p, "class", "text-white mt-10 text-xl font-sans");
-      add_location(p, file$6, 24, 4, 871);
-      attr_dev(a, "href", "https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing");
+      add_location(div1, file$6, 35, 4, 1064);
+      add_location(br0, file$6, 44, 73, 1504);
+      add_location(br1, file$6, 45, 52, 1561);
+      attr_dev(p0, "class", "text-white mt-10 text-xl font-sans");
+      add_location(p0, file$6, 43, 4, 1384);
+      attr_dev(span1, "class", "bg-ligth-blue");
+      add_location(span1, file$6, 48, 58, 1695);
+      attr_dev(p1, "class", "text-white mt-10 tmt-5 text-2xl font-sans ");
+      add_location(p1, file$6, 48, 4, 1641);
+      attr_dev(p2, "class", "text-white mt-5 text-2xl font-sans");
+      add_location(p2, file$6, 49, 4, 1773);
+      attr_dev(p3, "class", "text-white mt-5 text-2xl font-sans");
+      add_location(p3, file$6, 50, 4, 1868);
+      attr_dev(p4, "class", "text-white mt-10 text-xl font-sans");
+      add_location(p4, file$6, 52, 4, 1965);
+      attr_dev(a, "href", "https://form.jotform.com/211795972886072");
       attr_dev(a, "target", "_blank");
-      attr_dev(a, "class", "bg-white uppercase mt-5 p-3 leading-6");
-      add_location(a, file$6, 30, 6, 1174);
-      attr_dev(div2, "class", "text-left mt-10");
-      add_location(div2, file$6, 29, 4, 1138);
-      attr_dev(div3, "class", "typeform-widget mt-10");
-      attr_dev(div3, "data-url", "https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet");
-      set_style(div3, "width", "100%");
-      set_style(div3, "height", "500px");
-      add_location(div3, file$6, 37, 4, 1437);
+      attr_dev(a, "class", "uppercase mt-5 p-3 leading-6 ");
+      add_location(a, file$6, 55, 8, 2185);
+      attr_dev(span2, "class", "inscripcion-talleres text-2xl svelte-ikfrpc");
+      add_location(span2, file$6, 54, 6, 2132);
+      attr_dev(div2, "class", "text-left mt-10 mb-10");
+      add_location(div2, file$6, 53, 4, 2090);
       attr_dev(article, "class", "container mx-auto");
-      add_location(article, file$6, 15, 2, 521);
-      attr_dev(div4, "class", "bg-black p-10");
-      attr_dev(div4, "id", "foro-docente");
-      add_location(div4, file$6, 14, 0, 473);
+      add_location(article, file$6, 34, 2, 1024);
+      attr_dev(div3, "class", "bg-black p-10");
+      attr_dev(div3, "id", "foro-docente");
+      add_location(div3, file$6, 33, 0, 976);
     },
     m: function mount(target, anchor) {
-      insert_dev(target, div4, anchor);
-      append_dev(div4, article);
+      insert_dev(target, div3, anchor);
+      append_dev(div3, article);
       append_dev(article, div1);
       append_dev(div1, div0);
       append_dev(div0, h1);
-      append_dev(h1, span);
-      append_dev(span, t0);
+      append_dev(h1, span0);
+      append_dev(span0, t0);
       append_dev(h1, t1);
       append_dev(div1, t2);
       append_dev(div1, img);
       append_dev(article, t3);
-      append_dev(article, p);
-      append_dev(p, t4);
-      append_dev(p, br0);
-      append_dev(p, t5);
-      append_dev(p, br1);
-      append_dev(p, t6);
+      append_dev(article, p0);
+      append_dev(p0, t4);
+      append_dev(p0, br0);
+      append_dev(p0, t5);
+      append_dev(p0, br1);
+      append_dev(p0, t6);
       append_dev(article, t7);
-      append_dev(article, div2);
-      append_dev(div2, a);
-      append_dev(a, t8);
+      append_dev(article, p1);
+      append_dev(p1, span1);
+      append_dev(span1, t8);
       append_dev(article, t9);
-      append_dev(article, div3);
+      append_dev(article, p2);
+      append_dev(p2, t10);
+      append_dev(article, t11);
+      append_dev(article, p3);
+      append_dev(p3, t12);
+      append_dev(article, t13);
+      append_dev(article, p4);
+      append_dev(p4, t14);
+      append_dev(article, t15);
+      append_dev(article, div2);
+      append_dev(div2, span2);
+      append_dev(span2, a);
+      append_dev(a, t16);
     },
     p: noop,
     i: noop,
     o: noop,
     d: function destroy(detaching) {
-      if (detaching) detach_dev(div4);
+      if (detaching) detach_dev(div3);
     }
   };
   dispatch_dev("SvelteRegisterBlock", {

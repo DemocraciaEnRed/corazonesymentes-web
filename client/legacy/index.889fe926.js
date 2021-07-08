@@ -1,4 +1,4 @@
-import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.d3637e9d.js';
+import { _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, i as init, s as safe_not_equal, d as _assertThisInitialized, e as dispatch_dev, S as SvelteComponentDev, v as validate_slots, f as element, g as space, t as text, h as claim_element, j as children, k as claim_space, l as claim_text, m as detach_dev, n as attr_dev, o as add_location, p as insert_dev, q as append_dev, r as noop, u as identity, w as listen_dev, x as set_style, y as _slicedToArray, z as add_render_callback, A as create_bidirectional_transition, B as _createClass, C as set_data_dev, D as validate_each_argument, E as create_component, F as claim_component, G as mount_component, H as transition_in, I as transition_out, J as destroy_component, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as query_selector_all } from './client.b8c34663.js';
 
 function _createSuper$a(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$a(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -1672,7 +1672,7 @@ function _isNativeReflectConstruct$6() { if (typeof Reflect === "undefined" || !
 var file$6 = "src\\components\\ForoDocente.svelte";
 
 function create_fragment$6(ctx) {
-  var div4;
+  var div3;
   var article;
   var div1;
   var div0;
@@ -1706,15 +1706,11 @@ function create_fragment$6(ctx) {
   var t15;
   var div2;
   var span2;
-  var a0;
+  var a;
   var t16;
-  var t17;
-  var div3;
-  var a1;
-  var t18;
   var block = {
     c: function create() {
-      div4 = element("div");
+      div3 = element("div");
       article = element("article");
       div1 = element("div");
       div0 = element("div");
@@ -1747,21 +1743,17 @@ function create_fragment$6(ctx) {
       t15 = space();
       div2 = element("div");
       span2 = element("span");
-      a0 = element("a");
+      a = element("a");
       t16 = text("QUIERO INSCRIBIRME");
-      t17 = space();
-      div3 = element("div");
-      a1 = element("a");
-      t18 = text("Descargá actividades para trabajar en clase");
       this.h();
     },
     l: function claim(nodes) {
-      div4 = claim_element(nodes, "DIV", {
+      div3 = claim_element(nodes, "DIV", {
         class: true,
         id: true
       });
-      var div4_nodes = children(div4);
-      article = claim_element(div4_nodes, "ARTICLE", {
+      var div3_nodes = children(div3);
+      article = claim_element(div3_nodes, "ARTICLE", {
         class: true
       });
       var article_nodes = children(article);
@@ -1847,32 +1839,18 @@ function create_fragment$6(ctx) {
         class: true
       });
       var span2_nodes = children(span2);
-      a0 = claim_element(span2_nodes, "A", {
+      a = claim_element(span2_nodes, "A", {
         href: true,
         target: true,
         class: true
       });
-      var a0_nodes = children(a0);
-      t16 = claim_text(a0_nodes, "QUIERO INSCRIBIRME");
-      a0_nodes.forEach(detach_dev);
+      var a_nodes = children(a);
+      t16 = claim_text(a_nodes, "QUIERO INSCRIBIRME");
+      a_nodes.forEach(detach_dev);
       span2_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
-      t17 = claim_space(article_nodes);
-      div3 = claim_element(article_nodes, "DIV", {
-        class: true
-      });
-      var div3_nodes = children(div3);
-      a1 = claim_element(div3_nodes, "A", {
-        href: true,
-        target: true,
-        class: true
-      });
-      var a1_nodes = children(a1);
-      t18 = claim_text(a1_nodes, "Descargá actividades para trabajar en clase");
-      a1_nodes.forEach(detach_dev);
-      div3_nodes.forEach(detach_dev);
       article_nodes.forEach(detach_dev);
-      div4_nodes.forEach(detach_dev);
+      div3_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
@@ -1903,29 +1881,23 @@ function create_fragment$6(ctx) {
       add_location(p3, file$6, 50, 4, 1878);
       attr_dev(p4, "class", "text-white mt-10 text-xl font-sans");
       add_location(p4, file$6, 52, 4, 1975);
-      attr_dev(a0, "href", "https://form.jotform.com/211795972886072");
-      attr_dev(a0, "target", "_blank");
-      attr_dev(a0, "class", "uppercase mt-5 p-3 leading-6 ");
-      add_location(a0, file$6, 55, 8, 2195);
+      attr_dev(a, "href", "https://form.jotform.com/211795972886072");
+      attr_dev(a, "target", "_blank");
+      attr_dev(a, "class", "uppercase mt-5 p-3 leading-6 ");
+      add_location(a, file$6, 55, 8, 2195);
       attr_dev(span2, "class", "inscripcion-talleres text-2xl svelte-ikfrpc");
       add_location(span2, file$6, 54, 6, 2142);
       attr_dev(div2, "class", "text-left mt-10 mb-10");
       add_location(div2, file$6, 53, 4, 2100);
-      attr_dev(a1, "href", "https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing");
-      attr_dev(a1, "target", "_blank");
-      attr_dev(a1, "class", "bg-white uppercase mt-5 p-3 leading-6");
-      add_location(a1, file$6, 65, 6, 2438);
-      attr_dev(div3, "class", "text-left mt-10");
-      add_location(div3, file$6, 64, 4, 2402);
       attr_dev(article, "class", "container mx-auto");
       add_location(article, file$6, 34, 2, 1034);
-      attr_dev(div4, "class", "bg-black p-10");
-      attr_dev(div4, "id", "talleres-para-docentes");
-      add_location(div4, file$6, 33, 0, 976);
+      attr_dev(div3, "class", "bg-black p-10");
+      attr_dev(div3, "id", "talleres-para-docentes");
+      add_location(div3, file$6, 33, 0, 976);
     },
     m: function mount(target, anchor) {
-      insert_dev(target, div4, anchor);
-      append_dev(div4, article);
+      insert_dev(target, div3, anchor);
+      append_dev(div3, article);
       append_dev(article, div1);
       append_dev(div1, div0);
       append_dev(div0, h1);
@@ -1957,18 +1929,14 @@ function create_fragment$6(ctx) {
       append_dev(article, t15);
       append_dev(article, div2);
       append_dev(div2, span2);
-      append_dev(span2, a0);
-      append_dev(a0, t16);
-      append_dev(article, t17);
-      append_dev(article, div3);
-      append_dev(div3, a1);
-      append_dev(a1, t18);
+      append_dev(span2, a);
+      append_dev(a, t16);
     },
     p: noop,
     i: noop,
     o: noop,
     d: function destroy(detaching) {
-      if (detaching) detach_dev(div4);
+      if (detaching) detach_dev(div3);
     }
   };
   dispatch_dev("SvelteRegisterBlock", {
@@ -3942,7 +3910,7 @@ function get_each_context(ctx, list, i) {
   var child_ctx = ctx.slice();
   child_ctx[2] = list[i];
   return child_ctx;
-} // (42:6) {#each kits as item}
+} // (52:6) {#each kits as item}
 
 
 function create_each_block(ctx) {
@@ -3997,14 +3965,14 @@ function create_each_block(ctx) {
     block: block,
     id: create_each_block.name,
     type: "each",
-    source: "(42:6) {#each kits as item}",
+    source: "(52:6) {#each kits as item}",
     ctx: ctx
   });
   return block;
 }
 
 function create_fragment$4(ctx) {
-  var div1;
+  var div2;
   var article;
   var h1;
   var span0;
@@ -4024,6 +3992,10 @@ function create_fragment$4(ctx) {
   var t8;
   var t9;
   var div0;
+  var a;
+  var t10;
+  var t11;
+  var div1;
   var current;
   var each_value =
   /*kits*/
@@ -4043,7 +4015,7 @@ function create_fragment$4(ctx) {
 
   var block = {
     c: function create() {
-      div1 = element("div");
+      div2 = element("div");
       article = element("article");
       h1 = element("h1");
       span0 = element("span");
@@ -4063,6 +4035,10 @@ function create_fragment$4(ctx) {
       t8 = text("\n      internet de forma segura, responsable y empática.");
       t9 = space();
       div0 = element("div");
+      a = element("a");
+      t10 = text("Descargá actividades para trabajar en clase");
+      t11 = space();
+      div1 = element("div");
 
       for (var _i = 0; _i < each_blocks.length; _i += 1) {
         each_blocks[_i].c();
@@ -4071,12 +4047,12 @@ function create_fragment$4(ctx) {
       this.h();
     },
     l: function claim(nodes) {
-      div1 = claim_element(nodes, "DIV", {
+      div2 = claim_element(nodes, "DIV", {
         class: true,
         id: true
       });
-      var div1_nodes = children(div1);
-      article = claim_element(div1_nodes, "ARTICLE", {
+      var div2_nodes = children(div2);
+      article = claim_element(div2_nodes, "ARTICLE", {
         class: true
       });
       var article_nodes = children(article);
@@ -4123,14 +4099,28 @@ function create_fragment$4(ctx) {
         class: true
       });
       var div0_nodes = children(div0);
+      a = claim_element(div0_nodes, "A", {
+        href: true,
+        target: true,
+        class: true
+      });
+      var a_nodes = children(a);
+      t10 = claim_text(a_nodes, "Descargá actividades para trabajar en clase");
+      a_nodes.forEach(detach_dev);
+      div0_nodes.forEach(detach_dev);
+      t11 = claim_space(article_nodes);
+      div1 = claim_element(article_nodes, "DIV", {
+        class: true
+      });
+      var div1_nodes = children(div1);
 
       for (var _i2 = 0; _i2 < each_blocks.length; _i2 += 1) {
-        each_blocks[_i2].l(div0_nodes);
+        each_blocks[_i2].l(div1_nodes);
       }
 
-      div0_nodes.forEach(detach_dev);
-      article_nodes.forEach(detach_dev);
       div1_nodes.forEach(detach_dev);
+      article_nodes.forEach(detach_dev);
+      div2_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
@@ -4146,17 +4136,23 @@ function create_fragment$4(ctx) {
       add_location(br, file$4, 37, 69, 1293);
       attr_dev(p, "class", "text-bold text-lg mt-5 mb-10 uppercase");
       add_location(p, file$4, 36, 4, 1173);
-      attr_dev(div0, "class", "grid grid-cols-1 md:grid-cols-2 mt-10");
-      add_location(div0, file$4, 40, 4, 1367);
+      attr_dev(a, "href", "https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing");
+      attr_dev(a, "target", "_blank");
+      attr_dev(a, "class", "border-2 border-purple-400 uppercase mt-5 p-3 text-lg");
+      add_location(a, file$4, 42, 6, 1414);
+      attr_dev(div0, "class", "text-center mt-10 mx-auto");
+      add_location(div0, file$4, 41, 4, 1368);
+      attr_dev(div1, "class", "grid grid-cols-1 md:grid-cols-2 mt-10");
+      add_location(div1, file$4, 50, 4, 1694);
       attr_dev(article, "class", "container mx-auto text-center");
       add_location(article, file$4, 27, 2, 792);
-      attr_dev(div1, "class", "p-10 pt-20 svelte-fzyaxp");
-      attr_dev(div1, "id", "kit-de-herramientas");
-      add_location(div1, file$4, 26, 0, 740);
+      attr_dev(div2, "class", "p-10 pt-20 svelte-fzyaxp");
+      attr_dev(div2, "id", "kit-de-herramientas");
+      add_location(div2, file$4, 26, 0, 740);
     },
     m: function mount(target, anchor) {
-      insert_dev(target, div1, anchor);
-      append_dev(div1, article);
+      insert_dev(target, div2, anchor);
+      append_dev(div2, article);
       append_dev(article, h1);
       append_dev(h1, span0);
       append_dev(span0, t0);
@@ -4175,9 +4171,13 @@ function create_fragment$4(ctx) {
       append_dev(p, t8);
       append_dev(article, t9);
       append_dev(article, div0);
+      append_dev(div0, a);
+      append_dev(a, t10);
+      append_dev(article, t11);
+      append_dev(article, div1);
 
       for (var _i3 = 0; _i3 < each_blocks.length; _i3 += 1) {
-        each_blocks[_i3].m(div0, null);
+        each_blocks[_i3].m(div1, null);
       }
 
       current = true;
@@ -4210,7 +4210,7 @@ function create_fragment$4(ctx) {
 
             transition_in(each_blocks[_i4], 1);
 
-            each_blocks[_i4].m(div0, null);
+            each_blocks[_i4].m(div1, null);
           }
         }
 
@@ -4242,7 +4242,7 @@ function create_fragment$4(ctx) {
       current = false;
     },
     d: function destroy(detaching) {
-      if (detaching) detach_dev(div1);
+      if (detaching) detach_dev(div2);
       destroy_each(each_blocks, detaching);
     }
   };

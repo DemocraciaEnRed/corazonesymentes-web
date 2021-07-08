@@ -2043,7 +2043,7 @@ function create_fragment$3(ctx) {
       t9 = text("LIBRO");
       t10 = space();
       a3 = element("a");
-      t11 = text("Foro DOCENTE");
+      t11 = text("Talleres Para Docentes");
       t12 = space();
       a4 = element("a");
       t13 = text("Kit De Herramientas");
@@ -2193,7 +2193,7 @@ function create_fragment$3(ctx) {
         class: true
       });
       var a3_nodes = children(a3);
-      t11 = claim_text(a3_nodes, "Foro DOCENTE");
+      t11 = claim_text(a3_nodes, "Talleres Para Docentes");
       a3_nodes.forEach(detach_dev);
       t12 = claim_space(div2_nodes);
       a4 = claim_element(div2_nodes, "A", {
@@ -2337,21 +2337,21 @@ function create_fragment$3(ctx) {
       /*getActive*/
       ctx[2]("libro") + "  px-3 py-2 text-sm font-medium"));
       add_location(a2, file$2, 43, 12, 2362);
-      attr_dev(a3, "href", "#foro-docente");
+      attr_dev(a3, "href", "#talleres-para-docentes");
       attr_dev(a3, "class", "" + (
       /*getActive*/
-      ctx[2]("foro-docente") + "  px-3 py-2 text-sm font-medium"));
+      ctx[2]("talleres-para-docentes") + "  px-3 py-2 text-sm font-medium"));
       add_location(a3, file$2, 44, 12, 2461);
       attr_dev(a4, "href", "#kit-de-herramientas");
       attr_dev(a4, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " px-3 py-2 text-sm font-medium"));
-      add_location(a4, file$2, 45, 12, 2581);
+      add_location(a4, file$2, 45, 12, 2611);
       attr_dev(a5, "href", "#quienes-somos");
       attr_dev(a5, "class", "" + (
       /*getActive*/
       ctx[2]("quienes-somos") + " px-3 py-2 text-sm font-medium"));
-      add_location(a5, file$2, 46, 12, 2721);
+      add_location(a5, file$2, 46, 12, 2751);
       attr_dev(div2, "class", "flex space-x-4 items-end");
       add_location(div2, file$2, 39, 10, 1978);
       attr_dev(div3, "class", "hidden sm:block sm:ml-6");
@@ -2366,39 +2366,39 @@ function create_fragment$3(ctx) {
       attr_dev(a6, "class", "" + (
       /*getActive*/
       ctx[2](undefined) + " block px-3 py-2 text-base font-medium"));
-      add_location(a6, file$2, 56, 6, 3075);
+      add_location(a6, file$2, 56, 6, 3105);
       attr_dev(a7, "href", "#toda-la-data");
       attr_dev(a7, "class", "" + (
       /*getActive*/
       ctx[2]("toda-la-data") + " block px-3 py-2 text-base font-medium"));
-      add_location(a7, file$2, 57, 6, 3175);
+      add_location(a7, file$2, 57, 6, 3205);
       attr_dev(a8, "href", "#libro");
       attr_dev(a8, "class", "" + (
       /*getActive*/
       ctx[2]("libro") + " block px-3 py-2 text-base font-medium"));
-      add_location(a8, file$2, 58, 6, 3295);
-      attr_dev(a9, "href", "#foro-docente");
+      add_location(a8, file$2, 58, 6, 3325);
+      attr_dev(a9, "href", "#talleres-para-docentes");
       attr_dev(a9, "class", "" + (
       /*getActive*/
-      ctx[2]("foro-docente") + " block px-3 py-2 text-base font-medium"));
-      add_location(a9, file$2, 59, 6, 3395);
+      ctx[2]("talleres-para-docentes") + " block px-3 py-2 text-base font-medium"));
+      add_location(a9, file$2, 59, 6, 3425);
       attr_dev(a10, "href", "#kit-de-herramienpmntas");
       attr_dev(a10, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " block px-3 py-2 text-base font-medium"));
-      add_location(a10, file$2, 60, 6, 3516);
+      add_location(a10, file$2, 60, 6, 3566);
       attr_dev(a11, "href", "#quienes-somos");
       attr_dev(a11, "class", "" + (
       /*getActive*/
       ctx[2]("quienes-somos") + " block px-3 py-2 text-base font-medium"));
-      add_location(a11, file$2, 61, 6, 3660);
+      add_location(a11, file$2, 61, 6, 3710);
       attr_dev(div7, "class", "px-2 pt-2 pb-3 space-y-1");
-      add_location(div7, file$2, 55, 4, 3030);
+      add_location(div7, file$2, 55, 4, 3060);
       attr_dev(div8, "class", div8_class_value = "sm:hidden " + (
       /*opened*/
       ctx[0] ? "block" : "hidden"));
       attr_dev(div8, "id", "mobile-menu");
-      add_location(div8, file$2, 54, 2, 2954);
+      add_location(div8, file$2, 54, 2, 2984);
       attr_dev(nav, "class", "bg-white shadow font-sans");
       add_location(nav, file$2, 13, 0, 316);
     },
@@ -3629,7 +3629,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.c15348af.js'), __inject_styles(["client-53f58bb9.css","index-59c315b1.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.ed201cd4.js'), __inject_styles(["client-53f58bb9.css","index-59c315b1.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

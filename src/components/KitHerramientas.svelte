@@ -39,10 +39,22 @@
       Te compartimos este recursero con un poco de todo para habitar <br>
       internet de forma segura, responsable y empática.
     </p>
+
+    <div class="text-center mt-10 mx-auto">
+      <a 
+        href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing" 
+        target="_blank"
+        class="border-2 border-purple-400 uppercase mt-5 p-3 text-lg"> 
+          Descargá actividades para trabajar en clase
+      </a>
+    </div>
+
     <div class="grid grid-cols-1 md:grid-cols-2 mt-10">
       {#each kits as item}
         <Kit {...item} />
       {/each}
     </div>
   </article>
+  
+  
 </div>

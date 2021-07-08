@@ -7,35 +7,61 @@ import { onMount } from "svelte";
   }) 
 </script>
 <style>
+  .inscripcion-talleres{
+    position: relative;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transition-property: background-color, color, border-color, opacity, box-shadow;
+    transition-timing-function: ease-out;
+    outline: none;
+    border: 1px solid transparent;
+    margin: 0px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 3px 12px 0px;
+    padding: 8px 18px;
+    min-height: 48px;
+    background-color: rgb(138, 229, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+  }
+
   @media only screen and (max-width: 600px) {
     img{
       display: none;
     }
   }
+
+  
 </style>
-<div class="bg-black p-10" id="foro-docente">
+<div class="bg-black p-10" id="talleres-para-docentes">
   <article class="container mx-auto">
     <div class="flex items-center justify-start">
       <div class="mr-5">
         <h1 class="uppercase bg-white text-black text-5xl p-2 text-bold">
-          <span class="text-blue-300">FORO</span> DOCENTE
+          <span class="text-blue-300">Talleres</span> para docentes
         </h1>
       </div>
       <img src="dialog.png" id="dialog" alt="icono de dialogo"/>
     </div>
     <p class="text-white mt-10 text-xl font-sans">
-      Un espacio para intercambiar ideas, sugerir bibliografía,<br>
-      dialogar y debatir sobre el uso de internet, las redes sociales<br>
-       y la convivencia digital entre les jovenes y en las aulas
+      Dos encuentros para trabajar estrategias y herramientas pedagógicas<br>
+      sobre fake news y convivencia digital positiva<br>
+      para trabajar en el aula y debatir con lxs estudiantes.
     </p>
-    <div class="text-left mt-10">
-      <a 
-        href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing" 
+    <p class="text-white mt-10 tmt-5 text-2xl font-sans "><span class="bg-ligth-blue">¡Sumate a los próximos encuentros!</span></p>
+    <p class="text-white mt-5 text-2xl font-sans">Primer encuentro - 18/08 - 17:00 a 18:30</p>
+    <p class="text-white mt-5 text-2xl font-sans">Segundo encuentro - 20/08 - 17:00 a 18:30</p>
+
+    <p class="text-white mt-10 text-xl font-sans">La actividad es gratuita y online vía Google Meet, con cupo limitado. </p>
+    <div class="text-left mt-10 mb-10">
+      <span class="inscripcion-talleres text-2xl">
+        <a 
+        href="https://form.jotform.com/211795972886072" 
         target="_blank"
-        class="bg-white uppercase mt-5 p-3 leading-6"> 
-          Descargá actividades para trabajar en clase
+        class="uppercase mt-5 p-3 leading-6 "> 
+        QUIERO INSCRIBIRME
       </a>
-    </div>
-    <div class="typeform-widget mt-10" data-url="https://form.typeform.com/to/abLtziWm?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> 
+      </span>
   </article>
 </div>

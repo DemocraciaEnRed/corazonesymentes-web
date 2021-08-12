@@ -37,12 +37,23 @@ import { onMount } from "svelte";
 <div class="bg-black p-10" id="talleres-para-docentes">
   <article class="container mx-auto">
     <div class="flex items-center justify-start">
-      <div class="mr-5">
-        <h1 class="uppercase bg-white text-black text-5xl p-2 text-bold">
-          <span class="text-blue-300">Talleres</span> para docentes
+      <div class="mr-5 flex">
+        <img width="100px" src="dialog.png" id="dialog" alt="Ícono de dialogo"/>
+        <h1 class="uppercase  text-black text-5xl p-2 text-bold">
+          <span class="bg-white"><span class="text-blue-300">Foro</span> docente</span>
         </h1>
       </div>
-      <img src="dialog.png" id="dialog" alt="icono de dialogo"/>
+      <div class="ml-3">
+				<h2 class="text-white font-sans text-xl">Un espacio para intercambiar ideas, sugerir bibliografía,dialogar y debatir sobre el uso de internet, las redes sociales y la convivencia digital entre les jovenes y en las aulas</h2>
+			</div>
+      
+    </div>
+    
+    <div class="fushia-bg text-2xl uppercase p-10 my-5 mx-auto text-white	text-center">
+      <h2>¿QUERÉS FORMAR PARTE DEL FORO?</h2>
+      <a href="/documents/Corazones-y-mentes.pdf" download
+					class="text-lg p-1 text-black" ><span class="bg-white"> Descargá el libro</span> 				
+					</a>
     </div>
     <p class="text-white mt-10 text-xl font-sans">
       Dos encuentros para trabajar estrategias y herramientas pedagógicas<br>

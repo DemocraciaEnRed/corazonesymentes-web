@@ -34,16 +34,16 @@
       </div>
       <div class="flex-1 flex items-center justify-between sm:items-stretch">
         <div class="flex-shrink-0 flex items-center">
-          <img class="block h-8 w-auto ml-10" src="logo-horizontal.png" alt="Corazones y mentes">
+          <img class="block h-8 w-auto ml-10" src="logo-horizontal.png" alt="Logo de Corazones y mentes">
         </div>
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4 items-end">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="#home" class="{getActive(undefined)}  px-3 py-2 text-sm font-medium">HOME</a>
             <a href="#toda-la-data" class="{getActive("toda-la-data")} px-3 py-2 text-sm font-medium">#TodaLaData</a>
-            <a href="#libro" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">LIBRO</a>
-            <a href="#talleres-para-docentes" class="{getActive("talleres-para-docentes")}  px-3 py-2 text-sm font-medium">Talleres Para Docentes</a>
+            <a href="#libro" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">Libro</a>
             <a href="#kit-de-herramientas" class="{getActive("kit-de-herramientas")} px-3 py-2 text-sm font-medium">Kit De Herramientas</a>
+            <a href="#sos-docente" class="{getActive("sos-docente")}  px-3 py-2 text-sm font-medium">Soy Docente</a>
             <a href="#quienes-somos" class="{getActive("quienes-somos")} px-3 py-2 text-sm font-medium">Quiénes Somos</a>
           </div>
         </div>
@@ -57,8 +57,8 @@
       <a href="#home" class="{getActive(undefined)} block px-3 py-2 text-base font-medium">HOME</a>
       <a href="#toda-la-data" class="{getActive("toda-la-data")} block px-3 py-2 text-base font-medium">#TodaLaData</a>
       <a href="#libro" class="{getActive("libro")} block px-3 py-2 text-base font-medium">LIBRO</a>
-      <a href="#talleres-para-docentes" class="{getActive("talleres-para-docentes")} block px-3 py-2 text-base font-medium">Foro DOCENTE</a>
       <a href="#kit-de-herramienpmntas" class="{getActive("kit-de-herramientas")} block px-3 py-2 text-base font-medium">Kit De Heramientas</a>
+      <a href="#sos-docente" class="{getActive("sos-docente")} block px-3 py-2 text-base font-medium">Soy Docente</a>
       <a href="#quienes-somos" class="{getActive("quienes-somos")} block px-3 py-2 text-base font-medium">Quiénes Somos</a>
     </div>
   </div>

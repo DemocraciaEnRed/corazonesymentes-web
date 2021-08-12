@@ -1,85 +1,55 @@
-<section class="pedagogias-digitales-section">
-    <div class="pedagogias-digitales-container">
-        <div class="title-container">
-            <img class="thumbs-up" src="thumbs-up.svg" alt="pulgar en alto">
-            <h1>
-                <span class="text-blue-300">¿por qué nos interesa</span>
-            <br>
-                <span class="fushia-text">la pedagogía digital?</span>
-            </h1>
-        </div>
-        <p>
-            El debate en las redes sociales se convirtió en una guerra de trincheras: ya no somos libres de compartir lo que pensamos sin miedo a las agresiones o a que nos reduzcan a estereotipos. </p>
-        <p>
-            <span class="text-blue-300 bg-white">Corazones <span class="text-black">y</span> <span class="fushia-text">Mentes</span></span> apunta a cambiar eso: ¿en qué medida nuestras propias emociones, creencias y/o valores nos hacen colaborar, sin darnos cuenta, con todo el ruido que amenaza nuestra convivencia digital? Prestar atención a nuestros propios prejuicios es el primer paso para cambiar la dinámica.   
-        </p>
-        <p>
-            Por eso, creamos herramientas, en distintos formatos interactivos y pensadas para trabajar en conjunto con toda la comunidad educativa, que estimulen ese ejercicio. <span class="bg-ligth-blue">Para que observemos nuestras propias reacciones</span> y nuestras propias tendencias antes de juzgar, decidir y hacer click. 
-        </p>
-    </div>
-    
-
-    <style>
-        .pedagogias-digitales-section{
-            background-color:#000;
-            padding:100px 0;
-            padding-left:2.5em;
-            padding-right:2.5em;
-        }
-
-        img.thumbs-up{
-            filter: invert(58%) sepia(45%) saturate(4209%) hue-rotate(219deg) brightness(96%) contrast(110%);
-            width:100px;
-            margin-right:10px;
-        }
-
-        .title-container{
-            display:flex;
-            align-items:flex-start;
-        }
-
-        .pedagogias-digitales-container h1{
-            font-family: Staatliches;
-            font-size: 48px;
-            line-height: 48px;
-            text-transform: uppercase;
-            padding-bottom:80px
-        }
-        
-        .pedagogias-digitales-container .text-blue-300.bg-white{
-            text-transform: uppercase;
-            font-family: Staatliches;
-        }
-
-        .bg-ligth-blue{
-            color:#000;
-            background-color:#AEDCEA
-        }
-
-       
-        .pedagogias-digitales-container{
-            max-width:980px;
-            margin:auto
-        }
-
-        .pedagogias-digitales-container p{
-            color:#fff;
-            font-family: Circular, Helvetica, Arial, sans-serif;
-            font-size: 20px;
-            line-height: 32px;
-            padding-bottom:20px
-        }
-
-        @media (max-width:480px){
+<section class="pedagogias-digitales-section bg-black ">
+    <article class="container mx-auto py-10 px-2 sm:p-10 ">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-8 mb-10">
             
-            .title-container{
-                flex-direction:column
-            }
-            img.thumbs-up{
-                margin-bottom:10px
-            }
+            <div class="my-auto">
+                <h1 class="celeste-text mb-5"><span class="fushia-text">¿por qué nos interesa </span> <br>
+                la pedagogía digital?</h1>
+                <p class="font-sans text-white mb-5">
+                    El debate en las redes sociales se convirtió en una guerra de trincheras:<br>
+                    <span class="fushia-text">ya no somos libres de compartir lo que pensamos sin miedo a las agresiones</span> o a que nos reduzcan a estereotipos. 
+                </p>
+            </div>
 
-        }
-    </style>
+            <div class="text-white flex flex-col">
+                <div class="flex items-start mb-5">
+                    <img src="cambio.png" alt="Ícono de cambio" class="mr-3 mt-4">
+                    <div>
+                        <h2 class="mb-3">Desde Corazones y Mentes queremos generar un cambio. </h2>
+                        <p class="font-sans">¿En qué medida nuestras propias emociones, creencias y/o valores nos hacen colaborar, sin darnos cuenta, con todo el ruido que amenaza nuestra convivencia digital? </p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <img src="ojo.png" class="mr-3 mt-4"alt="Ícono de un ojo">
+                    <h2>Prestar atención a nuestros propios prejuicios es el primer paso para cambiar la dinámica. 
+                    </h2>
+                </div>
+            </div>
+    
+        </div>
+    </article>
+    <article class="p-10 bg-white ">
+        <div class="container mx-auto flex flex-wrap justify-evenly">
+            <img  class="m-3 my-auto w-12 sm:w-16" src="video.png" alt="Ícono de cámara de videeo">
+            <img  class="m-3 my-auto w-12 sm:w-16" src="play.png" alt="Ícono de play">
+            <img  class="m-3 my-auto w-12 sm:w-16" src="computadora.png" alt="Ícono de monnitor">
+            <img  class="m-3 my-auto w-6 sm:w-12" src="celular.png" alt="Ícono de celular">
+            <img  class="m-3 my-auto w-12 sm:w-16" src="formulario.png" alt="Ícono de formulario">
+            <img  class="m-3 my-auto w-24 sm:w-30" src="puzzle.png" alt="Ícono de rompecabezas">
+
+        </div>
+       
+    </article>
+    <article class="p-10 container mx-auto">
+        <p class="text-white font-sans">
+            Por eso, <span class="uppercase text-2xl">creamos herramientas</span>, en distintos formatos interactivos y pensadas para trabajar en conjunto con toda la comunidad educativa, que estimulen ese ejercicio. Para que observemos nuestras propias reacciones y nuestras propias tendencias antes de juzgar, decidir y hacer click. 
+
+
+        </p>
+
+    </article>
+
+  
+
 
 </section>

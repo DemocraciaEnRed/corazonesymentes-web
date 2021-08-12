@@ -1,36 +1,23 @@
-<style>
-	#cere{
-		width: 55px;
-		position: relative;
-		top: -56px;
-	}
-	@media (max-width:480px){
-		#home.container{
-			padding:3rem;
-		}
-	}
-</style>
-<div class="container mx-auto p-24" id="home">
-	<article class="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center flex">
-		<img width="300" src="logo-circular.png" alt="Conoce a tu mente para que tu mente no te domine">
+<div class="container mx-auto py-24" id="home">
+	<article class="grid grid-cols-1 md:grid-cols-2 items-center ">
+		<img width="300" src="logo-circular.png" class="mb-6" alt="Logo de Corazones y Mentes">
 		<div>
-			<img class="float-right" id="cere" src="cerebro_celeste.png" alt="Ok!">
-			<h2 class=" text-3xl celeste-bg rounded-sm  p-1 uppercase">
-				¿Cómo nos vinculamos digitalmente de manera constructiva y empática?
-			</h2>
-			<h2 class=" text-3xl celeste-bg rounded-sm mt-5  p-1 uppercase">
+			<div class="flex celeste-bg p-2 mb-5">
+				<h2 class="rounded-sm  p-1 uppercase">
+					¿Cómo nos vinculamos digitalmente de manera constructiva y empática?
+				</h2>				
+			</div>
+			<div class="flex celeste-bg p-2 items-center">
+				<h2 class="rounded-sm p-1 uppercase">
 				¿Qué hay más allá del ruido y nuestras diferencias?
-			</h2>
-			<p class="font-semibold mt-6 uppercase text-xl">
-				<span>#</span>internetesnuestro y se nos esta yendo de las manos... 
-				UN ESPACIO CON HERRAMIENTAS Y MUCHA DATA PARA ACTIVAR UNA BUENA CONVIVENCIA EN INTERNET
-				SUMATE!
+				</h2>
+			</div>
+			<p class="font-sans mt-6 mb-3 lowercase">
+				<span class="uppercase font-normal">#internetesnuestro</span> y se nos esta yendo de las manos... Por eso creamos UN ESPACIO CON HERRAMIENTAS Y MUCHA DATA PARA ACTIVAR UNA BUENA CONVIVENCIA EN INTERNET SUMATE! Leé nuestro libro para informarte más!
 			</p>
-			<img class="float-right" src="check.png" alt="Ok!">
-			<br>
-			<a class="fushia-bg border-2 border-black mt-10 font-semibold p-1" 
-			href="/documents/Corazones-y-mentes.pdf" download
-			> DESCARGÁ EL LIBRO </a>
+			<a href="/documents/Corazones-y-mentes.pdf" download
+				class="py-3 float-right" ><span class="fushia-bg py-2 px-5 border hover:border-gray-800 border-solid">Descargá el libro</span>
+			</a>
 			
 		</div>
 	</article>	

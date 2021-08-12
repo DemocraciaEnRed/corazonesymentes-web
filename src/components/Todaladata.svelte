@@ -7,27 +7,28 @@
 		 background-color: white;
 		 padding: 5px 20px;
 	}
-	#hashtag{
-		position: relative;
-		top: 11px;
-	}
+
 </style>
-<div class="bg-black p-10" id="toda-la-data">
+<div class="bg-white p-10" id="toda-la-data">
 	<article class="container mx-auto ">
-		<div class="flex items-start justify-items-center mt-10">
-			<img width="100" src="excl_globo.png" alt="importante" style="min-width: 145px;"/>
-			<div >
-				<h1 class="fushia-text text-6xl uppercase font-bold">
-					<span id="hashtag" class="text-7xl  celeste-text">#</span>
-					 Toda 
-					<span class="celeste-text">la</span>
-					 data
-				</h1>
-				<h2 class="fushia-text uppercase text-xl"> <span class="celeste-text">+ info</span>
-					para activar una convivencia digital positiva </h2>
-				<p class="celeste-text font-sans">Subí un video y mencionanos en @corazonesymentes </p>
+		
+			<div class="grid sm:grid-cols-2 xs:grid-cols-1 gap-8 mt-10 mb-10">
+				<div class="flex items-center flex-wrap">
+					<img src="excl_globo.png" alt="Signo de exclamación" class="w-12 sm:w-24"/>
+					<h1 class="fushia-text uppercase ">
+						Toda 
+						<span class="text-black">la</span>
+						data
+					</h1>
+				</div>
+				
+				<div class="ml-3">
+					<h2 class="text-black uppercase  "> ESTAMOS EN TIK TOK para activar una convivencia digital positiva!</h2>
+					<p class="fushia-text font-sans ">Subí un video y mencionanos en @corazonesymentes </p>
+				</div>
 			</div>
-		</div>
+			
+		
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-1 mt-10">
 			<blockquote 
 				class="tiktok-embed"
@@ -51,7 +52,7 @@
 		</div>
 		{#if !showAll}
 		<div class="text-center">
-			<button id="show-all-tik" on:click={() => showAll = true}>
+			<button id="show-all-tik" class="border border-gray-800 border-solid" on:click={() => showAll = true}>
 				Ver mas >>
 			</button>
 		</div>

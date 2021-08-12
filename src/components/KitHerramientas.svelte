@@ -3,9 +3,12 @@
   import Kit from './Kit.svelte';
   let kits = [];
   const url = "https://spreadsheets.google.com/feeds/list/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/1/public/values?alt=json";
+  let newKits=[];
   axios.get(url).then((res)=>{
     kits = formatSpreadsheet(res.data.feed.entry);
+    newKits=kits
   });
+
   const formatSpreadsheet = (data) =>{
     const input = data.map((obj=>{
         return {
@@ -14,10 +17,16 @@
           url: obj.gsx$linkarchivo.$t,
           type: obj.gsx$aclaraciones.$t,
         }
-      }))
-      return input;
+      })) 
+    return input;
   }
+
+  function changeFilter(newFilter) {
+    newKits= kits.filter(kit=>{return kit.type==newFilter})
+  }
+
 </script>
+
 <style>
   #kit-de-herramientas{
     background-position: center;
@@ -25,34 +34,49 @@
     background-repeat: no-repeat;
   }
 </style>
-<div class="p-10 pt-20" id="kit-de-herramientas">
-  <article class="container mx-auto text-center">
-    <h1 class="uppercase text-6xl fushia-text mb-3">
-      <span class="text-black">Kit</span>
-      <span class="celeste-text">De</span>
-       Herramientas
-    </h1>
-    <h2>
-      <span class="fushia-bg text-2xl tracking-wide text-white p-2 uppercase text-bold">Articulos, podcast, reflexiones, videos y más.</span>
-    </h2>
-    <p class="text-bold text-lg mt-5 mb-10 uppercase">
-      Te compartimos este recursero con un poco de todo para habitar <br>
-      internet de forma segura, responsable y empática.
-    </p>
 
-    <div class="text-center mt-10 mx-auto">
-      <a 
-        href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view?usp=sharing" 
-        target="_blank"
-        class="border-2 border-purple-400 uppercase mt-5 p-3 text-lg"> 
-          Descargá actividades para trabajar en clase
-      </a>
+<div class="md:p-10 pt-0 sm:pt-20 bg-white " id="kit-de-herramientas">
+  
+  <article class="container mx-auto ">
+
+    <div class="grid md:grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 p-3 gap-8 mb-10 bg-black pb-10 sm:pb-0">
+
+      <div class="pt-10 sm:p-8 flex ">
+          <img class="mr-4 my-auto w-12 sm:w-14" src="herramientas.png" alt="Logo de herramientas">
+          <h1 class="upercase fushia-text text-left	">Kit de herramientas</h1>        
+      </div> 
+      <div class="text-white flex flex-col justify-center text-left">
+        <p class="font-sans pb-3"> Te compartimos este recursero con un poco de todo para habitar internet de forma segura, responsable y empática.</p>
+        <h4 class="uppercase pb-3">ENCONTRÁ ArtÍculos, podcast, reflexiones, videos y más.</h4>
+      </div>           
+      
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 mt-10">
-      {#each kits as item}
-        <Kit {...item} />
-      {/each}
+    <div class="flex justify-evenly flex-wrap">
+
+      <button class="w-32 m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("ARTÍCULO")}>
+        <h4 >Artículo</h4>
+      </button>
+      <button class="w-32 m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("PLATAFORMA")}>
+        <h4 >Plataforma</h4>
+      </button>
+      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("VIDEO")}>
+        <h4 >Video</h4>
+      </button>
+      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("GUÍA")}>
+        <h4 >Guía</h4>
+      </button>
+      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("JUEGO")}>
+        <h4 >Juego</h4>
+      </button>
+    </div>
+   
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10">
+
+        {#each newKits as item}
+          <Kit {...item}  />
+        {/each}
+      
     </div>
   </article>
   

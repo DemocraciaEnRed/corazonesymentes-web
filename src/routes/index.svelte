@@ -1,6 +1,5 @@
 <script>
 	//COMPONENTS
-	import Home from '../components/Home.svelte';
 	import TodaLaData from '../components/Todaladata.svelte'
 	import Articulo from '../components/Articulo.svelte'
 	import ForoDocente from '../components/ForoDocente.svelte'
@@ -8,7 +7,9 @@
 	import QuienesSomos from '../components/QuienesSomos.svelte'
 	import PedagogiaDigital from '../components/PedagogiaDigital.svelte'
 	import Footer from '../components/Footer.svelte';
+	import HeroSlider from '../components/HeroSlider.svelte';
 	import { onMount } from 'svelte';
+	import SosDocente from '../components/SosDocente.svelte';
 	onMount(()=>{
 		//Global site tag (gtag.js) - Google Analytics 
 		window.dataLayer = window.dataLayer || [];
@@ -24,11 +25,11 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJWHDC5L57"></script>
 </svelte:head>
 
-<Home/>
+<HeroSlider/>
+<PedagogiaDigital/>
 <TodaLaData/>
 <Articulo/>
-<ForoDocente/>
 <KitHerramientas/>
+<SosDocente/>
 <QuienesSomos/>
-<PedagogiaDigital/>
 <Footer/>

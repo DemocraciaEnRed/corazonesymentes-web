@@ -41,26 +41,29 @@
     height: 80px;
     padding:10px
   }
-  .download img{
-    width: 30px;
-  }
+
 </style>
 
-<div class="flex flex-col border-b border-black m-5">
-  <div class="flex">
-    <img src={icon} class="document-icon hidden md:block" alt={type} />
-    <div class="flex-grow text-left flex flex-col pb-1">
-      <h5 class="text-xs uppercase font-bold font-sans">{type}</h5>
-      <h3 class="uppercase font-bold text-md text-2xl">{title}</h3>
-    </div>
-    <span class="text-right text-2xl font-sans cursor-pointer p-1" on:click={toggle}>{opened ? "-" : "+"}</span>
-  </div>
-  {#if opened}
-    <p class="ml-10 text-left font-sans">
-      {description}
-    </p>
-    <a class="download p-2" href={url}>
-      <img class="float-right" src="icons/open-link.png" alt="abrir link">
+<div class="flex flex-col border justify-start border-gray-400 m-5 p-3 ">
+  
+  <div class="flex justify-end items-center mb-3">
+    <p class="uppercase font-bold font-sans text-sm	 text-gray-400">{type}</p>
+    <a class=" p-2" href={url}>
+      <img  class=" float-right" src="open.png" alt="abrir link">
     </a>
-  {/if} 
+  </div>
+  <div class="flex flex-col justify-between items-center">
+    <img src={icon} class="document-icon hidden md:block" alt={type} />
+      
+    <h3 class="uppercase font-bold text-md pb-1 text-center">{title}</h3>
+  </div>
+      
+    {#if opened}
+      <p class="my-3 text-center font-sans">
+        {description}
+      </p>
+    {/if} 
+
+    <img width="20px" class="text-right mx-auto font-sans cursor-pointer p-1" on:click={toggle} src={opened? "less.png":"more.png"} alt="Ver más">
+ 
 </div>

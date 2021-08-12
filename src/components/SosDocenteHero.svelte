@@ -1,0 +1,21 @@
+<div class="container mx-auto py-24" id="home">
+	<article class="grid grid-cols-1 lg:grid-cols-2 md:mx-6 lg:mx-0 items-center">
+		<img class="w-70 sm:w-50 mx-auto mb-6" src="sosdocente-hero.png" alt="Ícono de una persona">
+		<div>
+			<div class=" celeste-bg p-2 mb-5">
+				<h2 class="rounded-sm  p-1 uppercase">
+					¿Sos Docente?
+				</h2>
+			</div>
+			<div class="p-3">
+				<p class="mb-3 font-sans">Creemos en la educación como principal motor para generar un real impacto.
+                Por eso brindamos distintas dinámicas para que puedas informarte, debatir e intercambiar ideas.</p>
+				<h3 >#TALLERES PEDAGÓGICOS</h3>
+				<h3 class="mb-3">#ACTIVIDADES</h3>
+				<a href="#sos-docente" 
+				class="py-3 float-right" ><span class="fushia-bg py-2 px-5 border hover:border-gray-800 border-solid">Soy Docente</span>
+			</a>
+			</div>
+		</div>
+	</article>	
+</div>

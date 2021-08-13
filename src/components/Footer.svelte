@@ -21,8 +21,8 @@
   }
 </style>
 <footer class="bg-gray-200 py-20 px-3 ">
-  <div class="container fot flex justify-between align-center ">
-      <img class="logo mt-5 mx-auto" src="logo-circular.png" alt="Logo de Corazones y mentes" />
+  <div class="container mx-auto flex justify-between align-center ">
+      <img class="mt-5 w-40" src="logo-circular.png" alt="Logo de Corazones y mentes" />
       <div class="mt-10 sm:mx-10">
         <div class="flex flex-col justify-center align-center">
           <small class="text-xs mb-3">Impulsado por:</small>

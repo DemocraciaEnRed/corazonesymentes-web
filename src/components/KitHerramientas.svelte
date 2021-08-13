@@ -41,7 +41,7 @@
 
     <div class="grid md:grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 p-3 gap-8 mb-10 bg-black pb-10 sm:pb-0">
 
-      <div class="pt-10 sm:p-8 flex ">
+      <div class="pt-10 sm:px-3 py-6 lg:p-8 flex ">
           <img class="mr-4 my-auto w-12 sm:w-14" src="herramientas.png" alt="Logo de herramientas">
           <h1 class="upercase fushia-text text-left	">Kit de herramientas</h1>        
       </div> 
@@ -54,19 +54,19 @@
 
     <div class="flex justify-evenly flex-wrap">
 
-      <button class="w-32 m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("ARTÍCULO")}>
+      <button class="w-32 m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("ARTÍCULO")}>
         <h4 >Artículo</h4>
       </button>
-      <button class="w-32 m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("PLATAFORMA")}>
+      <button class="w-32 m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("PLATAFORMA")}>
         <h4 >Plataforma</h4>
       </button>
-      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("VIDEO")}>
+      <button class="w-32	m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("VIDEO")}>
         <h4 >Video</h4>
       </button>
-      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("GUÍA")}>
+      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid focus:text-black" on:click={()=>changeFilter("GUÍA")}>
         <h4 >Guía</h4>
       </button>
-      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid" on:click={()=>changeFilter("JUEGO")}>
+      <button class="w-32	m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("JUEGO")}>
         <h4 >Juego</h4>
       </button>
     </div>

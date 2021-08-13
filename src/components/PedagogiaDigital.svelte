@@ -28,21 +28,21 @@
     
         </div>
     </article>
-    <article class="p-10 bg-white ">
+    <article class="py-6 px-3 sm:p-10 bg-white ">
         <div class="container mx-auto flex flex-wrap justify-evenly">
-            <img  class="m-3 my-auto w-12 sm:w-16" src="video.png" alt="Ícono de cámara de videeo">
-            <img  class="m-3 my-auto w-12 sm:w-16" src="play.png" alt="Ícono de play">
-            <img  class="m-3 my-auto w-12 sm:w-16" src="computadora.png" alt="Ícono de monnitor">
-            <img  class="m-3 my-auto w-6 sm:w-12" src="celular.png" alt="Ícono de celular">
-            <img  class="m-3 my-auto w-12 sm:w-16" src="formulario.png" alt="Ícono de formulario">
-            <img  class="m-3 my-auto w-24 sm:w-30" src="puzzle.png" alt="Ícono de rompecabezas">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="video.png" alt="Ícono de cámara de videeo">
+            <img  class="m-2 my-auto w-10 sm:w-16" src="play.png" alt="Ícono de play">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="computadora.png" alt="Ícono de monnitor">
+            <img  class="mx-2 my-auto sm:m-3 sm:my-auto w-6 sm:w-12" src="celular.png" alt="Ícono de celular">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="formulario.png" alt="Ícono de formulario">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="puzzle.png" alt="Ícono de rompecabezas">
 
         </div>
        
     </article>
     <article class="p-10 container mx-auto">
         <p class="text-white font-sans">
-            Por eso, <span class="uppercase text-2xl">creamos herramientas</span>, en distintos formatos interactivos y pensadas para trabajar en conjunto con toda la comunidad educativa, que estimulen ese ejercicio. Para que observemos nuestras propias reacciones y nuestras propias tendencias antes de juzgar, decidir y hacer click. 
+            Por eso, <span class="uppercase text-2xl staatiliches-font">creamos herramientas</span>, en distintos formatos interactivos y pensadas para trabajar en conjunto con toda la comunidad educativa, que estimulen ese ejercicio. Para que observemos nuestras propias reacciones y nuestras propias tendencias antes de juzgar, decidir y hacer click. 
 
 
         </p>

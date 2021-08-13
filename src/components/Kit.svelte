@@ -44,7 +44,7 @@
 
 </style>
 
-<div class="flex flex-col border justify-start border-gray-400 m-5 p-3 ">
+<div class="w-3/4 md:w-11/12 mx-auto flex flex-col border justify-start border-gray-400 m-5 p-3 ">
   
   <div class="flex justify-end items-center mb-3">
     <p class="uppercase font-bold font-sans text-sm	 text-gray-400">{type}</p>
@@ -53,7 +53,7 @@
     </a>
   </div>
   <div class="flex flex-col justify-between items-center">
-    <img src={icon} class="document-icon hidden md:block" alt={type} />
+    <img src={icon} class="document-icon  md:block" alt={type} />
       
     <h3 class="uppercase font-bold text-md pb-1 text-center">{title}</h3>
   </div>

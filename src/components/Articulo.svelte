@@ -22,7 +22,7 @@
 				Escribimos un libro para que podamos <br>
 				contribuir a una nueva convivencia digital positiva y empática. 	
 				</h4>
-				<div class="flex justify-between items-center flex-wrap mt-5">
+				<div class="flex justify-center sm:justify-between items-center flex-wrap mt-5">
 					<h3 class= " uppercase">
 					¿Querés el libro completo? 	
 					</h3>

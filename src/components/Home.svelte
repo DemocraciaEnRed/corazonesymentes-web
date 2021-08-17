@@ -15,9 +15,12 @@
 			<p class="font-sans mt-6 mb-3 lowercase">
 				<span class="uppercase font-normal staatiliches-font">#internetesnuestro</span> y se nos esta yendo de las manos... Por eso creamos UN ESPACIO CON HERRAMIENTAS Y MUCHA DATA PARA ACTIVAR UNA BUENA CONVIVENCIA EN INTERNET SUMATE! Leé nuestro libro para informarte más!
 			</p>
-			<a href="/documents/Corazones-y-mentes.pdf" download
+			<div class="flex justify-center sm:justify-end">
+				<a href="/documents/Corazones-y-mentes.pdf" download
 				class="py-3 float-right" ><span class="fushia-bg py-2 px-5 border hover:border-gray-800 border-solid w-44 text-center inline-block">Descargá el libro</span>
 			</a>
+			</div>
+			
 			
 		</div>
 	</article>	

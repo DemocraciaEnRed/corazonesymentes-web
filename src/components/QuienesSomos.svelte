@@ -49,12 +49,11 @@
                 <div class="font-sans">
                     <p class="pb-3 ">Creada en 2007 por la Fundación Fernando Henrique Cardoso y el Centro Edelstein de Investigaciones Sociales, con <b>el objetivo de fortalecer la cultura y las instituciones democráticas en Brasil y América Latina.</b></p>
                     <p class="pb-3 ">Desarrollamos nuestro trabajo a través de investigaciones, publicaciones y seminarios sobre las transformaciones de la sociedad y la política en la región y en el sistema internacional, con un enfoque en los desafíos para la convivencia y la gobernabilidad democrática.</p>
-                    <p class="pb-3">También desarrollamos proyectos aplicados que promueven el aprendizaje democrático de la ciudadanía, particularmente en el espacio público virtual, fomentando una cultura cívica que valora la argumentación y el pluralismo de puntos de vista.</p>
+                    <p class="pb-6">También desarrollamos proyectos aplicados que promueven el aprendizaje democrático de la ciudadanía, particularmente en el espacio público virtual, fomentando una cultura cívica que valora la argumentación y el pluralismo de puntos de vista.</p>
                 </div>
                 
         
-                <a class="text-2xl  mb-6"  href="http://www.plataformademocratica.org/espanol/ " target="_blank ">web plataforma democrática</a>
-                
+                <a class=" py-3 mb-6"  href="http://www.plataformademocratica.org/espanol/ " target="_blank "><span class="celeste-bg py-2 px-5 border hover:border-gray-800 border-solid">web plataforma democrática</span></a>               
             </div>
 
             <div id="quienes-somos-minu" class="mb-10">

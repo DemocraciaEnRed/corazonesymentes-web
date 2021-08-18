@@ -25,9 +25,8 @@
                 </p>
 
                 <h3 class="uppercase text-center black-text px-5 pb-5">¿QUERÉS SUMARTE? </h3>
-                <a href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view" target="_blank"
-					class="py-3" ><span class=" py-2 px-5 border border-gray-800 border-solid">Descargar actividades</span>
-				</a>
+               <span class="py-2 px-5 border border-gray-800 border-solid">cupos agotados</span>
+                
                 
             </div>
 
@@ -41,7 +40,9 @@
 
                 <h3 class="uppercase text-center black-text px-5 pb-5">¿QUERÉS PROBAR LAS ACTIVIDADES?
                 </h3>
-               <span class="py-2 px-5 border border-gray-800 border-solid">cupos agotados</span>
+               <a href="https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view" target="_blank"
+					class="py-3" ><span class=" py-2 px-5 border border-gray-800 border-solid">Descargar actividades</span>
+				</a>
 					
                 
             </div>

@@ -1,4 +1,4 @@
-import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as run_all, U as createCommonjsModule, V as commonjsGlobal, W as getDefaultExportFromCjs, X as create_slot, Y as createEventDispatcher, Z as update_slot, $ as null_to_empty, a0 as binding_callbacks, a1 as svg_element, a2 as query_selector_all } from './client.b17f8e62.js';
+import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as run_all, U as createCommonjsModule, V as commonjsGlobal, W as getDefaultExportFromCjs, X as create_slot, Y as createEventDispatcher, Z as update_slot, $ as null_to_empty, a0 as binding_callbacks, a1 as svg_element, a2 as query_selector_all } from './client.e33dbfff.js';
 
 function fade(node) {
   var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
@@ -8558,7 +8558,6 @@ function create_fragment$1(ctx) {
   var h30;
   var t10;
   var t11;
-  var a0;
   var span0;
   var t12;
   var t13;
@@ -8573,6 +8572,7 @@ function create_fragment$1(ctx) {
   var h31;
   var t18;
   var t19;
+  var a0;
   var span1;
   var t20;
   var t21;
@@ -8618,9 +8618,8 @@ function create_fragment$1(ctx) {
       h30 = element("h3");
       t10 = text("¿QUERÉS SUMARTE?");
       t11 = space();
-      a0 = element("a");
       span0 = element("span");
-      t12 = text("Descargar actividades");
+      t12 = text("cupos agotados");
       t13 = space();
       div5 = element("div");
       div4 = element("div");
@@ -8633,8 +8632,9 @@ function create_fragment$1(ctx) {
       h31 = element("h3");
       t18 = text("¿QUERÉS PROBAR LAS ACTIVIDADES?");
       t19 = space();
+      a0 = element("a");
       span1 = element("span");
-      t20 = text("cupos agotados");
+      t20 = text("Descargar actividades");
       t21 = space();
       div7 = element("div");
       div6 = element("div");
@@ -8726,19 +8726,12 @@ function create_fragment$1(ctx) {
       t10 = claim_text(h30_nodes, "¿QUERÉS SUMARTE?");
       h30_nodes.forEach(detach_dev);
       t11 = claim_space(div3_nodes);
-      a0 = claim_element(div3_nodes, "A", {
-        href: true,
-        target: true,
-        class: true
-      });
-      var a0_nodes = children(a0);
-      span0 = claim_element(a0_nodes, "SPAN", {
+      span0 = claim_element(div3_nodes, "SPAN", {
         class: true
       });
       var span0_nodes = children(span0);
-      t12 = claim_text(span0_nodes, "Descargar actividades");
+      t12 = claim_text(span0_nodes, "cupos agotados");
       span0_nodes.forEach(detach_dev);
-      a0_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       t13 = claim_space(div8_nodes);
       div5 = claim_element(div8_nodes, "DIV", {
@@ -8771,12 +8764,19 @@ function create_fragment$1(ctx) {
       t18 = claim_text(h31_nodes, "¿QUERÉS PROBAR LAS ACTIVIDADES?");
       h31_nodes.forEach(detach_dev);
       t19 = claim_space(div5_nodes);
-      span1 = claim_element(div5_nodes, "SPAN", {
+      a0 = claim_element(div5_nodes, "A", {
+        href: true,
+        target: true,
+        class: true
+      });
+      var a0_nodes = children(a0);
+      span1 = claim_element(a0_nodes, "SPAN", {
         class: true
       });
       var span1_nodes = children(span1);
-      t20 = claim_text(span1_nodes, "cupos agotados");
+      t20 = claim_text(span1_nodes, "Descargar actividades");
       span1_nodes.forEach(detach_dev);
+      a0_nodes.forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
       t21 = claim_space(div8_nodes);
       div7 = claim_element(div8_nodes, "DIV", {
@@ -8849,42 +8849,42 @@ function create_fragment$1(ctx) {
       add_location(p0, file$1, 23, 16, 1212);
       attr_dev(h30, "class", "uppercase text-center black-text px-5 pb-5");
       add_location(h30, file$1, 26, 16, 1458);
-      attr_dev(span0, "class", " py-2 px-5 border border-gray-800 border-solid");
-      add_location(span0, file$1, 28, 19, 1670);
-      attr_dev(a0, "href", "https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view");
-      attr_dev(a0, "target", "_blank");
-      attr_dev(a0, "class", "py-3");
-      add_location(a0, file$1, 27, 16, 1553);
+      attr_dev(span0, "class", "py-2 px-5 border border-gray-800 border-solid");
+      add_location(span0, file$1, 27, 15, 1552);
       attr_dev(div3, "class", "my-3 border border-solid border-gray-300 pb-5 flex flex-col justify-between items-center");
       add_location(div3, file$1, 17, 12, 881);
       attr_dev(h21, "class", "uppercase leading-9 text-black ");
-      add_location(h21, file$1, 36, 20, 2025);
+      add_location(h21, file$1, 35, 20, 1907);
       attr_dev(div4, "class", "fushia-bg p-5 h-28 flex items-center w-full");
-      add_location(div4, file$1, 35, 16, 1946);
+      add_location(div4, file$1, 34, 16, 1828);
       attr_dev(p1, "class", "font-sans p-5");
-      add_location(p1, file$1, 39, 16, 2161);
+      add_location(p1, file$1, 38, 16, 2043);
       attr_dev(h31, "class", "uppercase text-center black-text px-5 pb-5");
-      add_location(h31, file$1, 41, 16, 2368);
-      attr_dev(span1, "class", "py-2 px-5 border border-gray-800 border-solid");
-      add_location(span1, file$1, 43, 15, 2494);
+      add_location(h31, file$1, 40, 16, 2250);
+      attr_dev(span1, "class", " py-2 px-5 border border-gray-800 border-solid");
+      add_location(span1, file$1, 43, 19, 2493);
+      attr_dev(a0, "href", "https://drive.google.com/file/d/1ZpCo3Kx5Og0I7tnBVIEElxa1bIkp5MEe/view");
+      attr_dev(a0, "target", "_blank");
+      attr_dev(a0, "class", "py-3");
+      add_location(a0, file$1, 42, 15, 2376);
       attr_dev(div5, "class", "my-3 border border-solid border-gray-300  pb-5 flex flex-col justify-between items-center");
-      add_location(div5, file$1, 33, 12, 1823);
+      add_location(div5, file$1, 32, 12, 1705);
       attr_dev(h22, "class", "uppercase leading-9 text-white");
-      add_location(h22, file$1, 51, 20, 2837);
+      add_location(h22, file$1, 52, 20, 2854);
       attr_dev(div6, "class", "bg-black p-5 h-28 flex items-center w-full");
-      add_location(div6, file$1, 50, 16, 2759);
+      add_location(div6, file$1, 51, 16, 2776);
       attr_dev(p2, "class", "font-sans p-5");
-      add_location(p2, file$1, 55, 16, 2995);
+      add_location(p2, file$1, 56, 16, 3012);
       attr_dev(h32, "class", "uppercase text-center px-5 pb-5");
-      add_location(h32, file$1, 58, 16, 3257);
+      add_location(h32, file$1, 59, 16, 3274);
       attr_dev(span2, "class", " py-2 px-5 border border-gray-800 border-solid");
-      add_location(span2, file$1, 61, 19, 3444);
+      add_location(span2, file$1, 62, 19, 3461);
       attr_dev(a1, "href", "https://preguntarparaacordar.typeform.com/to/abLtziWm");
       attr_dev(a1, "target", "_blank");
       attr_dev(a1, "class", "py-3");
-      add_location(a1, file$1, 60, 16, 3344);
+      add_location(a1, file$1, 61, 16, 3361);
       attr_dev(div7, "class", "my-3 border border-solid  border-gray-300 pb-5 flex flex-col justify-between items-center");
-      add_location(div7, file$1, 48, 12, 2636);
+      add_location(div7, file$1, 49, 12, 2653);
       attr_dev(div8, "class", "px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-3 gap-4");
       add_location(div8, file$1, 15, 8, 788);
       attr_dev(div9, "class", "container mx-auto my-10");
@@ -8920,8 +8920,7 @@ function create_fragment$1(ctx) {
       append_dev(div3, h30);
       append_dev(h30, t10);
       append_dev(div3, t11);
-      append_dev(div3, a0);
-      append_dev(a0, span0);
+      append_dev(div3, span0);
       append_dev(span0, t12);
       append_dev(div8, t13);
       append_dev(div8, div5);
@@ -8935,7 +8934,8 @@ function create_fragment$1(ctx) {
       append_dev(div5, h31);
       append_dev(h31, t18);
       append_dev(div5, t19);
-      append_dev(div5, span1);
+      append_dev(div5, a0);
+      append_dev(a0, span1);
       append_dev(span1, t20);
       append_dev(div8, t21);
       append_dev(div8, div7);

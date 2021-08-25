@@ -1,21 +1,26 @@
+
+
 <script>
   import axios from 'axios';
   import Kit from './Kit.svelte';
   let kits = [];
-  const url = "https://spreadsheets.google.com/feeds/list/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/1/public/values?alt=json";
+  // CHANGE ME FOR DEV, CHANGE ME FOR BUILD
+  let googleSheetApiToken = 'AIzaSyBoSX1oI8uSGr4dXC_Lsz81ilWREuW2VjM'
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/values/Sheet1?key=${googleSheetApiToken}`;
   let newKits=[];
   axios.get(url).then((res)=>{
-    kits = formatSpreadsheet(res.data.feed.entry);
+    kits = formatSpreadsheet(res.data.values);
     newKits=kits
   });
 
   const formatSpreadsheet = (data) =>{
-    const input = data.map((obj=>{
+    let theData = data.slice(1)
+    const input = theData.map((obj=>{
         return {
-          title: obj.title.$t,
-          description: obj["gsx$descripción"].$t,
-          url: obj.gsx$linkarchivo.$t,
-          type: obj.gsx$aclaraciones.$t,
+          title: obj[0],
+          description: obj[2],
+          url: obj[3],
+          type: obj[5],
         }
       })) 
     return input;

@@ -1971,7 +1971,7 @@ var CONTEXT_KEY = {};
 function _createSuper$3(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$3(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$3() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$2 = "src\\components\\Nav.svelte";
+var file$2 = "src/components/Nav.svelte";
 
 function create_fragment$3(ctx) {
   var nav;
@@ -2306,12 +2306,12 @@ function create_fragment$3(ctx) {
     },
     h: function hydrate() {
       attr_dev(span, "class", "sr-only");
-      add_location(span, file$2, 19, 10, 892);
+      add_location(span, file$2, 19, 10, 873);
       attr_dev(path0, "stroke-linecap", "round");
       attr_dev(path0, "stroke-linejoin", "round");
       attr_dev(path0, "stroke-width", "2");
       attr_dev(path0, "d", "M4 6h16M4 12h16M4 18h16");
-      add_location(path0, file$2, 24, 12, 1190);
+      add_location(path0, file$2, 24, 12, 1166);
       attr_dev(svg0, "class", svg0_class_value = "h-6 w-6 " + (
       /*opened*/
       ctx[0] ? "hidden" : "block"));
@@ -2320,12 +2320,12 @@ function create_fragment$3(ctx) {
       attr_dev(svg0, "viewBox", "0 0 24 24");
       attr_dev(svg0, "stroke", "currentColor");
       attr_dev(svg0, "aria-hidden", "true");
-      add_location(svg0, file$2, 23, 10, 1017);
+      add_location(svg0, file$2, 23, 10, 994);
       attr_dev(path1, "stroke-linecap", "round");
       attr_dev(path1, "stroke-linejoin", "round");
       attr_dev(path1, "stroke-width", "2");
       attr_dev(path1, "d", "M6 18L18 6M6 6l12 12");
-      add_location(path1, file$2, 30, 12, 1561);
+      add_location(path1, file$2, 30, 12, 1531);
       attr_dev(svg1, "class", svg1_class_value = "h-6 w-6 " + (
       /*opened*/
       ctx[0] ? "block" : "hidden"));
@@ -2334,99 +2334,99 @@ function create_fragment$3(ctx) {
       attr_dev(svg1, "viewBox", "0 0 24 24");
       attr_dev(svg1, "stroke", "currentColor");
       attr_dev(svg1, "aria-hidden", "true");
-      add_location(svg1, file$2, 29, 10, 1388);
+      add_location(svg1, file$2, 29, 10, 1359);
       attr_dev(button, "type", "button");
       attr_dev(button, "class", "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white");
       attr_dev(button, "aria-controls", "mobile-menu");
       attr_dev(button, "aria-expanded", "false");
-      add_location(button, file$2, 18, 8, 612);
+      add_location(button, file$2, 18, 8, 594);
       attr_dev(div0, "class", "absolute inset-y-0 left-0 flex items-center sm:hidden");
-      add_location(div0, file$2, 16, 6, 499);
+      add_location(div0, file$2, 16, 6, 483);
       attr_dev(img, "class", "block h-8 w-auto ml-10");
       if (img.src !== (img_src_value = "logo-horizontal.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "Logo de Corazones y mentes");
-      add_location(img, file$2, 36, 10, 1855);
+      add_location(img, file$2, 36, 10, 1819);
       attr_dev(div1, "class", "flex-shrink-0 flex items-center");
-      add_location(div1, file$2, 35, 8, 1798);
+      add_location(div1, file$2, 35, 8, 1763);
       attr_dev(a0, "href", "#home");
       attr_dev(a0, "class", "" + (
       /*getActive*/
       ctx[2](undefined) + "  px-3 py-2 text-sm font-medium"));
-      add_location(a0, file$2, 41, 12, 2194);
+      add_location(a0, file$2, 41, 12, 2153);
       attr_dev(a1, "href", "#toda-la-data");
       attr_dev(a1, "class", "" + (
       /*getActive*/
       ctx[2]("toda-la-data") + " px-3 py-2 text-sm font-medium"));
-      add_location(a1, file$2, 42, 12, 2294);
+      add_location(a1, file$2, 42, 12, 2252);
       attr_dev(a2, "href", "#libro");
       attr_dev(a2, "class", "" + (
       /*getActive*/
       ctx[2]("libro") + "  px-3 py-2 text-sm font-medium"));
-      add_location(a2, file$2, 43, 12, 2413);
+      add_location(a2, file$2, 43, 12, 2370);
       attr_dev(a3, "href", "#kit-de-herramientas");
       attr_dev(a3, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " px-3 py-2 text-sm font-medium"));
-      add_location(a3, file$2, 44, 12, 2513);
+      add_location(a3, file$2, 44, 12, 2469);
       attr_dev(a4, "href", "#sos-docente");
       attr_dev(a4, "class", "" + (
       /*getActive*/
       ctx[2]("sos-docente") + "  px-3 py-2 text-sm font-medium"));
-      add_location(a4, file$2, 45, 12, 2654);
+      add_location(a4, file$2, 45, 12, 2609);
       attr_dev(a5, "href", "#quienes-somos");
       attr_dev(a5, "class", "" + (
       /*getActive*/
       ctx[2]("quienes-somos") + " px-3 py-2 text-sm font-medium"));
-      add_location(a5, file$2, 46, 12, 2772);
+      add_location(a5, file$2, 46, 12, 2726);
       attr_dev(div2, "class", "flex space-x-4 items-end");
-      add_location(div2, file$2, 39, 10, 2025);
+      add_location(div2, file$2, 39, 10, 1986);
       attr_dev(div3, "class", "hidden sm:block sm:ml-6");
-      add_location(div3, file$2, 38, 8, 1976);
+      add_location(div3, file$2, 38, 8, 1938);
       attr_dev(div4, "class", "flex-1 flex items-center justify-between sm:items-stretch");
-      add_location(div4, file$2, 34, 6, 1717);
+      add_location(div4, file$2, 34, 6, 1683);
       attr_dev(div5, "class", "relative flex items-center justify-between h-16");
-      add_location(div5, file$2, 15, 4, 430);
+      add_location(div5, file$2, 15, 4, 415);
       attr_dev(div6, "class", "max-w-7xl mx-auto px-2 sm:px-6 lg:px-8");
-      add_location(div6, file$2, 14, 2, 372);
+      add_location(div6, file$2, 14, 2, 358);
       attr_dev(a6, "href", "#home");
       attr_dev(a6, "class", "" + (
       /*getActive*/
       ctx[2](undefined) + " block px-3 py-2 text-base font-medium"));
-      add_location(a6, file$2, 56, 6, 3136);
+      add_location(a6, file$2, 56, 6, 3080);
       attr_dev(a7, "href", "#toda-la-data");
       attr_dev(a7, "class", "" + (
       /*getActive*/
       ctx[2]("toda-la-data") + " block px-3 py-2 text-base font-medium"));
-      add_location(a7, file$2, 57, 6, 3237);
+      add_location(a7, file$2, 57, 6, 3180);
       attr_dev(a8, "href", "#libro");
       attr_dev(a8, "class", "" + (
       /*getActive*/
       ctx[2]("libro") + " block px-3 py-2 text-base font-medium"));
-      add_location(a8, file$2, 58, 6, 3358);
+      add_location(a8, file$2, 58, 6, 3300);
       attr_dev(a9, "href", "#kit-de-herramienpmntas");
       attr_dev(a9, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " block px-3 py-2 text-base font-medium"));
-      add_location(a9, file$2, 59, 6, 3459);
+      add_location(a9, file$2, 59, 6, 3400);
       attr_dev(a10, "href", "#sos-docente");
       attr_dev(a10, "class", "" + (
       /*getActive*/
       ctx[2]("sos-docente") + " block px-3 py-2 text-base font-medium"));
-      add_location(a10, file$2, 60, 6, 3604);
+      add_location(a10, file$2, 60, 6, 3544);
       attr_dev(a11, "href", "#quienes-somos");
       attr_dev(a11, "class", "" + (
       /*getActive*/
       ctx[2]("quienes-somos") + " block px-3 py-2 text-base font-medium"));
-      add_location(a11, file$2, 61, 6, 3723);
+      add_location(a11, file$2, 61, 6, 3662);
       attr_dev(div7, "class", "px-2 pt-2 pb-3 space-y-1");
-      add_location(div7, file$2, 55, 4, 3090);
+      add_location(div7, file$2, 55, 4, 3035);
       attr_dev(div8, "class", div8_class_value = "sm:hidden " + (
       /*opened*/
       ctx[0] ? "block" : "hidden"));
       attr_dev(div8, "id", "mobile-menu");
-      add_location(div8, file$2, 54, 2, 3013);
+      add_location(div8, file$2, 54, 2, 2959);
       attr_dev(nav, "class", "bg-white shadow font-sans");
-      add_location(nav, file$2, 13, 0, 329);
+      add_location(nav, file$2, 13, 0, 316);
     },
     m: function mount(target, anchor) {
       insert_dev(target, nav, anchor);
@@ -2643,7 +2643,7 @@ var Nav = /*#__PURE__*/function (_SvelteComponentDev) {
 function _createSuper$2(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$2(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$2() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var file$1 = "src\\routes\\_layout.svelte";
+var file$1 = "src/routes/_layout.svelte";
 
 function create_fragment$2(ctx) {
   var nav;
@@ -2682,7 +2682,7 @@ function create_fragment$2(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(main, file$1, 10, 0, 131);
+      add_location(main, file$1, 10, 0, 122);
     },
     m: function mount(target, anchor) {
       mount_component(nav, target, anchor);
@@ -2833,7 +2833,7 @@ function _createSuper$1(Derived) { var hasNativeReflectConstruct = _isNativeRefl
 
 function _isNativeReflectConstruct$1() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var Error_1$1 = globals.Error;
-var file = "src\\routes\\_error.svelte"; // (37:0) {#if dev && error.stack}
+var file = "src/routes/_error.svelte"; // (37:0) {#if dev && error.stack}
 
 function create_if_block$1(ctx) {
   var pre;
@@ -2855,7 +2855,7 @@ function create_if_block$1(ctx) {
       this.h();
     },
     h: function hydrate() {
-      add_location(pre, file, 37, 1, 453);
+      add_location(pre, file, 37, 1, 435);
     },
     m: function mount(target, anchor) {
       insert_dev(target, pre, anchor);
@@ -2944,9 +2944,9 @@ function create_fragment$1(ctx) {
     },
     h: function hydrate() {
       attr_dev(h1, "class", "svelte-7sjo9");
-      add_location(h1, file, 32, 0, 379);
+      add_location(h1, file, 32, 0, 366);
       attr_dev(p, "class", "svelte-7sjo9");
-      add_location(p, file, 34, 0, 400);
+      add_location(p, file, 34, 0, 385);
     },
     m: function mount(target, anchor) {
       insert_dev(target, t0, anchor);
@@ -3655,7 +3655,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.79ed47a4.js'), __inject_styles(["client-53f58bb9.css","index-ce96f185.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.995157a4.js'), __inject_styles(["client-53f58bb9.css","index-ce96f185.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

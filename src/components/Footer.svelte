@@ -17,15 +17,16 @@
       <div class="mt-10 sm:mx-10">
         <div class="flex flex-col justify-center align-center">
           <small class="text-xs mb-3">Impulsado por:</small>
-          <div>
-            <img class="w-40 sm:w-72	" src="developers2.png" alt="Logos de Democracia en Red, Plataforma democrática, Fundacion fhc centro edelstein" />
-            <img class="w-20 sm:w-40	" src="minu-logo.png" alt="Logo de Minu asociación civil"/>
+          <div class="md:max-w-lg md:flex md:flex-row">
+            <img class="w-40 sm:w-1/6	" src="developers2.png" alt="Logos Plataforma democrática, Fundacion fhc centro edelstein" />
+            <img class=" w-40 sm:w-3/6	" src="DER_Logo.png" alt="Logos de Democracia en Red" />
+            <img class=" w-20 sm:w-1/6	" src="minu-logo.png" alt="Logo de Minu asociación civil"/>
           </div>
         </div>
       </div>
       <ul class="uppercase text-bold mt-5   text-center mx-auto sm:text-left">
         <li><a class="hover:underline" href="#home">Home</a></li>
-        <li><a class="hover:underline" href="#toda-la-data">#Todaadata</a></li>
+        <li><a class="hover:underline" href="#toda-la-data">#TodaLaData</a></li>
         <li><a class="hover:underline" href="#libro">Libro</a></li>
         <li><a class="hover:underline" href="#kit-de-herramientas">kit de herramientas</a></li>
         <li><a class="hover:underline" href="#sos-docente">Soy docente</a></li>

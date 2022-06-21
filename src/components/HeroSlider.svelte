@@ -10,9 +10,9 @@
 	<span class="control" slot="left-control">
 		<ChevronLeftIcon />
 	  </span>
-	<div class="slide-content">
+	<!-- <div class="slide-content">
 		<Banner/>
-	</div>
+	</div> -->
 	<div class="slide-content px-16">
 		<Home/>
 	</div>

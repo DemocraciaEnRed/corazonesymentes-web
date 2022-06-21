@@ -101,7 +101,7 @@
 				data-video-id="6943253691826801925"> 
 					<section></section>
 			</blockquote>
-		</div>
 		<script async src="https://www.tiktok.com/embed.js"></script>
+		</div>
 	</article>
 </div>	

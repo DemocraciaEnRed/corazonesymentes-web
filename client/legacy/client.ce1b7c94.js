@@ -3655,7 +3655,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.fd748f80.js'), __inject_styles(["client-53f58bb9.css","index-7423d6e7.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.26975ceb.js'), __inject_styles(["client-53f58bb9.css","index-120ff1ef.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

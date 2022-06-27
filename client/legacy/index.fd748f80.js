@@ -1,4 +1,4 @@
-import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as run_all, U as createCommonjsModule, V as commonjsGlobal, W as getDefaultExportFromCjs, X as create_slot, Y as createEventDispatcher, Z as update_slot, $ as null_to_empty, a0 as binding_callbacks, a1 as svg_element, a2 as query_selector_all } from './client.605f6313.js';
+import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as run_all, U as createCommonjsModule, V as commonjsGlobal, W as getDefaultExportFromCjs, X as create_slot, Y as createEventDispatcher, Z as update_slot, $ as null_to_empty, a0 as binding_callbacks, a1 as svg_element, a2 as query_selector_all } from './client.05e16468.js';
 
 function fade(node) {
   var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
@@ -5657,7 +5657,7 @@ function create_fragment$9(ctx) {
   var t0;
   var div2;
   var div1;
-  var small;
+  var p0;
   var t1;
   var t2;
   var div0;
@@ -5695,7 +5695,7 @@ function create_fragment$9(ctx) {
   var a5;
   var t16;
   var t17;
-  var p;
+  var p1;
   var t18;
   var a6;
   var t19;
@@ -5707,7 +5707,7 @@ function create_fragment$9(ctx) {
       t0 = space();
       div2 = element("div");
       div1 = element("div");
-      small = element("small");
+      p0 = element("p");
       t1 = text("Impulsado por:");
       t2 = space();
       div0 = element("div");
@@ -5742,7 +5742,7 @@ function create_fragment$9(ctx) {
       a5 = element("a");
       t16 = text("Quiénes Somos");
       t17 = space();
-      p = element("p");
+      p1 = element("p");
       t18 = text("Todos los materiales originales están bajo una licencia de \n    ");
       a6 = element("a");
       t19 = text("Creative Commons Reconocimiento 4.0 Internacional.");
@@ -5771,12 +5771,12 @@ function create_fragment$9(ctx) {
         class: true
       });
       var div1_nodes = children(div1);
-      small = claim_element(div1_nodes, "SMALL", {
+      p0 = claim_element(div1_nodes, "P", {
         class: true
       });
-      var small_nodes = children(small);
-      t1 = claim_text(small_nodes, "Impulsado por:");
-      small_nodes.forEach(detach_dev);
+      var p0_nodes = children(p0);
+      t1 = claim_text(p0_nodes, "Impulsado por:");
+      p0_nodes.forEach(detach_dev);
       t2 = claim_space(div1_nodes);
       div0 = claim_element(div1_nodes, "DIV", {
         class: true
@@ -5875,12 +5875,12 @@ function create_fragment$9(ctx) {
       ul_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       t17 = claim_space(footer_nodes);
-      p = claim_element(footer_nodes, "P", {
+      p1 = claim_element(footer_nodes, "P", {
         class: true
       });
-      var p_nodes = children(p);
-      t18 = claim_text(p_nodes, "Todos los materiales originales están bajo una licencia de \n    ");
-      a6 = claim_element(p_nodes, "A", {
+      var p1_nodes = children(p1);
+      t18 = claim_text(p1_nodes, "Todos los materiales originales están bajo una licencia de \n    ");
+      a6 = claim_element(p1_nodes, "A", {
         class: true,
         href: true,
         target: true
@@ -5888,71 +5888,71 @@ function create_fragment$9(ctx) {
       var a6_nodes = children(a6);
       t19 = claim_text(a6_nodes, "Creative Commons Reconocimiento 4.0 Internacional.");
       a6_nodes.forEach(detach_dev);
-      p_nodes.forEach(detach_dev);
+      p1_nodes.forEach(detach_dev);
       footer_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img0, "class", "mt-5 w-32 sm:w-40 my-auto");
+      attr_dev(img0, "class", " sm:w-40  lg:mt-35  my-auto");
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Logo de Corazones y mentes");
-      add_location(img0, file$9, 20, 6, 464);
-      attr_dev(small, "class", "text-xs mb-3");
-      add_location(small, file$9, 23, 10, 659);
-      attr_dev(img1, "class", "logo w-40 sm:w-2/6\t svelte-1l7bvo9");
+      add_location(img0, file$9, 37, 6, 709);
+      attr_dev(p0, "class", "sm:text-xl lg:text-xs");
+      add_location(p0, file$9, 40, 10, 975);
+      attr_dev(img1, "class", "logo sm:w-1/6 lg:w-2/6\t svelte-1ry9fgi");
       if (img1.src !== (img1_src_value = "developers2.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Logos Plataforma democrática, Fundacion fhc centro edelstein");
-      add_location(img1, file$9, 25, 12, 844);
-      attr_dev(img2, "class", "developers w-50 sm:w-3/6\t svelte-1l7bvo9");
+      add_location(img1, file$9, 42, 12, 1161);
+      attr_dev(img2, "class", "developers  sm:w-1/6 lg:w-2/6\t svelte-1ry9fgi");
       if (img2.src !== (img2_src_value = "DER_Logo.png")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Logos de Democracia en Red");
-      add_location(img2, file$9, 26, 12, 981);
-      attr_dev(img3, "class", "minu w-20 sm:w-1/6\t svelte-1l7bvo9");
+      add_location(img2, file$9, 43, 12, 1302);
+      attr_dev(img3, "class", "minu  sm:w-1/6 lg:w-2/6\t svelte-1ry9fgi");
       if (img3.src !== (img3_src_value = "minu-logo.png")) attr_dev(img3, "src", img3_src_value);
       attr_dev(img3, "alt", "Logo de Minu asociación civil");
-      add_location(img3, file$9, 27, 12, 1087);
-      attr_dev(div0, "class", "md:max-w-lg sm:flex lg:flex-row  justify-center justify-items-center content-center align-center ");
-      add_location(div0, file$9, 24, 10, 720);
-      attr_dev(div1, "class", "flex sm:flex-col lg:flex-col");
-      add_location(div1, file$9, 22, 8, 606);
-      attr_dev(div2, "class", "mt-10 sm:mx-10");
-      add_location(div2, file$9, 21, 6, 569);
+      add_location(img3, file$9, 44, 12, 1413);
+      attr_dev(div0, "class", "sm:flex lg:flex-row  sm:justify-center sm:justify-items-center sm:content-center sm:align-center ");
+      add_location(div0, file$9, 41, 10, 1037);
+      attr_dev(div1, "class", "sm:flex sm:flex-row lg:flex-col  justify-center justify-items-center content-center align-center ");
+      add_location(div1, file$9, 39, 8, 853);
+      attr_dev(div2, "class", "mt-10 lg:w-4/6");
+      add_location(div2, file$9, 38, 6, 816);
       attr_dev(a0, "class", "hover:underline");
       attr_dev(a0, "href", "#home");
-      add_location(a0, file$9, 32, 12, 1314);
-      add_location(li0, file$9, 32, 8, 1310);
+      add_location(a0, file$9, 49, 12, 1649);
+      add_location(li0, file$9, 49, 8, 1645);
       attr_dev(a1, "class", "hover:underline");
       attr_dev(a1, "href", "#toda-la-data");
-      add_location(a1, file$9, 33, 12, 1380);
-      add_location(li1, file$9, 33, 8, 1376);
+      add_location(a1, file$9, 50, 12, 1715);
+      add_location(li1, file$9, 50, 8, 1711);
       attr_dev(a2, "class", "hover:underline");
       attr_dev(a2, "href", "#libro");
-      add_location(a2, file$9, 34, 12, 1461);
-      add_location(li2, file$9, 34, 8, 1457);
+      add_location(a2, file$9, 51, 12, 1796);
+      add_location(li2, file$9, 51, 8, 1792);
       attr_dev(a3, "class", "hover:underline");
       attr_dev(a3, "href", "#kit-de-herramientas");
-      add_location(a3, file$9, 35, 12, 1529);
-      add_location(li3, file$9, 35, 8, 1525);
+      add_location(a3, file$9, 52, 12, 1864);
+      add_location(li3, file$9, 52, 8, 1860);
       attr_dev(a4, "class", "hover:underline");
       attr_dev(a4, "href", "#sos-docente");
-      add_location(a4, file$9, 36, 12, 1625);
-      add_location(li4, file$9, 36, 8, 1621);
+      add_location(a4, file$9, 53, 12, 1960);
+      add_location(li4, file$9, 53, 8, 1956);
       attr_dev(a5, "class", "hover:underline");
       attr_dev(a5, "href", "#quienes-somos");
-      add_location(a5, file$9, 37, 12, 1705);
-      add_location(li5, file$9, 37, 8, 1701);
-      attr_dev(ul, "class", "uppercase text-bold mt-5   text-center mx-auto sm:text-left");
-      add_location(ul, file$9, 31, 6, 1229);
-      attr_dev(div3, "class", "container mx-auto flex lg:justify-between  justify-center justify-items-center content-center align-center flex-wrap sm:flex-row");
-      add_location(div3, file$9, 19, 2, 315);
+      add_location(a5, file$9, 54, 12, 2040);
+      add_location(li5, file$9, 54, 8, 2036);
+      attr_dev(ul, "class", "uppercase text-bold lg:mt-30  my-auto  text-center sm:text-left");
+      add_location(ul, file$9, 48, 6, 1560);
+      attr_dev(div3, "class", "container mx-auto my-auto flex lg:justify-between  justify-center justify-items-center content-center align-center flex-wrap sm:flex-row");
+      add_location(div3, file$9, 36, 2, 552);
       attr_dev(a6, "class", "text-xs");
       attr_dev(a6, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
       attr_dev(a6, "target", "_blank");
-      add_location(a6, file$9, 41, 4, 1911);
-      attr_dev(p, "class", "text-center text-xs text-bold mt-10");
-      add_location(p, file$9, 40, 2, 1800);
+      add_location(a6, file$9, 58, 4, 2246);
+      attr_dev(p1, "class", "text-center text-xs text-bold mt-10");
+      add_location(p1, file$9, 57, 2, 2135);
       attr_dev(footer, "class", "bg-gray-200 py-20 px-3 ");
-      add_location(footer, file$9, 18, 0, 272);
+      add_location(footer, file$9, 35, 0, 509);
     },
     m: function mount(target, anchor) {
       insert_dev(target, footer, anchor);
@@ -5961,8 +5961,8 @@ function create_fragment$9(ctx) {
       append_dev(div3, t0);
       append_dev(div3, div2);
       append_dev(div2, div1);
-      append_dev(div1, small);
-      append_dev(small, t1);
+      append_dev(div1, p0);
+      append_dev(p0, t1);
       append_dev(div1, t2);
       append_dev(div1, div0);
       append_dev(div0, img1);
@@ -5996,9 +5996,9 @@ function create_fragment$9(ctx) {
       append_dev(li5, a5);
       append_dev(a5, t16);
       append_dev(footer, t17);
-      append_dev(footer, p);
-      append_dev(p, t18);
-      append_dev(p, a6);
+      append_dev(footer, p1);
+      append_dev(p1, t18);
+      append_dev(p1, a6);
       append_dev(a6, t19);
     },
     p: noop,

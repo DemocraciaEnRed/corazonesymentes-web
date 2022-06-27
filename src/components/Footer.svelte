@@ -1,26 +1,27 @@
 <style>
   .logo{
     width: 150px;
+    object-fit: scale-down;
   }
   .developers{
     width: 260px;
-    float: left;
+    object-fit: scale-down;
   }
   .minu{
-    float: left;
+    object-fit: scale-down;
     width: 70px;
   }
 </style>
 <footer class="bg-gray-200 py-20 px-3 ">
-  <div class="container mx-auto flex justify-between align-center flex-wrap">
+  <div class="container mx-auto flex lg:justify-between  justify-center justify-items-center content-center align-center flex-wrap sm:flex-row">
       <img class="mt-5 w-32 sm:w-40 my-auto" src="logo-circular.png" alt="Logo de Corazones y mentes" />
       <div class="mt-10 sm:mx-10">
-        <div class="flex flex-col justify-center align-center">
+        <div class="flex sm:flex-col lg:flex-col">
           <small class="text-xs mb-3">Impulsado por:</small>
-          <div class="md:max-w-lg md:flex md:flex-row">
-            <img class="w-40 sm:w-1/6	" src="developers2.png" alt="Logos Plataforma democrática, Fundacion fhc centro edelstein" />
-            <img class=" w-40 sm:w-3/6	" src="DER_Logo.png" alt="Logos de Democracia en Red" />
-            <img class=" w-20 sm:w-1/6	" src="minu-logo.png" alt="Logo de Minu asociación civil"/>
+          <div class="md:max-w-lg sm:flex lg:flex-row  justify-center justify-items-center content-center align-center ">
+            <img class="logo w-40 sm:w-2/6	" src="developers2.png" alt="Logos Plataforma democrática, Fundacion fhc centro edelstein" />
+            <img class="developers w-50 sm:w-3/6	" src="DER_Logo.png" alt="Logos de Democracia en Red" />
+            <img class="minu w-20 sm:w-1/6	" src="minu-logo.png" alt="Logo de Minu asociación civil"/>
           </div>
         </div>
       </div>
